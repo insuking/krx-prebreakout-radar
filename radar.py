@@ -33,8 +33,8 @@ try:
         d["market"]=market;universes.append(d)
     u=pd.concat(universes,ignore_index=True)
     u["code"]=u.code.astype(str).str.zfill(6)
-    u=u[u.code.str.fullmatch(r"\\d{6}")].drop_duplicates("code")
-    u=u[~u.name.astype(str).str.contains(r"스팩|SPAC|ETF|ETN|리츠|REIT|인버스|레버리지|우선주|\\d우(?:B|C)?$",case=False,regex=True)]
+    u=u[u.code.str.fullmatch(r"\d{6}")].drop_duplicates("code")
+    u=u[~u.name.astype(str).str.contains(r"스팩|SPAC|ETF|ETN|리츠|REIT|인버스|레버리지|우선주|\d우(?:B|C)?$",case=False,regex=True)]
     status["universe"]=len(u)
     if len(u)<1500:raise RuntimeError("universe too small: "+str(len(u)))
     end=(now+dt.timedelta(days=1)).date().isoformat()
