@@ -1,5 +1,7 @@
 name: KRX Radar mobile report
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
   schedule:
     - cron: '20 23 * * 0-4'
