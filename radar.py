@@ -61,10 +61,14 @@ try:
     status["success"]=len(u)-len(errors);status["failed"]=len(errors)
     dates={r["date"] for r in items}
     status["data_date"]=max(dates) if dates else None
+    status["coverage_pct"]=round(100*status["success"]/len(u),2) if len(u) else 0
+    status["candidate_quote_dates"]=sorted(dates)
+    status["entry_gate"]="미검증: VWAP, 시초가 지지, RVOL, 외국인/프로그램, 상대강도"
+    status["warning"]="종가 기반 WATCH 후보이며 장중 매수 신호가 아닙니다."
     status["full_scan"]="완료" if not errors and status["success"]==len(u) else "부분 실행 (전수 완료 아님)"
     for group in ["A","B"]:
         subset=sorted((x for x in items if x["group"]==group),key=lambda x:x["score"],reverse=True)
         for n,r in enumerate(subset,1):r["rank"]=n
 except Exception as e:
-    status["full_scan"]="미실행";errors.append(("SYSTEM",str(e)[:300]))
+    status["full_scan"]="미실행";errors.append(("SYSTEM",str(e)[:300]));status["failed"]=len(errors)
 finally:save(items,errors)
