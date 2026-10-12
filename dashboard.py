@@ -10,6 +10,7 @@ def read_csv(name):
     with p.open(encoding="utf-8-sig",newline="") as f:return list(csv.DictReader(f))
 all_rows=read_csv("all_scores.csv")
 failures=read_csv("failures.csv")
+performance=json.loads((root/"performance_summary.json").read_text(encoding="utf-8")) if (root/"performance_summary.json").exists() else {}
 def esc(v):return html.escape(str(v),quote=True)
 def num(v):
     try:return f"{float(v):,.0f}"
@@ -42,7 +43,7 @@ def group_cards(group):
           <div><label>손절 기준</label><b>{num(stop)}원</b><small>위험 {risk:.1f}%</small></div>
           <div><label>1차 목표</label><b>{num(t1)}원</b><small>{pct(ret1)}</small></div>
           <div><label>2차 목표</label><b>{num(t2)}원</b><small>{pct(ret2)}</small></div></div>
-          <div class="gate">장중 진입 게이트 <b>0/5 확인</b> · 목표 1 손익비 {rr1:.2f}:1</div>
+          <div class="foot">압축 비율 {esc(r.get("squeeze_ratio","미확인"))} · 5일 거래량 변화 {esc(r.get("volume_5d_ratio","미확인"))}배 · 매집 추정 {esc(r.get("flow_proxy","미확인"))} (실제 수급 아님)</div><div class="gate">장중 진입 게이트 <b>0/5 확인</b> · 목표 1 손익비 {rr1:.2f}:1</div>
           <div class="foot">가격은 종가 기준 가상 시나리오입니다. VWAP·시초가 지지·실시간 RVOL·외국인/프로그램 수급·상대강도 검증 전 매수 금지.</div>
           </article>""")
     return "".join(parts)
@@ -94,7 +95,7 @@ p{{line-height:1.6}}.muted,.meta,.foot{{color:#a7b6cb}}.meta{{font-size:12px;mar
 <p class="note">분석 성공과 수익 예측 정확도는 무관합니다. 실패 {num(status.get("failed"))}종목은 후보 평가에서 제외되었습니다.</p></section>
 <h2>A그룹 · 유동성 우선</h2>{group_cards("A")}
 <h2>B그룹 · 변동성 주의</h2>{group_cards("B")}
-<section class="panel"><h2>데이터 품질·검증</h2><p>실패 분류: {failure_summary()}</p>
+<section class="panel"><h2>추천 후 성과 검증 (종가 기준)</h2><p>기록 {performance.get("total",0)}건 · 5거래일 평가 완료 {performance.get("matured",0)}건</p><div class="metrics"><div><label>D+1 평균</label><strong>{performance.get("d1",{}).get("avg_pct") if performance.get("d1",{}).get("avg_pct") is not None else "대기"}%</strong></div><div><label>D+3 평균</label><strong>{performance.get("d3",{}).get("avg_pct") if performance.get("d3",{}).get("avg_pct") is not None else "대기"}%</strong></div><div><label>D+5 평균</label><strong>{performance.get("d5",{}).get("avg_pct") if performance.get("d5",{}).get("avg_pct") is not None else "대기"}%</strong></div></div><p class="foot">신호 발생 이후 거래일만 집계합니다. 가상 종가 기준 수익률로 체결·수수료·슬리피지는 제외합니다.</p><a href="performance.csv">전체 성과 기록</a></section><section class="panel"><h2>데이터 품질·검증</h2><p>실패 분류: {failure_summary()}</p>
 <p class="foot">모든 후보는 WATCH입니다. 장중 5가지 조건의 실시간 검증 기능은 연결되어 있지 않습니다. 100점은 자체 점수 상한이며 상승 확률이 아닙니다. 1차·2차 목표가는 모형 가정으로 수익을 보장하지 않습니다.</p>
 <div class="links"><a href="run_status.json">실행 상세</a><a href="all_scores.csv">전체 점수</a><a href="failures.csv">실패 내역</a></div></section>
 </main></body></html>"""
