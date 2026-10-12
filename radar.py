@@ -51,12 +51,16 @@ try:
             value=last*float(v.iloc[-1]);volatility=float((h.iloc[-21:-1].max()-l.iloc[-21:-1].min())/max(l.iloc[-21:-1].min(),1))
             ret5=float(last/c.iloc[-6]-1);ret20=float(last/c.iloc[-21]-1)
             breakout=float(last/max(h.iloc[-21:-1].max(),1))
-            score=round(max(0,min(100,45+min(rv,4)*9+min(ret20,0.2)*75+min(ret5,0.1)*50+(8 if 0.94<=breakout<=1.03 else -8)-(12 if volatility>0.55 else 0))),1)
+            ranges=(h-l)/c
+            compression=float(ranges.iloc[-5:].mean()/max(ranges.iloc[-20:].mean(),0.000001))
+            vol_change=float(v.iloc[-5:].mean()/max(v.iloc[-25:-5].mean(),1))
+            flow_proxy=float((np.sign(c.diff().fillna(0))*v).iloc[-5:].sum()/max(v.iloc[-5:].sum(),1))
+            score=round(max(0,min(100,25*max(0,min(1,(1.15-compression)/0.5))+25*max(0,min(1,(vol_change-0.8)/1.2))+20*max(0,min(1,(flow_proxy+0.2)/0.7))+20*max(0,1-abs(breakout-0.97)/0.12)+10*(ret5>0)-(25 if last/prev-1>0.075 else 0))),1)
             if value<500_000_000 or abs(last/prev-1)>0.08:continue
             group="A" if value>=3_000_000_000 and volatility<0.40 else "B"
             stop=rnd(last*(0.95 if group=="A" else 0.93))
             entry=rnd(last*1.01); risk=max(entry-stop,tick(entry))
-            items.append(dict(code=row.code,name=row.name,market=row.market,group=group,score=score,close=int(last),rvol=rv,entry=entry,stop=stop,target1=rnd(entry+1.5*risk),target2=rnd(entry+2.5*risk),date=str(d.index[-1].date())))
+            items.append(dict(code=row.code,name=row.name,market=row.market,group=group,score=score,close=int(last),rvol=rv,squeeze_ratio=round(compression,3),volume_5d_ratio=round(vol_change,3),flow_proxy=round(flow_proxy,3),entry=entry,stop=stop,target1=rnd(entry+1.5*risk),target2=rnd(entry+2.5*risk),date=str(d.index[-1].date())))
         except Exception as e:errors.append((row.code,str(e)[:140]))
     status["success"]=len(u)-len(errors);status["failed"]=len(errors)
     dates={r["date"] for r in items}
