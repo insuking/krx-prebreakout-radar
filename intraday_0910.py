@@ -8,7 +8,7 @@ now=dt.datetime.now(KST)
 root=Path("site");root.mkdir(exist_ok=True)
 def parse_price(x):
     s=str(x or "").replace(",","").replace("+","").strip()
-    if not re.fullmatch(r"-?\\d+(?:\\.\\d+)?",s):return None
+    if not re.fullmatch(r"-?\d+(?:\.\d+)?",s):return None
     return float(s)
 def read_candidates():
     p=Path("history/recommendations.csv")
