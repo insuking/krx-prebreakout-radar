@@ -44,7 +44,24 @@ def fetch_candles(code,start,end):
             time.sleep(min(4,0.6*(2**attempt))+random.uniform(0,0.3))
     raise last_error
 
-items=[];errors=[];retry_success=0;attempted=0
+def chase_risk(c,h,l,v):
+    """Price/volume-only chase-risk gate; NOT a regulatory-status check."""
+    close=float(c.iloc[-1]); high=float(h.iloc[-1]); low=float(l.iloc[-1])
+    r3=close/float(c.iloc[-4])-1
+    r5=close/float(c.iloc[-6])-1
+    r10=close/float(c.iloc[-11])-1
+    high5=float(h.iloc[-5:].max())
+    drawdown=close/high5-1
+    upper_reversal=(high-close)/max(high-low,1)
+    consecutive_surges=sum(float(c.iloc[-i]/c.iloc[-i-1]-1)>=0.18 for i in range(1,4))
+    flags=[]
+    if r3>=0.45 or r5>=0.60 or r10>=0.85:flags.append("RECENT_PARABOLIC_RISE")
+    if consecutive_surges>=2:flags.append("MULTIPLE_RECENT_SURGES")
+    if upper_reversal>=0.60 and (high/float(c.iloc[-2])-1)>=0.12:flags.append("UPPER_WICK_REVERSAL")
+    if drawdown<=-0.18 and r5>=0.25:flags.append("POST_RALLY_DRAWDOWN")
+    return flags,round(r3*100,2),round(r5*100,2),round(r10*100,2),round(upper_reversal,3)
+
+items=[];errors=[];retry_success=0;attempted=0;excluded_risk=[]
 try:
     universes=[]
     for market in ["KOSPI","KOSDAQ"]:
@@ -80,6 +97,10 @@ try:
             flow_proxy=float((np.sign(c.diff().fillna(0))*v).iloc[-5:].sum()/max(v.iloc[-5:].sum(),1))
             score=round(max(0,min(100,25*max(0,min(1,(1.15-compression)/0.5))+25*max(0,min(1,(vol_change-0.8)/1.2))+20*max(0,min(1,(flow_proxy+0.2)/0.7))+20*max(0,1-abs(breakout-0.97)/0.12)+10*(ret5>0)-(25 if last/prev-1>0.075 else 0))),1)
             if value<500_000_000 or abs(last/prev-1)>0.08:continue
+            risk_flags,r3_pct,r5_pct,r10_pct,upper_wick=chase_risk(c,h,l,v)
+            if risk_flags:
+                excluded_risk.append(dict(code=row.code,name=row.name,market=row.market,close=int(last),raw_score=score,risk_flags="|".join(risk_flags),return_3d_pct=r3_pct,return_5d_pct=r5_pct,return_10d_pct=r10_pct,upper_wick_ratio=upper_wick))
+                continue
             group="A" if value>=3_000_000_000 and volatility<0.40 else "B"
             stop=rnd(last*(0.95 if group=="A" else 0.93))
             entry=rnd(last*1.01); risk=max(entry-stop,tick(entry))
@@ -87,6 +108,9 @@ try:
         except Exception as e:errors.append((row.code,str(e)[:140],error_category(e)))
     status["success"]=len(u)-len(errors);status["failed"]=len(errors)
     status["retry_recovered"]=retry_success
+    status["risk_excluded"]=len(excluded_risk)
+    status["risk_policy"]="가격 과열/윗꼬리 필터만 적용. 관리종목·상장폐지 공시 검증은 미연결이며 매수 안전성 보장 불가."
+    pd.DataFrame(excluded_risk,columns=["code","name","market","close","raw_score","risk_flags","return_3d_pct","return_5d_pct","return_10d_pct","upper_wick_ratio"]).to_csv(OUT/"risk_excluded.csv",index=False,encoding="utf-8-sig")
     status["error_categories"]={category:sum(1 for e in errors if e[2]==category) for category in sorted(set(e[2] for e in errors))}
     status["failure_report"]="failures.csv"
     dates={r["date"] for r in items}
