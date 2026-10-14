@@ -1,4 +1,4 @@
-import datetime as dt, json, math, os, traceback
+import datetime as dt, json, math, os, traceback, time, random
 from pathlib import Path
 import pandas as pd
 import numpy as np
@@ -9,7 +9,7 @@ now=dt.datetime.now(dt.timezone(dt.timedelta(hours=9)))
 status={"timestamp_kst":now.isoformat(),"full_scan":"미실행","universe":0,"success":0,"failed":0,"source":"FinanceDataReader public feeds","data_date":None}
 def save(items=[],errors=[]):
     (OUT/"run_status.json").write_text(json.dumps(status,ensure_ascii=False,indent=2),encoding="utf-8")
-    pd.DataFrame(errors,columns=["code","error"]).to_csv(OUT/"failures.csv",index=False,encoding="utf-8-sig")
+    pd.DataFrame(errors,columns=["code","error","category"]).to_csv(OUT/"failures.csv",index=False,encoding="utf-8-sig")
     pd.DataFrame(items).to_csv(OUT/"all_scores.csv",index=False,encoding="utf-8-sig")
     cards=""
     for r in sorted(items,key=lambda x:x["score"],reverse=True):
@@ -22,7 +22,29 @@ def tick(p):
     return 1 if p<2000 else 5 if p<5000 else 10 if p<20000 else 50 if p<50000 else 100 if p<200000 else 500 if p<500000 else 1000
 def rnd(p):
     return int(round(p/tick(p))*tick(p))
-items=[];errors=[]
+def error_category(msg):
+    m=str(msg).lower()
+    if "insufficient" in m or "no data" in m or "empty" in m: return "INSUFFICIENT_HISTORY"
+    if "bad latest quote" in m or "zero" in m: return "INVALID_QUOTE"
+    if any(x in m for x in ["429","rate limit","too many requests"]): return "RATE_LIMIT"
+    if any(x in m for x in ["timeout","timed out","connection","503","502","504","403","500","ssl","remote"]): return "NETWORK_OR_PROVIDER"
+    return "OTHER"
+
+def fetch_candles(code,start,end):
+    last_error=None
+    for attempt in range(3):
+        try:
+            result=fdr.DataReader(code,start,end)
+            if result is None or len(result)<45:
+                raise ValueError("insufficient candles")
+            return result,attempt
+        except Exception as e:
+            last_error=e
+            if error_category(e) not in ("NETWORK_OR_PROVIDER","RATE_LIMIT","OTHER") or attempt==2: break
+            time.sleep(min(4,0.6*(2**attempt))+random.uniform(0,0.3))
+    raise last_error
+
+items=[];errors=[];retry_success=0;attempted=0
 try:
     universes=[]
     for market in ["KOSPI","KOSDAQ"]:
@@ -41,8 +63,9 @@ try:
     start=(now-dt.timedelta(days=130)).date().isoformat()
     for idx,row in enumerate(u.itertuples(index=False),1):
         try:
-            d=fdr.DataReader(row.code,start,end)
-            if d is None or len(d)<45:raise ValueError("insufficient candles")
+            d,retries=fetch_candles(row.code,start,end)
+            attempted+=1
+            if retries:retry_success+=1
             d=d.sort_index().dropna(subset=["Close","High","Low","Volume"])
             if len(d)<45:raise ValueError("insufficient valid candles")
             c=d.Close.astype(float);v=d.Volume.astype(float);h=d.High.astype(float);l=d.Low.astype(float)
@@ -61,8 +84,11 @@ try:
             stop=rnd(last*(0.95 if group=="A" else 0.93))
             entry=rnd(last*1.01); risk=max(entry-stop,tick(entry))
             items.append(dict(code=row.code,name=row.name,market=row.market,group=group,score=score,close=int(last),rvol=rv,squeeze_ratio=round(compression,3),volume_5d_ratio=round(vol_change,3),flow_proxy=round(flow_proxy,3),entry=entry,stop=stop,target1=rnd(entry+1.5*risk),target2=rnd(entry+2.5*risk),date=str(d.index[-1].date())))
-        except Exception as e:errors.append((row.code,str(e)[:140]))
+        except Exception as e:errors.append((row.code,str(e)[:140],error_category(e)))
     status["success"]=len(u)-len(errors);status["failed"]=len(errors)
+    status["retry_recovered"]=retry_success
+    status["error_categories"]={category:sum(1 for e in errors if e[2]==category) for category in sorted(set(e[2] for e in errors))}
+    status["failure_report"]="failures.csv"
     dates={r["date"] for r in items}
     status["data_date"]=max(dates) if dates else None
     status["coverage_pct"]=round(100*status["success"]/len(u),2) if len(u) else 0
@@ -74,5 +100,5 @@ try:
         subset=sorted((x for x in items if x["group"]==group),key=lambda x:x["score"],reverse=True)
         for n,r in enumerate(subset,1):r["rank"]=n
 except Exception as e:
-    status["full_scan"]="미실행";errors.append(("SYSTEM",str(e)[:300]));status["failed"]=len(errors)
+    status["full_scan"]="미실행";errors.append(("SYSTEM",str(e)[:300],error_category(e)));status["failed"]=len(errors)
 finally:save(items,errors)
