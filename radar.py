@@ -3,6 +3,7 @@ from pathlib import Path
 import pandas as pd
 import numpy as np
 import FinanceDataReader as fdr
+from risk_model import risk_metrics
 
 OUT=Path("site"); OUT.mkdir(exist_ok=True)
 now=dt.datetime.now(dt.timezone(dt.timedelta(hours=9)))
@@ -97,20 +98,22 @@ try:
             flow_proxy=float((np.sign(c.diff().fillna(0))*v).iloc[-5:].sum()/max(v.iloc[-5:].sum(),1))
             score=round(max(0,min(100,25*max(0,min(1,(1.15-compression)/0.5))+25*max(0,min(1,(vol_change-0.8)/1.2))+20*max(0,min(1,(flow_proxy+0.2)/0.7))+20*max(0,1-abs(breakout-0.97)/0.12)+10*(ret5>0)-(25 if last/prev-1>0.075 else 0))),1)
             if value<500_000_000 or abs(last/prev-1)>0.08:continue
-            risk_flags,r3_pct,r5_pct,r10_pct,upper_wick=chase_risk(c,h,l,v)
+            risk_detail=risk_metrics(c,h,l)
+            risk_flags=risk_detail["risk_flags"]
+            r3_pct=risk_detail["return_3d_pct"];r5_pct=risk_detail["return_5d_pct"];r10_pct=risk_detail["return_10d_pct"];upper_wick=risk_detail["upper_wick_ratio"]
             if risk_flags:
-                excluded_risk.append(dict(code=row.code,name=row.name,market=row.market,close=int(last),raw_score=score,risk_flags="|".join(risk_flags),return_3d_pct=r3_pct,return_5d_pct=r5_pct,return_10d_pct=r10_pct,upper_wick_ratio=upper_wick))
+                excluded_risk.append(dict(code=row.code,name=row.name,market=row.market,close=int(last),raw_score=score,risk_score=risk_detail["risk_score"],risk_flags="|".join(risk_flags),return_3d_pct=r3_pct,return_5d_pct=r5_pct,return_10d_pct=r10_pct,upper_wick_ratio=upper_wick))
                 continue
             group="A" if value>=3_000_000_000 and volatility<0.40 else "B"
             stop=rnd(last*(0.95 if group=="A" else 0.93))
             entry=rnd(last*1.01); risk=max(entry-stop,tick(entry))
-            items.append(dict(code=row.code,name=row.name,market=row.market,group=group,score=score,close=int(last),rvol=rv,squeeze_ratio=round(compression,3),volume_5d_ratio=round(vol_change,3),flow_proxy=round(flow_proxy,3),entry=entry,stop=stop,target1=rnd(entry+1.5*risk),target2=rnd(entry+2.5*risk),date=str(d.index[-1].date())))
+            items.append(dict(code=row.code,name=row.name,market=row.market,group=group,score=score,prebreakout_score=score,chase_risk_score=risk_detail["risk_score"],regulatory_status="UNVERIFIED",close=int(last),rvol=rv,squeeze_ratio=round(compression,3),volume_5d_ratio=round(vol_change,3),flow_proxy=round(flow_proxy,3),entry=entry,stop=stop,target1=rnd(entry+1.5*risk),target2=rnd(entry+2.5*risk),date=str(d.index[-1].date())))
         except Exception as e:errors.append((row.code,str(e)[:140],error_category(e)))
     status["success"]=len(u)-len(errors);status["failed"]=len(errors)
     status["retry_recovered"]=retry_success
     status["risk_excluded"]=len(excluded_risk)
     status["risk_policy"]="가격 과열/윗꼬리 필터만 적용. 관리종목·상장폐지 공시 검증은 미연결이며 매수 안전성 보장 불가."
-    pd.DataFrame(excluded_risk,columns=["code","name","market","close","raw_score","risk_flags","return_3d_pct","return_5d_pct","return_10d_pct","upper_wick_ratio"]).to_csv(OUT/"risk_excluded.csv",index=False,encoding="utf-8-sig")
+    pd.DataFrame(excluded_risk,columns=["code","name","market","close","raw_score","risk_score","risk_flags","return_3d_pct","return_5d_pct","return_10d_pct","upper_wick_ratio"]).to_csv(OUT/"risk_excluded.csv",index=False,encoding="utf-8-sig")
     status["error_categories"]={category:sum(1 for e in errors if e[2]==category) for category in sorted(set(e[2] for e in errors))}
     status["failure_report"]="failures.csv"
     dates={r["date"] for r in items}
