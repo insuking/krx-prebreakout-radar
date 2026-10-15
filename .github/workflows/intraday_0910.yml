@@ -26,9 +26,10 @@ jobs:
         run: |
           mkdir -p intraday
           cp site/intraday_0910.json intraday/latest.json
+          cp site/kis_status.json intraday/kis_status.json
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add intraday/latest.json
+          git add intraday/latest.json intraday/kis_status.json
           git diff --cached --quiet || (git commit -m "Record 09:10 public quote observations [skip ci]" && git push)
       - uses: actions/upload-artifact@v4
         with:
