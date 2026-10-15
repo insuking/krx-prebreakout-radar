@@ -15,6 +15,11 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install requests
+      - name: Verify KIS read-only access
+        env:
+          KIS_APP_KEY: ${{ secrets.KIS_APP_KEY }}
+          KIS_APP_SECRET: ${{ secrets.KIS_APP_SECRET }}
+        run: python kis_check.py
       - name: Observe public quotes (WATCH only)
         run: python intraday_0910.py
       - name: Archive observation
@@ -28,4 +33,6 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: intraday-0910-observation
-          path: site/intraday_0910.json
+          path: |
+            site/intraday_0910.json
+            site/kis_status.json
