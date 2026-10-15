@@ -11,6 +11,22 @@ def read_csv(name):
 all_rows=read_csv("all_scores.csv")
 failures=read_csv("failures.csv")
 risk_excluded=read_csv("risk_excluded.csv")
+def optional_json(path):
+    try:return json.loads(Path(path).read_text(encoding="utf-8"))
+    except (OSError,ValueError):return {}
+kis=optional_json("intraday/kis_status.json")
+live=optional_json("intraday/latest.json")
+def verification_panel():
+    auth=kis.get("auth","NOT_RUN")
+    quote=kis.get("quote","NOT_RUN")
+    records=live.get("results",[])
+    details="".join('<p class="foot">'+esc(r.get("name",""))+" · "+esc(r.get("verified_gates",0))+'/5 · '+esc(r.get("gates",{}))+"</p>" for r in records)
+    return ('<section class="panel"><h2>KIS 인증 · 장중 5개 진입 게이트</h2>'
+        +'<p>KIS 인증: <b>'+esc(auth)+'</b> · 현재가 조회: <b>'+esc(quote)+'</b></p>'
+        +'<p class="foot">KIS 점검 시각: '+esc(kis.get("checked_at","기록 없음"))+' · 장중 기록: '+esc(live.get("run_at_kst","기록 없음"))+'</p>'
+        +'<p class="note">게이트 0/5는 미검증입니다. KIS 인증 성공이 VWAP 검증 성공을 의미하지 않습니다.</p>'
+        +(details or '<p>장중 관찰 기록 없음</p>')+'</section>')
+
 performance=json.loads((root/"performance_summary.json").read_text(encoding="utf-8")) if (root/"performance_summary.json").exists() else {}
 def esc(v):return html.escape(str(v),quote=True)
 def num(v):
@@ -94,7 +110,7 @@ p{{line-height:1.6}}.muted,.meta,.foot{{color:#a7b6cb}}.meta{{font-size:12px;mar
 <div class="progress"><div style="width:{max(0,min(100,coverage)):.2f}%"></div></div>
 <p class="muted">커버리지 {coverage:.1f}% · {esc(date_warn)}</p>
 <p class="note">분석 성공과 수익 예측 정확도는 무관합니다. 실패 {num(status.get("failed"))}종목은 후보 평가에서 제외되었습니다.</p></section>
-<section class="panel"><strong>추격 위험 필터 적용</strong><p class="muted">단기 급등·장중 고점 반락 등으로 {num(status.get("risk_excluded",0))}종목을 추천 후보에서 제외했습니다.</p><p class="foot">이 필터는 가격 기반이며 관리종목·상장폐지 등 공시 위험은 아직 자동 검증하지 않습니다.</p><a href="risk_excluded.csv">제외 종목 및 사유 확인</a></section>\n<h2>A그룹 · 유동성 우선</h2>{group_cards("A")}
+<section class="panel"><strong>추격 위험 필터 적용</strong><p class="muted">단기 급등·장중 고점 반락 등으로 {num(status.get("risk_excluded",0))}종목을 추천 후보에서 제외했습니다.</p><p class="foot">이 필터는 가격 기반이며 관리종목·상장폐지 등 공시 위험은 아직 자동 검증하지 않습니다.</p><a href="risk_excluded.csv">제외 종목 및 사유 확인</a></section>\n{verification_panel()}<h2>A그룹 · 유동성 우선</h2>{group_cards("A")}
 <h2>B그룹 · 변동성 주의</h2>{group_cards("B")}
 <section class="panel"><h2>추천 후 성과 검증 (종가 기준)</h2><p>기록 {performance.get("total",0)}건 · 5거래일 평가 완료 {performance.get("matured",0)}건</p><div class="metrics"><div><label>D+1 평균</label><strong>{performance.get("d1",{}).get("avg_pct") if performance.get("d1",{}).get("avg_pct") is not None else "대기"}%</strong></div><div><label>D+3 평균</label><strong>{performance.get("d3",{}).get("avg_pct") if performance.get("d3",{}).get("avg_pct") is not None else "대기"}%</strong></div><div><label>D+5 평균</label><strong>{performance.get("d5",{}).get("avg_pct") if performance.get("d5",{}).get("avg_pct") is not None else "대기"}%</strong></div></div><p class="foot">신호 발생 이후 거래일만 집계합니다. 가상 종가 기준 수익률로 체결·수수료·슬리피지는 제외합니다.</p><a href="performance.csv">전체 성과 기록</a></section><section class="panel"><h2>데이터 품질·검증</h2><p>실패 분류: {failure_summary()}</p>
 <p class="foot">모든 후보는 WATCH입니다. 장중 5가지 조건의 실시간 검증 기능은 연결되어 있지 않습니다. 100점은 자체 점수 상한이며 상승 확률이 아닙니다. 1차·2차 목표가는 모형 가정으로 수익을 보장하지 않습니다.</p>
