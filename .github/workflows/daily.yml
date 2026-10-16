@@ -67,6 +67,7 @@ jobs:
           artifacts=[a for a in r.json().get("artifacts",[]) if a["name"]=="krx-radar-data" and not a["expired"] and a.get("workflow_run",{}).get("head_branch")=="main"]
           if not artifacts:raise SystemExit("No prior Radar artifact; run full scan once")
           artifacts.sort(key=lambda a:a["created_at"],reverse=True)
+          print("Radar artifacts available:",len(artifacts))
           for a in artifacts:
               z=requests.get(a["archive_download_url"],headers=headers,timeout=60)
               if z.status_code!=200:continue
@@ -77,8 +78,21 @@ jobs:
               break
           else:raise SystemExit("No usable Radar artifact; run full scan once")
           PY
-      - name: Build mobile dashboard
-        run: python dashboard.py
+      - name: Validate and build mobile dashboard
+        run: |
+          python -m py_compile dashboard.py
+          python dashboard.py
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          root=Path("site")
+          html=(root/"index.html").read_text(encoding="utf-8")
+          status=json.loads((root/"run_status.json").read_text(encoding="utf-8"))
+          assert "장중 데이터 업데이트" in html, "Refresh control missing"
+          assert "refresh-live" in html, "Refresh button missing"
+          assert len(html)>3000, "Dashboard unexpectedly short"
+          print("Dashboard validated; scan timestamp:",status.get("timestamp_kst"))
+          PY
       - uses: actions/upload-artifact@v4
         if: always()
         with:
