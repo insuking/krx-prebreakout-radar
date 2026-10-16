@@ -117,22 +117,22 @@ p{{line-height:1.6}}.muted,.meta,.foot{{color:#a7b6cb}}.meta{{font-size:12px;mar
 <div class="links"><a href="run_status.json">실행 상세</a><a href="all_scores.csv">전체 점수</a><a href="failures.csv">실패 내역</a></div></section>
 </main><script>
 const base="https://raw.githubusercontent.com/insuking/krx-prebreakout-radar/main/intraday/";
-document.getElementById("refresh-live").addEventListener("click",async()=>{
+document.getElementById("refresh-live").addEventListener("click",async()=>{{
  const status=document.getElementById("refresh-state"), target=document.getElementById("refresh-data");
  status.textContent="GitHub 최신 기록 조회 중…";target.replaceChildren();
- try{
+ try{{
   const stamp=Date.now();
-  const [a,b]=await Promise.all(["latest.json","kis_status.json"].map(async name=>{
-   const response=await fetch(base+name+"?t="+stamp,{cache:"no-store"});
+  const [a,b]=await Promise.all(["latest.json","kis_status.json"].map(async name=>{{
+   const response=await fetch(base+name+"?t="+stamp,{{cache:"no-store"}});
    if(!response.ok)throw new Error(name+" HTTP "+response.status);
    return response.json();
-  }));
+  }}));
   const p=document.createElement("p");p.textContent="KIS 인증: "+(b.auth||"미확인")+" · 현재가 조회: "+(b.quote||"미확인")+" · 인증 확인: "+(b.checked_at||"없음");target.append(p);
   const q=document.createElement("p");q.textContent="장중 실행: "+(a.run_at_kst||"없음")+" · "+(a.results||[]).length+"종목 (저장소 기록)";target.append(q);
-  for(const r of a.results||[]){const line=document.createElement("p");line.textContent=(r.name||r.code)+" · "+(r.verified_gates??0)+"/5 검증 · "+(r.status||"WATCH");target.append(line)}
+  for(const r of a.results||[]){{const line=document.createElement("p");line.textContent=(r.name||r.code)+" · "+(r.verified_gates??0)+"/5 검증 · "+(r.status||"WATCH");target.append(line)}}
   status.textContent="조회 완료. GitHub 원본 파일 반영에는 지연이 있을 수 있습니다. 새 분석 실행과는 별개입니다.";
- }catch(e){status.textContent="조회 실패: "+e.message+" · GitHub Actions 실행 및 저장 상태를 확인하세요."}
-});
+ }}catch(e){{status.textContent="조회 실패: "+e.message+" · GitHub Actions 실행 및 저장 상태를 확인하세요."}}
+}});
 </script></body></html>"""
 (root/"index.html").write_text(document,encoding="utf-8")
 print("Dashboard generated:",len(all_rows),"candidates",len(failures),"failures")
