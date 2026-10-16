@@ -1,51 +1,26 @@
 {
-  "run_at_kst": "2026-10-15T13:30:40.391743+09:00",
+  "run_at_kst": "2026-10-16T13:24:53.432771+09:00",
   "market_open_window": true,
   "mode": "public_quote_observation_only",
   "message": "Public quote observations are not verified real-time trades. BUY disabled.",
   "results": [
     {
-      "code": "089590",
-      "name": "제주항공",
-      "group": "A",
-      "base_date": "2026-10-15",
-      "base_close": "5560",
-      "checked_at": "2026-10-15T13:30:40.391743+09:00",
-      "status": "WATCH",
-      "verified_gates": 0,
-      "required_gates": 5,
-      "errors": [
-        "실시간성/거래일 확인 불가: 매수 신호 불허"
-      ],
-      "public_display_price": 5800.0,
-      "quote_timestamp": "2026-10-15T13:30:19+09:00",
-      "quote_source": "Naver mobile public endpoint (may be delayed)",
-      "price_vs_previous_close_pct": 4.32,
-      "gates": {
-        "quote_freshness": "UNVERIFIED",
-        "opening_support": "UNVERIFIED",
-        "vwap": "UNVERIFIED",
-        "intraday_rvol": "UNVERIFIED",
-        "investor_flow_and_relative_strength": "UNVERIFIED"
-      }
-    },
-    {
       "code": "011200",
       "name": "HMM",
       "group": "A",
-      "base_date": "2026-10-15",
-      "base_close": "23350",
-      "checked_at": "2026-10-15T13:30:40.391743+09:00",
+      "base_date": "2026-10-16",
+      "base_close": "23400",
+      "checked_at": "2026-10-16T13:24:53.432771+09:00",
       "status": "WATCH",
       "verified_gates": 0,
       "required_gates": 5,
       "errors": [
         "실시간성/거래일 확인 불가: 매수 신호 불허"
       ],
-      "public_display_price": 23400.0,
-      "quote_timestamp": "2026-10-15T13:30:23+09:00",
+      "public_display_price": 23600.0,
+      "quote_timestamp": "2026-10-16T13:24:21+09:00",
       "quote_source": "Naver mobile public endpoint (may be delayed)",
-      "price_vs_previous_close_pct": 0.21,
+      "price_vs_previous_close_pct": 0.85,
       "gates": {
         "quote_freshness": "UNVERIFIED",
         "opening_support": "UNVERIFIED",
@@ -55,22 +30,22 @@
       }
     },
     {
-      "code": "373220",
-      "name": "LG에너지솔루션",
+      "code": "021240",
+      "name": "코웨이",
       "group": "A",
-      "base_date": "2026-10-15",
-      "base_close": "404000",
-      "checked_at": "2026-10-15T13:30:40.391743+09:00",
+      "base_date": "2026-10-16",
+      "base_close": "109200",
+      "checked_at": "2026-10-16T13:24:53.432771+09:00",
       "status": "WATCH",
       "verified_gates": 0,
       "required_gates": 5,
       "errors": [
         "실시간성/거래일 확인 불가: 매수 신호 불허"
       ],
-      "public_display_price": 402500.0,
-      "quote_timestamp": "2026-10-15T13:30:18+09:00",
+      "public_display_price": 108700.0,
+      "quote_timestamp": "2026-10-16T13:24:21+09:00",
       "quote_source": "Naver mobile public endpoint (may be delayed)",
-      "price_vs_previous_close_pct": -0.37,
+      "price_vs_previous_close_pct": -0.46,
       "gates": {
         "quote_freshness": "UNVERIFIED",
         "opening_support": "UNVERIFIED",
@@ -80,47 +55,22 @@
       }
     },
     {
-      "code": "489460",
-      "name": "바이오비쥬",
-      "group": "B",
-      "base_date": "2026-10-15",
-      "base_close": "13160",
-      "checked_at": "2026-10-15T13:30:40.391743+09:00",
+      "code": "006730",
+      "name": "서부T&D",
+      "group": "A",
+      "base_date": "2026-10-16",
+      "base_close": "12580",
+      "checked_at": "2026-10-16T13:24:53.432771+09:00",
       "status": "WATCH",
       "verified_gates": 0,
       "required_gates": 5,
       "errors": [
         "실시간성/거래일 확인 불가: 매수 신호 불허"
       ],
-      "public_display_price": 13140.0,
-      "quote_timestamp": "2026-10-15T13:30:21+09:00",
+      "public_display_price": 12820.0,
+      "quote_timestamp": "2026-10-16T13:24:23+09:00",
       "quote_source": "Naver mobile public endpoint (may be delayed)",
-      "price_vs_previous_close_pct": -0.15,
-      "gates": {
-        "quote_freshness": "UNVERIFIED",
-        "opening_support": "UNVERIFIED",
-        "vwap": "UNVERIFIED",
-        "intraday_rvol": "UNVERIFIED",
-        "investor_flow_and_relative_strength": "UNVERIFIED"
-      }
-    },
-    {
-      "code": "011330",
-      "name": "유니켐",
-      "group": "B",
-      "base_date": "2026-10-15",
-      "base_close": "6160",
-      "checked_at": "2026-10-15T13:30:40.391743+09:00",
-      "status": "WATCH",
-      "verified_gates": 0,
-      "required_gates": 5,
-      "errors": [
-        "실시간성/거래일 확인 불가: 매수 신호 불허"
-      ],
-      "public_display_price": 6000.0,
-      "quote_timestamp": "2026-10-15T13:30:23+09:00",
-      "quote_source": "Naver mobile public endpoint (may be delayed)",
-      "price_vs_previous_close_pct": -2.6,
+      "price_vs_previous_close_pct": 1.91,
       "gates": {
         "quote_freshness": "UNVERIFIED",
         "opening_support": "UNVERIFIED",
@@ -133,19 +83,69 @@
       "code": "300720",
       "name": "한일시멘트",
       "group": "B",
-      "base_date": "2026-10-15",
-      "base_close": "16880",
-      "checked_at": "2026-10-15T13:30:40.391743+09:00",
+      "base_date": "2026-10-16",
+      "base_close": "17200",
+      "checked_at": "2026-10-16T13:24:53.432771+09:00",
       "status": "WATCH",
       "verified_gates": 0,
       "required_gates": 5,
       "errors": [
         "실시간성/거래일 확인 불가: 매수 신호 불허"
       ],
-      "public_display_price": 16780.0,
-      "quote_timestamp": "2026-10-15T13:30:19+09:00",
+      "public_display_price": 17150.0,
+      "quote_timestamp": "2026-10-16T13:24:19+09:00",
       "quote_source": "Naver mobile public endpoint (may be delayed)",
-      "price_vs_previous_close_pct": -0.59,
+      "price_vs_previous_close_pct": -0.29,
+      "gates": {
+        "quote_freshness": "UNVERIFIED",
+        "opening_support": "UNVERIFIED",
+        "vwap": "UNVERIFIED",
+        "intraday_rvol": "UNVERIFIED",
+        "investor_flow_and_relative_strength": "UNVERIFIED"
+      }
+    },
+    {
+      "code": "089590",
+      "name": "제주항공",
+      "group": "B",
+      "base_date": "2026-10-16",
+      "base_close": "5500",
+      "checked_at": "2026-10-16T13:24:53.432771+09:00",
+      "status": "WATCH",
+      "verified_gates": 0,
+      "required_gates": 5,
+      "errors": [
+        "실시간성/거래일 확인 불가: 매수 신호 불허"
+      ],
+      "public_display_price": 5720.0,
+      "quote_timestamp": "2026-10-16T13:24:19+09:00",
+      "quote_source": "Naver mobile public endpoint (may be delayed)",
+      "price_vs_previous_close_pct": 4.0,
+      "gates": {
+        "quote_freshness": "UNVERIFIED",
+        "opening_support": "UNVERIFIED",
+        "vwap": "UNVERIFIED",
+        "intraday_rvol": "UNVERIFIED",
+        "investor_flow_and_relative_strength": "UNVERIFIED"
+      }
+    },
+    {
+      "code": "176750",
+      "name": "듀켐바이오",
+      "group": "B",
+      "base_date": "2026-10-16",
+      "base_close": "9040",
+      "checked_at": "2026-10-16T13:24:53.432771+09:00",
+      "status": "WATCH",
+      "verified_gates": 0,
+      "required_gates": 5,
+      "errors": [
+        "실시간성/거래일 확인 불가: 매수 신호 불허"
+      ],
+      "public_display_price": 8670.0,
+      "quote_timestamp": "2026-10-16T13:24:19+09:00",
+      "quote_source": "Naver mobile public endpoint (may be delayed)",
+      "price_vs_previous_close_pct": -4.09,
       "gates": {
         "quote_freshness": "UNVERIFIED",
         "opening_support": "UNVERIFIED",
