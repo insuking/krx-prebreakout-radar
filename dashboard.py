@@ -110,11 +110,29 @@ p{{line-height:1.6}}.muted,.meta,.foot{{color:#a7b6cb}}.meta{{font-size:12px;mar
 <div class="progress"><div style="width:{max(0,min(100,coverage)):.2f}%"></div></div>
 <p class="muted">커버리지 {coverage:.1f}% · {esc(date_warn)}</p>
 <p class="note">분석 성공과 수익 예측 정확도는 무관합니다. 실패 {num(status.get("failed"))}종목은 후보 평가에서 제외되었습니다.</p></section>
-<section class="panel"><strong>추격 위험 필터 적용</strong><p class="muted">단기 급등·장중 고점 반락 등으로 {num(status.get("risk_excluded",0))}종목을 추천 후보에서 제외했습니다.</p><p class="foot">이 필터는 가격 기반이며 관리종목·상장폐지 등 공시 위험은 아직 자동 검증하지 않습니다.</p><a href="risk_excluded.csv">제외 종목 및 사유 확인</a></section>\n{verification_panel()}<h2>A그룹 · 유동성 우선</h2>{group_cards("A")}
+<section class="panel"><strong>추격 위험 필터 적용</strong><p class="muted">단기 급등·장중 고점 반락 등으로 {num(status.get("risk_excluded",0))}종목을 추천 후보에서 제외했습니다.</p><p class="foot">이 필터는 가격 기반이며 관리종목·상장폐지 등 공시 위험은 아직 자동 검증하지 않습니다.</p><a href="risk_excluded.csv">제외 종목 및 사유 확인</a></section>\n{verification_panel()}<section class="panel"><h2>장중 데이터 업데이트</h2><p class="foot">KIS 비밀키는 GitHub Actions에서만 사용합니다. 버튼은 직접 주문하지 않습니다.</p><div class="links"><a href="https://github.com/insuking/krx-prebreakout-radar/actions/workflows/intraday_0910.yml" target="_blank" rel="noopener">지금 업데이트 실행 (GitHub)</a><button id="refresh-live" type="button" style="padding:10px;border-radius:10px;background:#243b59;color:white;border:1px solid #5279a8;cursor:pointer">최신 결과 불러오기</button></div><p id="refresh-state" class="foot" role="status">저장소의 최신 장중 기록을 조회할 수 있습니다.</p><div id="refresh-data" class="foot"></div></section><h2>A그룹 · 유동성 우선</h2>{group_cards("A")}
 <h2>B그룹 · 변동성 주의</h2>{group_cards("B")}
 <section class="panel"><h2>추천 후 성과 검증 (종가 기준)</h2><p>기록 {performance.get("total",0)}건 · 5거래일 평가 완료 {performance.get("matured",0)}건</p><div class="metrics"><div><label>D+1 평균</label><strong>{performance.get("d1",{}).get("avg_pct") if performance.get("d1",{}).get("avg_pct") is not None else "대기"}%</strong></div><div><label>D+3 평균</label><strong>{performance.get("d3",{}).get("avg_pct") if performance.get("d3",{}).get("avg_pct") is not None else "대기"}%</strong></div><div><label>D+5 평균</label><strong>{performance.get("d5",{}).get("avg_pct") if performance.get("d5",{}).get("avg_pct") is not None else "대기"}%</strong></div></div><p class="foot">신호 발생 이후 거래일만 집계합니다. 가상 종가 기준 수익률로 체결·수수료·슬리피지는 제외합니다.</p><a href="performance.csv">전체 성과 기록</a></section><section class="panel"><h2>데이터 품질·검증</h2><p>실패 분류: {failure_summary()}</p>
 <p class="foot">모든 후보는 WATCH입니다. 장중 5가지 조건의 실시간 검증 기능은 연결되어 있지 않습니다. 100점은 자체 점수 상한이며 상승 확률이 아닙니다. 1차·2차 목표가는 모형 가정으로 수익을 보장하지 않습니다.</p>
 <div class="links"><a href="run_status.json">실행 상세</a><a href="all_scores.csv">전체 점수</a><a href="failures.csv">실패 내역</a></div></section>
-</main></body></html>"""
+</main><script>
+const base="https://raw.githubusercontent.com/insuking/krx-prebreakout-radar/main/intraday/";
+document.getElementById("refresh-live").addEventListener("click",async()=>{
+ const status=document.getElementById("refresh-state"), target=document.getElementById("refresh-data");
+ status.textContent="GitHub 최신 기록 조회 중…";target.replaceChildren();
+ try{
+  const stamp=Date.now();
+  const [a,b]=await Promise.all(["latest.json","kis_status.json"].map(async name=>{
+   const response=await fetch(base+name+"?t="+stamp,{cache:"no-store"});
+   if(!response.ok)throw new Error(name+" HTTP "+response.status);
+   return response.json();
+  }));
+  const p=document.createElement("p");p.textContent="KIS 인증: "+(b.auth||"미확인")+" · 현재가 조회: "+(b.quote||"미확인")+" · 인증 확인: "+(b.checked_at||"없음");target.append(p);
+  const q=document.createElement("p");q.textContent="장중 실행: "+(a.run_at_kst||"없음")+" · "+(a.results||[]).length+"종목 (저장소 기록)";target.append(q);
+  for(const r of a.results||[]){const line=document.createElement("p");line.textContent=(r.name||r.code)+" · "+(r.verified_gates??0)+"/5 검증 · "+(r.status||"WATCH");target.append(line)}
+  status.textContent="조회 완료. GitHub 원본 파일 반영에는 지연이 있을 수 있습니다. 새 분석 실행과는 별개입니다.";
+ }catch(e){status.textContent="조회 실패: "+e.message+" · GitHub Actions 실행 및 저장 상태를 확인하세요."}
+});
+</script></body></html>"""
 (root/"index.html").write_text(document,encoding="utf-8")
 print("Dashboard generated:",len(all_rows),"candidates",len(failures),"failures")
