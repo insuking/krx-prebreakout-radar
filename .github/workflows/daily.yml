@@ -1,14 +1,17 @@
 name: KRX Radar mobile report
 on:
-  push:
-    branches: [main]
-    paths-ignore:
-      - "history/**"
   workflow_dispatch:
+    inputs:
+      full_scan:
+        description: 'Run full KRX scan (slow); otherwise rebuild using last successful site artifact'
+        required: false
+        type: boolean
+        default: false
   schedule:
     - cron: '20 23 * * 0-4'
 permissions:
   contents: write
+  actions: read
   pages: write
   id-token: write
 concurrency:
@@ -17,7 +20,7 @@ concurrency:
 jobs:
   scan-and-deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 180
+    timeout-minutes: 150
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -29,15 +32,42 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - name: Run KRX scanner
+        if: github.event_name == 'schedule' || inputs.full_scan == true
         run: python radar.py
       - name: Update forward performance ledger
+        if: github.event_name == 'schedule' || inputs.full_scan == true
         run: python performance_tracker.py
       - name: Persist signal history
+        if: github.event_name == 'schedule' || inputs.full_scan == true
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add history/recommendations.csv
           git diff --cached --quiet || (git commit -m "Update daily signal history [skip ci]" && git push)
+      - name: Restore last successful Radar data for fast refresh
+        if: github.event_name != 'schedule' && inputs.full_scan != true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PY'
+          import os,requests,io,zipfile,pathlib
+          repo=os.environ["GITHUB_REPOSITORY"]
+          headers={"Authorization":"Bearer "+os.environ["GH_TOKEN"],"Accept":"application/vnd.github+json"}
+          r=requests.get(f"https://api.github.com/repos/{repo}/actions/artifacts",params={"per_page":100},headers=headers,timeout=20)
+          r.raise_for_status()
+          artifacts=[a for a in r.json().get("artifacts",[]) if a["name"]=="krx-radar-data" and not a["expired"] and a.get("workflow_run",{}).get("head_branch")=="main"]
+          if not artifacts:raise SystemExit("No prior Radar artifact; run full scan once")
+          artifacts.sort(key=lambda a:a["created_at"],reverse=True)
+          for a in artifacts:
+              z=requests.get(a["archive_download_url"],headers=headers,timeout=60)
+              if z.status_code!=200:continue
+              with zipfile.ZipFile(io.BytesIO(z.content)) as archive:
+                  if "run_status.json" not in archive.namelist():continue
+                  pathlib.Path("site").mkdir(exist_ok=True)
+                  archive.extractall("site")
+              break
+          else:raise SystemExit("No usable Radar artifact; run full scan once")
+          PY
       - name: Build mobile dashboard
         run: python dashboard.py
       - uses: actions/upload-artifact@v4
