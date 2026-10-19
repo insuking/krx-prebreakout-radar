@@ -26,14 +26,19 @@ jobs:
           KIS_APPKEY: ${{ secrets.KIS_APPKEY }}
           KIS_APPSECRET: ${{ secrets.KIS_APPSECRET }}
         run: python us_radar_pilot.py
-      - name: Score validated US pre-breakout candidates
+      - name: Score research-only US candidates (not verified recommendations)
+        continue-on-error: true
         run: python us_radar_rank.py
       - name: Retrospective breakout research (when enough history exists)
         run: |
           if ! python us_reverse_breakout_study.py; then
             echo 'Research study unavailable or insufficient data; do not report validated accuracy.'
           fi
+      - name: Publish verified-only Radar output (fail closed)
+        if: always()
+        run: python us_publish_verified.py
       - name: Commit verified observations
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
