@@ -22,12 +22,26 @@ jobs:
           if python foreign_capital_cycle.py; then
             echo 'KRX public data collected'
           elif compgen -G 'data/foreign_cycle_import/*.csv' > /dev/null; then
+            rm -rf site/foreign_cycle
+            mkdir -p site/foreign_cycle
             echo 'KRX endpoint unavailable; importing user-supplied historical CSV'
             python import_foreign_cycle_csv.py
           else
+            rm -rf site/foreign_cycle
             echo 'No validated data source available. Upload CSV files to data/foreign_cycle_import/.' >&2
             exit 1
           fi
+      - name: Verify data freshness and source
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('site/foreign_cycle/summary.json')
+          if not p.exists(): raise SystemExit('Missing summary.json')
+          x=json.loads(p.read_text(encoding='utf-8'))
+          if not x.get('stocks'): raise SystemExit('No valid stocks')
+          print('SOURCE:', x.get('source'), 'STATUS:', x.get('status'), 'COUNT:', len(x['stocks']))
+          PY
       - name: Analyze institutional and foreign co-movement
         run: python institutional_comovement.py
       - name: Save CSV and JSON to repository
