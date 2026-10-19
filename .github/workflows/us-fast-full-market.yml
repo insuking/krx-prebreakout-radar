@@ -1,0 +1,96 @@
+name: Fast US Full-Market Radar
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 23 * * 1-5'
+permissions:
+  contents: write
+concurrency:
+  group: fast-us-full-market
+  cancel-in-progress: false
+jobs:
+  universe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install "requests>=2.31"
+      - run: python us_full_universe.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: us-universe-snapshot
+          path: site/us_universe/universe.json
+  scan:
+    needs: universe
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      max-parallel: 8
+      matrix:
+        shard: [0,1,2,3,4,5,6,7]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install "requests>=2.31"
+      - uses: actions/download-artifact@v4
+        with:
+          name: us-universe-snapshot
+          path: site/us_universe
+      - name: Scan 100-symbol batches in parallel
+        env:
+          US_SHARD: ${{ matrix.shard }}
+          US_SHARDS: '8'
+          US_SCAN_WORKERS: '4'
+        run: python us_sharded_scan.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: us-batches-${{ matrix.shard }}
+          path: site/us_full_scan/batch_*.json
+          if-no-files-found: warn
+  publish:
+    if: always() && needs.universe.result == 'success'
+    needs: [universe,scan]
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/download-artifact@v4
+        with:
+          name: us-universe-snapshot
+          path: site/us_universe
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: us-batches-*
+          path: site/us_full_scan
+          merge-multiple: true
+      - name: Merge and generate signals
+        run: |
+          python us_merge_free_scan.py
+          python us_daily_signals.py
+      - name: Commit latest dashboard and signals
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/us_universe/universe.json site/us_full_scan/
+          if ! git diff --cached --quiet; then
+            git commit -m "data: full US market fast radar and daily signals"
+            git pull --rebase
+            git push
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: us-fast-radar-results
+          path: |
+            site/us_full_scan/dashboard.json
+            site/us_full_scan/signals.json
