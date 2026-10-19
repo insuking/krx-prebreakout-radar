@@ -19,6 +19,10 @@ for i in range(max_batches):
  os.environ["US_SCAN_OFFSET"]=str(offset)
  os.environ["US_SCAN_BATCH_SIZE"]="100"
  subprocess.run([sys.executable,"us_free_full_scan.py"],check=True)
+ batch=json.loads((root/("batch_%05d.json"%offset)).read_text(encoding="utf-8"))
+ if batch.get("source_denied"):
+  print("DATA SOURCE DENIED: stopping scan to avoid unnecessary requests")
+  break
  s["last_batch"]=offset
  statefile.write_text(json.dumps(s,ensure_ascii=False,indent=2),encoding="utf-8")
  subprocess.run([sys.executable,"us_scan_rollout.py"],check=True)
