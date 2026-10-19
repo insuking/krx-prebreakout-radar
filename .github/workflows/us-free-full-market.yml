@@ -6,10 +6,11 @@ on:
         description: 'Universe offset for this batch'
         required: false
         default: '0'
-      batch_size:
-        description: 'Symbols to attempt (max 500)'
+      full_market:
+        description: 'Scan all US listed symbols in 100-symbol batches'
         required: false
-        default: '100'
+        type: boolean
+        default: true
   schedule:
     - cron: '45 11 * * 2-6'
 permissions:
@@ -32,6 +33,7 @@ jobs:
       - name: Run 100-symbol quality-gated rollout
         env:
           US_SCAN_MANUAL_OFFSET: ${{ inputs.offset || '' }}
+          US_SCAN_ALL: ${{ inputs.full_market == false && '0' || '1' }}
         run: python us_scan_runner.py
       - name: Merge scan batches and publish coverage
         run: python us_merge_free_scan.py
