@@ -26,6 +26,9 @@ jobs:
           KIS_APPKEY: ${{ secrets.KIS_APPKEY }}
           KIS_APPSECRET: ${{ secrets.KIS_APPSECRET }}
         run: python us_radar_pilot.py
+      - name: Audit last 30 days of completed daily bars
+        if: always()
+        run: python us_rolling_30d_quality.py
       - name: Score research-only US candidates (not verified recommendations)
         continue-on-error: true
         run: python us_radar_rank.py
@@ -42,7 +45,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add site/us_radar/
+          git add site/us_radar/ site/us_research/rolling_30d_quality.json
           if ! git diff --cached --quiet; then
             git commit -m "data: refresh US Radar pilot"
             git push
