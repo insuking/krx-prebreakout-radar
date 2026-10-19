@@ -20,7 +20,7 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 300
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -29,11 +29,10 @@ jobs:
       - run: pip install "requests>=2.31"
       - name: Refresh current exchange universe
         run: python us_full_universe.py
-      - name: Run free US symbol batch
+      - name: Run 100-symbol quality-gated rollout
         env:
-          US_SCAN_OFFSET: ${{ inputs.offset || '0' }}
-          US_SCAN_BATCH_SIZE: ${{ inputs.batch_size || '100' }}
-        run: python us_free_full_scan.py
+          US_SCAN_MANUAL_OFFSET: ${{ inputs.offset || '' }}
+        run: python us_scan_runner.py
       - name: Merge scan batches and publish coverage
         run: python us_merge_free_scan.py
       - name: Publish verified-only candidates
