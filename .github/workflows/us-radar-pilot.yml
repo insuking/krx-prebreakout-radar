@@ -28,6 +28,11 @@ jobs:
         run: python us_radar_pilot.py
       - name: Score validated US pre-breakout candidates
         run: python us_radar_rank.py
+      - name: Retrospective breakout research (when enough history exists)
+        run: |
+          if ! python us_reverse_breakout_study.py; then
+            echo 'Research study unavailable or insufficient data; do not report validated accuracy.'
+          fi
       - name: Commit verified observations
         run: |
           git config user.name "github-actions[bot]"
