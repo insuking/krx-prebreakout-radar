@@ -18,6 +18,8 @@ jobs:
         run: pip install "pandas>=2.0" "pykrx>=1.0.48"
       - name: Collect validated investor flows
         run: python foreign_capital_cycle.py
+      - name: Analyze institutional and foreign co-movement
+        run: python institutional_comovement.py
       - name: Save CSV and JSON to repository
         if: success()
         run: |
