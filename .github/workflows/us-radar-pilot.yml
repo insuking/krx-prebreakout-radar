@@ -26,6 +26,8 @@ jobs:
           KIS_APPKEY: ${{ secrets.KIS_APPKEY }}
           KIS_APPSECRET: ${{ secrets.KIS_APPSECRET }}
         run: python us_radar_pilot.py
+      - name: Score validated US pre-breakout candidates
+        run: python us_radar_rank.py
       - name: Commit verified observations
         run: |
           git config user.name "github-actions[bot]"
