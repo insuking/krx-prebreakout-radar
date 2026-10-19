@@ -1,0 +1,18 @@
+{
+  "ticker": "005930",
+  "name": "삼성전자",
+  "source": "KIS FHKST01010900",
+  "market": "KRX",
+  "asof": "2026-10-19",
+  "updated_at_kst": "2026-10-19T19:48:44.301608+09:00",
+  "observations": 30,
+  "units": {
+    "foreign_net_shares": "shares",
+    "institution_net_shares": "shares",
+    "close_krw": "KRW"
+  },
+  "historical_coverage": "Only dates returned by KIS plus accumulated daily runs; not guaranteed 1 year",
+  "confirmed_intraday": false,
+  "nps_breakdown_available": false,
+  "note": "This endpoint returns net share quantities, not investor net KRW; no NPS-specific breakdown."
+}
