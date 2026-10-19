@@ -7,6 +7,7 @@ This is a heuristic research watchlist, not a validated probability forecast.
 import csv, io, json, os, time, datetime as dt
 from pathlib import Path
 import requests
+import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from zoneinfo import ZoneInfo
 
@@ -27,8 +28,9 @@ if ny.weekday()<5 and ny.time()<dt.time(18):
     last_completed-=dt.timedelta(days=1)
 while last_completed.weekday()>=5:last_completed-=dt.timedelta(days=1)
 start=last_completed-dt.timedelta(days=95)
-s=requests.Session()
-s.headers.update({"User-Agent":"Mozilla/5.0 (compatible; FreeRadarResearch/1.0)"})
+API_KEY=os.getenv("STOOQ_API_KEY","").strip()
+if not API_KEY:raise SystemExit("STOOQ_API_KEY missing: CSV download may require free API key; stopping before wasting thousands of requests")
+source_denied=threading.Event()
 results=[];failures=[]
 def score(rows):
     rows=[r for r in rows if start<=r[0]<=last_completed]
@@ -61,13 +63,21 @@ def score(rows):
       "verified_prediction":False,"trade_execution_enabled":False},None
 def fetch_one(item):
     sym=item["symbol"]
+    if source_denied.is_set():return None,{"symbol":sym,"error":"SOURCE_DENIED_SKIPPED"}
     if not all(ch.isalnum() or ch in ".-" for ch in sym):
         return None,{"symbol":sym,"error":"UNSUPPORTED_SYMBOL_FORMAT"}
     try:
-        q=requests.get("https://stooq.com/q/d/l/",params={"s":sym.lower()+".us","i":"d",
+        q=requests.get("https://stooq.com/q/d/l/",params={"s":sym.lower()+".us","i":"d","apikey":API_KEY,
             "d1":start.strftime("%Y%m%d"),"d2":last_completed.strftime("%Y%m%d")},
             timeout=(5,12),headers={"User-Agent":"Mozilla/5.0 (compatible; FreeRadarResearch/1.0)"})
+        if q.status_code in (403,429):
+            source_denied.set()
+            return None,{"symbol":sym,"error":"SOURCE_DENIED_HTTP_"+str(q.status_code)}
         q.raise_for_status()
+        head=q.text[:1500].lower()
+        if any(t in head for t in ("daily hits limit","too many requests","apikey required","proof of work","captcha","<html")):
+            source_denied.set()
+            return None,{"symbol":sym,"error":"SOURCE_DENIED_BODY"}
         if not q.text.startswith("Date,Open,High,Low,Close,Volume"):
             raise ValueError("NO_CSV_DATA_OR_RATE_LIMIT")
         rows=[]
@@ -89,7 +99,7 @@ with ThreadPoolExecutor(max_workers=workers) as pool:
 out={"generated_utc":dt.datetime.now(dt.timezone.utc).isoformat(),
  "universe_snapshot_utc":u.get("snapshot_utc"),"market":"US",
  "mode":"FREE_ONLY_RESEARCH","source":"Stooq daily public CSV",
- "source_coverage_unverified":True,"historical_delistings_included":False,
+ "source_denied":source_denied.is_set(),"source_coverage_unverified":True,"historical_delistings_included":False,
  "universe_count":len(symbols),"batch_offset":offset,"batch_requested":len(selected),
  "batch_success":len(results),"batch_failed":len(failures),"workers":workers,
  "last_completed_session_estimate":str(last_completed),
