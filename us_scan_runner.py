@@ -12,7 +12,7 @@ count=len(universe["symbols"])
 if count<1000:raise SystemExit("Universe not ready")
 manual=os.getenv("US_SCAN_MANUAL_OFFSET","").strip()
 # Never bypass 100-symbol verification by manually supplying a larger batch.
-max_batches=1 if s.get("mode")!="FULL_AUTO" else min(100,(count+99)//100)
+max_batches=min(100,(count+99)//100) if os.getenv("US_SCAN_ALL","0")=="1" else (1 if s.get("mode")!="FULL_AUTO" else min(100,(count+99)//100))
 for i in range(max_batches):
  s=state()
  offset=int(manual) if manual and i==0 else int(s.get("next_offset",0))
@@ -25,5 +25,11 @@ for i in range(max_batches):
  updated=state()
  print("Rollout:",updated.get("mode"),"passed:",updated.get("last_quality",{}).get("passed"))
  if not updated.get("last_quality",{}).get("passed"):
-  break
+  if os.getenv("US_SCAN_ALL","0")=="1":
+   # Continue coverage despite failed quality, but never promote rollout state.
+   next_offset=offset+100
+   if next_offset>=count:break
+   updated["next_offset"]=next_offset
+   statefile.write_text(json.dumps(updated,ensure_ascii=False,indent=2),encoding="utf-8")
+  else:break
  if updated.get("cycle_complete"):break
