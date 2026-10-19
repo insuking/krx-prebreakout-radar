@@ -47,8 +47,10 @@ for ticker,d in data.groupby("ticker",sort=False):
 if not frames:raise SystemExit("Insufficient observations for research")
 x=pd.concat(frames,ignore_index=True).merge(market[["market_breadth_prev","market_dispersion_prev"]],left_on="date",right_index=True,how="left")
 features=["rvol","ret5","ret20","vol20","compression","distance_high20","dollar_vol20","market_breadth_prev","market_dispersion_prev"]
-x=x.replace([np.inf,-np.inf],np.nan).dropna(subset=features+["event10"])
+x=x.replace([np.inf,-np.inf],np.nan).dropna(subset=features)
 x=x[(x["dollar_vol20"]>=2_000_000)&(x["close"]>=1)]
+latest=x.sort_values("date").groupby("ticker").tail(1).copy()
+x=x.dropna(subset=["event10","event5"])
 dates=sorted(x["date"].unique())
 if len(dates)<300:raise SystemExit("Require >=300 market dates for temporal validation")
 train_end=dates[int(len(dates)*.6)];valid_end=dates[int(len(dates)*.8)]
@@ -68,7 +70,6 @@ report={"data_files":len(files),"universe_symbols":int(data["ticker"].nunique())
 "Unadjusted corporate actions can generate spurious events; input must be normalized",
 "Daily-close feature uses end-of-day knowledge; no same-close fill assumption",
 "Model is research-only; no intraday VWAP, execution, slippage or portfolio backtest"]}
-latest=x.sort_values("date").groupby("ticker").tail(1).copy()
 for label in ("event5","event10"):
   a=train[label].astype(int);b=valid[label].astype(int);y=test[label].astype(int)
   if a.nunique()<2 or b.nunique()<2 or y.nunique()<2:continue
