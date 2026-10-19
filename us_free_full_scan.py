@@ -7,6 +7,7 @@ This is a heuristic research watchlist, not a validated probability forecast.
 import csv, io, json, os, time, datetime as dt
 from pathlib import Path
 import requests
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from zoneinfo import ZoneInfo
 
 ROOT=Path("site/us_full_scan")
@@ -37,7 +38,7 @@ def score(rows):
     if (last_completed-dates[-1]).days>5:return None,"STALE_LAST_BAR"
     close=[r[1] for r in rows];vol=[r[2] for r in rows]
     if any(v<=0 for v in close) or any(v<0 for v in vol):return None,"INVALID_OHLCV"
-    if any(vol[-21:-1]) is False:return None,"NO_BASELINE_VOLUME"
+    if not any(vol[-21:-1]):return None,"NO_BASELINE_VOLUME"
     av=sum(vol[-21:-1])/20
     if av<=0:return None,"NO_BASELINE_VOLUME"
     rvol=vol[-1]/av
@@ -58,35 +59,39 @@ def score(rows):
       "average_dollar_volume_20d":round(liquidity),
       "heuristic_score":points,"status":"RESEARCH_WATCH" if points>=45 else "PASS",
       "verified_prediction":False,"trade_execution_enabled":False},None
-for item in selected:
+def fetch_one(item):
     sym=item["symbol"]
-    # Stooq symbol normalization is not universal: report failures explicitly.
-    if not all(c.isalnum() or c in ".-" for c in sym):
-        failures.append({"symbol":sym,"error":"UNSUPPORTED_SYMBOL_FORMAT"});continue
+    if not all(ch.isalnum() or ch in ".-" for ch in sym):
+        return None,{"symbol":sym,"error":"UNSUPPORTED_SYMBOL_FORMAT"}
     try:
-        q=s.get("https://stooq.com/q/d/l/",params={"s":sym.lower()+".us","i":"d",
-             "d1":start.strftime("%Y%m%d"),"d2":last_completed.strftime("%Y%m%d")},
-             timeout=18)
+        q=requests.get("https://stooq.com/q/d/l/",params={"s":sym.lower()+".us","i":"d",
+            "d1":start.strftime("%Y%m%d"),"d2":last_completed.strftime("%Y%m%d")},
+            timeout=(5,12),headers={"User-Agent":"Mozilla/5.0 (compatible; FreeRadarResearch/1.0)"})
         q.raise_for_status()
         if not q.text.startswith("Date,Open,High,Low,Close,Volume"):
             raise ValueError("NO_CSV_DATA_OR_RATE_LIMIT")
         rows=[]
         for r in csv.DictReader(io.StringIO(q.text)):
             date=dt.date.fromisoformat(r["Date"])
-            c=float(r["Close"]);v=float(r["Volume"])
-            rows.append((date,c,v))
+            rows.append((date,float(r["Close"]),float(r["Volume"])))
         scored,error=score(rows)
-        if error:failures.append({"symbol":sym,"error":error})
-        else:results.append({"symbol":sym,"name":item.get("name",""),**scored})
+        if error:return None,{"symbol":sym,"error":error}
+        return {"symbol":sym,"name":item.get("name",""),**scored},None
     except Exception as exc:
-        failures.append({"symbol":sym,"error":str(exc)[:90]})
-    time.sleep(float(os.getenv("US_SCAN_DELAY_SECONDS","0.35")))
+        return None,{"symbol":sym,"error":str(exc)[:90]}
+workers=max(1,min(int(os.getenv("US_SCAN_WORKERS","4")),8))
+with ThreadPoolExecutor(max_workers=workers) as pool:
+    futures=[pool.submit(fetch_one,item) for item in selected]
+    for future in as_completed(futures):
+        good,bad=future.result()
+        if good:results.append(good)
+        if bad:failures.append(bad)
 out={"generated_utc":dt.datetime.now(dt.timezone.utc).isoformat(),
  "universe_snapshot_utc":u.get("snapshot_utc"),"market":"US",
  "mode":"FREE_ONLY_RESEARCH","source":"Stooq daily public CSV",
  "source_coverage_unverified":True,"historical_delistings_included":False,
  "universe_count":len(symbols),"batch_offset":offset,"batch_requested":len(selected),
- "batch_success":len(results),"batch_failed":len(failures),
+ "batch_success":len(results),"batch_failed":len(failures),"workers":workers,
  "last_completed_session_estimate":str(last_completed),
  "candidates":sorted(results,key=lambda r:r["heuristic_score"],reverse=True),
  "failures":failures,"warnings":["Current listings only; not point-in-time delisted universe",
