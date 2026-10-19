@@ -24,6 +24,8 @@ data["date"]=pd.to_datetime(data["date"],errors="raise")
 for c in ("open","high","low","close","volume"):data[c]=pd.to_numeric(data[c],errors="raise")
 if data.duplicated(["ticker","date"]).any():raise SystemExit("Duplicate ticker/date observations")
 if (data[["open","high","low","close"]]<=0).any().any() or (data["volume"]<0).any():raise SystemExit("Invalid OHLCV")
+if ((data["high"] < data[["open","close","low"]].max(axis=1)) | (data["low"] > data[["open","close","high"]].min(axis=1))).any():raise SystemExit("Inconsistent OHLC bounds")
+if not os.getenv("US_CORPORATE_ACTIONS_VERIFIED")=="1":raise SystemExit("Corporate actions not verified: refusing to train on potentially split-distorted raw bars")
 data=data.sort_values(["ticker","date"])
 # Lagged context features: market-wide participation, breadth and sector not inferred.
 data["ret1"]=data.groupby("ticker")["close"].pct_change()
@@ -50,6 +52,9 @@ features=["rvol","ret5","ret20","vol20","compression","distance_high20","dollar_
 x=x.replace([np.inf,-np.inf],np.nan).dropna(subset=features)
 x=x[(x["dollar_vol20"]>=2_000_000)&(x["close"]>=1)]
 latest=x.sort_values("date").groupby("ticker").tail(1).copy()
+# Only current-session symbols qualify for the daily candidate list.
+latest=latest[latest["date"]==data["date"].max()].copy()
+if latest.empty:raise SystemExit("No current-session symbols available for ranking")
 x=x.dropna(subset=["event10","event5"])
 dates=sorted(x["date"].unique())
 if len(dates)<300:raise SystemExit("Require >=300 market dates for temporal validation")
