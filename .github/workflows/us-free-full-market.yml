@@ -30,13 +30,25 @@ jobs:
       - run: pip install "requests>=2.31"
       - name: Refresh current exchange universe
         run: python us_full_universe.py
+      - name: Check free Stooq API key configured
+        env:
+          STOOQ_API_KEY: ${{ secrets.STOOQ_API_KEY }}
+        run: |
+          if [ -z "$STOOQ_API_KEY" ]; then
+            echo "::error::Missing STOOQ_API_KEY. Configure the free Stooq key in repository Actions secrets."
+            exit 1
+          fi
       - name: Run 100-symbol quality-gated rollout
         env:
           US_SCAN_MANUAL_OFFSET: ${{ inputs.offset || '' }}
           US_SCAN_ALL: ${{ inputs.full_market == false && '0' || '1' }}
+          STOOQ_API_KEY: ${{ secrets.STOOQ_API_KEY }}
+          US_SCAN_WORKERS: '4'
         run: python us_scan_runner.py
       - name: Merge scan batches and publish coverage
         run: python us_merge_free_scan.py
+      - name: Publish ranked daily trade timing watch signals
+        run: python us_full_scan_signals.py
       - name: Publish verified-only candidates
         run: python us_publish_verified.py
       - name: Commit reports
