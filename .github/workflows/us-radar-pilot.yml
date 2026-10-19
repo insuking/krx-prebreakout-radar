@@ -1,0 +1,43 @@
+name: US Radar Pilot
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 11 * * 2-6'
+permissions:
+  contents: write
+concurrency:
+  group: us-radar-pilot
+  cancel-in-progress: false
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install "pandas>=2.0" "requests>=2.31"
+      - name: Collect US historical daily prices
+        env:
+          KIS_APP_KEY: ${{ secrets.KIS_APP_KEY }}
+          KIS_APP_SECRET: ${{ secrets.KIS_APP_SECRET }}
+          KIS_APPKEY: ${{ secrets.KIS_APPKEY }}
+          KIS_APPSECRET: ${{ secrets.KIS_APPSECRET }}
+        run: python us_radar_pilot.py
+      - name: Commit verified observations
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/us_radar/
+          if ! git diff --cached --quiet; then
+            git commit -m "data: refresh US Radar pilot"
+            git push
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: us-radar-pilot
+          path: site/us_radar/
+          if-no-files-found: warn
