@@ -16,7 +16,11 @@ r=s.post(BASE+"/oauth2/tokenP",json={"grant_type":"client_credentials","appkey":
 token=r.json().get("access_token")
 if not token:raise SystemExit("KIS token absent")
 headers={"authorization":"Bearer "+token,"appkey":KEY,"appsecret":SECRET,"tr_id":"HHDFS76240000","custtype":"P"}
-today=dt.datetime.now(ZoneInfo("America/New_York")).date()
+ny_now=dt.datetime.now(ZoneInfo("America/New_York"))
+today=ny_now.date()
+# Do not treat the current NY session as a completed daily candle.
+# Delay acceptance until 18:00 ET to allow source publication latency.
+current_session_complete=ny_now.weekday()<5 and ny_now.time()>=dt.time(18,0)
 results=[];errors=[]
 def numeric(x):
     return pd.to_numeric(str(x).replace(",",""),errors="coerce")
@@ -33,7 +37,9 @@ for exch,items in STOCKS.items():
       for x in records:
         d=str(x.get("xymd",""));close=numeric(x.get("clos"));volume=numeric(x.get("tvol"))
         if len(d)!=8 or not d.isdigit() or pd.isna(close) or pd.isna(volume) or close<=0 or volume<0:continue
-        rows.append({"date":dt.datetime.strptime(d,"%Y%m%d").date().isoformat(),"close_usd":float(close),"volume_shares":int(volume)})
+        observation_date=dt.datetime.strptime(d,"%Y%m%d").date()
+        if observation_date>today or (observation_date==today and not current_session_complete):continue
+        rows.append({"date":observation_date.isoformat(),"close_usd":float(close),"volume_shares":int(volume)})
       if not rows:raise ValueError("Response lacks valid xymd/clos/tvol rows")
       path=ROOT/(symbol.replace(".","_")+".csv")
       df=pd.DataFrame(rows)
@@ -41,6 +47,10 @@ for exch,items in STOCKS.items():
         old=pd.read_csv(path,dtype={"date":str})
         df=pd.concat([old,df],ignore_index=True)
       df=df.drop_duplicates("date",keep="last").sort_values("date")
+      # Historical files may contain incomplete same-day observations from earlier runs.
+      if not current_session_complete:
+        df=df[df["date"]<today.isoformat()]
+      if df.empty:raise ValueError("No completed-session daily observations")
       if df["date"].duplicated().any() or (df["close_usd"]<=0).any():raise ValueError("Data validation failed")
       df.to_csv(path,index=False,encoding="utf-8-sig")
       row={"symbol":symbol,"name":name,"exchange":exch,"asof":df.iloc[-1]["date"],"days":len(df),"close_usd":float(df.iloc[-1]["close_usd"]),"status":"INSUFFICIENT_HISTORY"}
