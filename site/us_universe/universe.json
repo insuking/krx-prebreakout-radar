@@ -1,10 +1,10 @@
 {
-  "snapshot_utc": "2026-10-20T03:13:08.761636+00:00",
+  "snapshot_utc": "2026-10-20T15:39:10.380215+00:00",
   "source_urls": {
     "NASDAQ": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt",
     "OTHER": "https://www.nasdaqtrader.com/dynamic/SymDir/otherlisted.txt"
   },
-  "count": 6248,
+  "count": 6247,
   "point_in_time_history": false,
   "coverage": "Current NASDAQ and other-exchange listed issues; preliminary stock filtering",
   "limitations": [
@@ -6962,13 +6962,6 @@
       "name": "BuzzFeed, Inc. - Class A Common Stock",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "BZH",
-      "name": "Beazer Homes USA, Inc. Common Stock",
-      "exchange_source": "OTHER",
-      "listing_exchange": "N",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -36478,7 +36471,7 @@
     },
     {
       "symbol": "SOAR",
-      "name": "Volato Group, Inc. Class A Common Stock",
+      "name": "SOAR AI, Inc. Class A Common Stock",
       "exchange_source": "OTHER",
       "listing_exchange": "A",
       "security_classification": "PROVISIONAL"
