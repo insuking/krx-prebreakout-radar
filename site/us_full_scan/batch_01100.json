@@ -1,0 +1,427 @@
+{
+  "generated_utc": "2026-10-20T03:13:21.490132+00:00",
+  "universe_snapshot_utc": "2026-10-20T03:13:08.761636+00:00",
+  "market": "US",
+  "mode": "FREE_ONLY_RESEARCH",
+  "source": "Stooq daily public CSV",
+  "source_denied": true,
+  "source_coverage_unverified": true,
+  "historical_delistings_included": false,
+  "universe_count": 6248,
+  "batch_offset": 1100,
+  "batch_requested": 100,
+  "batch_success": 0,
+  "batch_failed": 100,
+  "workers": 4,
+  "last_completed_session_estimate": "2026-10-19",
+  "candidates": [],
+  "failures": [
+    {
+      "symbol": "CCXIU",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "CDIO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CDLX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CDNA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CDNL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CDNS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CDP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CDRE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CDRO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CDT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CDTG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CDW",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CDXS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CDZI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CECO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CEE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CEG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CELC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CELH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CELU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CELZ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CENN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CENT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CENTA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CENX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CEPF",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CEPL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CEPO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CEPS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CEPV",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CERS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CERT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CET",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CETX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CETY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CEV",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CEVA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CF",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CFBK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CFFI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CFFN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CFG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CFND",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CFR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CGABL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CGAU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CGBD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CGC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CGCF",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CGCFU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CGEM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CGEN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CGNT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CGNX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CGO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CGON",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CGTL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CGTX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CHAI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CHAR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CHARU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CHCI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CHCO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CHCT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CHD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CHDN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CHE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CHEC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CHECU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CHEF",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CHGA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CHGG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CHH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CHI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CHKP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CHMG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CHMI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CHNR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CHOW",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CHPG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CHPGU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CHPT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CHR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CHRD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CHRN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CHRS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CHRW",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CHSCN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CHSN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CHT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CHTR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CHW",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CHWM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CHWY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CHY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CCZ",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "CDE",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "CD",
+      "error": "SOURCE_DENIED_BODY"
+    }
+  ],
+  "warnings": [
+    "Current listings only; not point-in-time delisted universe",
+    "Stooq data license, completeness and adjustment basis not independently validated",
+    "Heuristic scores are NOT calibrated probabilities",
+    "US market holiday handling is approximate; stale bars are rejected",
+    "Do not trade based solely on this screen"
+  ]
+}

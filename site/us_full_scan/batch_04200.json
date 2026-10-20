@@ -1,0 +1,427 @@
+{
+  "generated_utc": "2026-10-20T03:13:25.333442+00:00",
+  "universe_snapshot_utc": "2026-10-20T03:13:08.761636+00:00",
+  "market": "US",
+  "mode": "FREE_ONLY_RESEARCH",
+  "source": "Stooq daily public CSV",
+  "source_denied": true,
+  "source_coverage_unverified": true,
+  "historical_delistings_included": false,
+  "universe_count": 6248,
+  "batch_offset": 4200,
+  "batch_requested": 100,
+  "batch_success": 0,
+  "batch_failed": 100,
+  "workers": 4,
+  "last_completed_session_estimate": "2026-10-19",
+  "candidates": [],
+  "failures": [
+    {
+      "symbol": "ORIO",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "ORIQ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ORIQU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ORKA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ORKT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ORLY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ORMP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ORN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ORRF",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OSBC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OSCR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OSG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OSIS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OSK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OSPN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OSPR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OSPRU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OSS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OST",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OSTX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OSUR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OSW",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OTAI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OTAI.U",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OTEX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OTF",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OTGA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OTGAU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OTIS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OTLK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OTTR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OUST",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OUT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OVBC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OVID",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OVLY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OVV",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OWL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OWLS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OWLT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OXBR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OXLC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OXLCG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OXLCI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OXLCL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OXLCZ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OXM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OXSQ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OXSQG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OXSQH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OXY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OYSE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OYSEU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OZ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OZK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "P",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PAA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PAAC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PAACU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PAAI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PAAS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PAC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PACB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PACH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PACHU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PACK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PACS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PAG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PAGP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PAGS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PAHC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PAI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PAII",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PAL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PALI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PALO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PALOU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PAM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PAMT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PANL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PANW",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PAPL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PAR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PARA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PARK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PARR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PASG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PASW",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PATH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PATK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PAVM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PAVS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PAX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PAXGU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PAXS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PAY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PAYC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ORIC",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "ORGO",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "ORI",
+      "error": "SOURCE_DENIED_BODY"
+    }
+  ],
+  "warnings": [
+    "Current listings only; not point-in-time delisted universe",
+    "Stooq data license, completeness and adjustment basis not independently validated",
+    "Heuristic scores are NOT calibrated probabilities",
+    "US market holiday handling is approximate; stale bars are rejected",
+    "Do not trade based solely on this screen"
+  ]
+}

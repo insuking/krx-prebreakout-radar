@@ -1,0 +1,219 @@
+{
+  "generated_utc": "2026-10-20T03:13:24.759231+00:00",
+  "universe_snapshot_utc": "2026-10-20T03:13:08.761636+00:00",
+  "market": "US",
+  "mode": "FREE_ONLY_RESEARCH",
+  "source": "Stooq daily public CSV",
+  "source_denied": true,
+  "source_coverage_unverified": true,
+  "historical_delistings_included": false,
+  "universe_count": 6248,
+  "batch_offset": 6200,
+  "batch_requested": 48,
+  "batch_success": 0,
+  "batch_failed": 48,
+  "workers": 4,
+  "last_completed_session_estimate": "2026-10-19",
+  "candidates": [],
+  "failures": [
+    {
+      "symbol": "YTRA",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "YUM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "YUMC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "YXT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "YYAI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "Z",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZBAO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZBH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZBIO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZBRA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZCMD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZDAI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZDGE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZENA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZEO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZETA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZGN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZIM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZION",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZIP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZJK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZJYL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZKIN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZKP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZKPU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZNB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZNTL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZONE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZOOZ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZSQR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZSTK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZTG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZTR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZTS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZUMZ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZURA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZVIA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZVRA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZWS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZYBT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZYME",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "YSWY",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "YSXT",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "YSS",
+      "error": "SOURCE_DENIED_BODY"
+    }
+  ],
+  "warnings": [
+    "Current listings only; not point-in-time delisted universe",
+    "Stooq data license, completeness and adjustment basis not independently validated",
+    "Heuristic scores are NOT calibrated probabilities",
+    "US market holiday handling is approximate; stale bars are rejected",
+    "Do not trade based solely on this screen"
+  ]
+}

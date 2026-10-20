@@ -1,0 +1,427 @@
+{
+  "generated_utc": "2026-10-20T03:13:21.901405+00:00",
+  "universe_snapshot_utc": "2026-10-20T03:13:08.761636+00:00",
+  "market": "US",
+  "mode": "FREE_ONLY_RESEARCH",
+  "source": "Stooq daily public CSV",
+  "source_denied": true,
+  "source_coverage_unverified": true,
+  "historical_delistings_included": false,
+  "universe_count": 6248,
+  "batch_offset": 3000,
+  "batch_requested": 100,
+  "batch_success": 0,
+  "batch_failed": 100,
+  "workers": 4,
+  "last_completed_session_estimate": "2026-10-19",
+  "candidates": [],
+  "failures": [
+    {
+      "symbol": "JACS.U",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "JAN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JANX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JATT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JAZZ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JBDI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JBGS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JBHT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JBI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JBIO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JBK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JBL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JBLU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JBS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JBSS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JBTM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JCAP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JCE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JCI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JCSE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JCTC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JDZG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JEF",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JELD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JEM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JENA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JENA.U",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JFR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JGH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JHI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JHS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JHX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JILL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JJSF",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JKHY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JLHL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JLL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JLS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JMKE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JMM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JMSB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JNJ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JOB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JOBY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JOE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JOF",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JONE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JONEU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JOUT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JPC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JPM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JQC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JRI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JRS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JRSH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JRVR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JSM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JSPR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JTAI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JTTT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JUNS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JVA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JWEL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JXG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JXN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JYD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JYNT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JZXN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KAI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KALA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KALU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KAPA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KARD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KARO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KAZR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KBDC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KBH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KBON",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KBONU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KBR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KBSX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KCHV",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KCHVR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KCHVU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KDK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KDP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KEEL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KELYA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KELYB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KEN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KEP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KEQU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KEX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JAKK",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "JAGU",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "JAGX",
+      "error": "SOURCE_DENIED_BODY"
+    }
+  ],
+  "warnings": [
+    "Current listings only; not point-in-time delisted universe",
+    "Stooq data license, completeness and adjustment basis not independently validated",
+    "Heuristic scores are NOT calibrated probabilities",
+    "US market holiday handling is approximate; stale bars are rejected",
+    "Do not trade based solely on this screen"
+  ]
+}

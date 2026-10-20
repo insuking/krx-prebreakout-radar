@@ -1,0 +1,15 @@
+{
+  "generated_utc": "2026-10-20T03:47:07.867725+00:00",
+  "status": "SOURCE_UNAVAILABLE",
+  "universe_count": 6248,
+  "symbols_attempted": 6248,
+  "symbols_with_usable_prices": 0,
+  "symbols_failed": 6248,
+  "symbols_unattempted": 0,
+  "coverage_pct": 100.0,
+  "data_source": "Stooq daily public CSV; current listing snapshot",
+  "research_watchlist": [],
+  "verified_recommendations": [],
+  "verified_count": 0,
+  "notice": "Research screening only; no full-universe validation or calibrated prediction."
+}

@@ -1,0 +1,427 @@
+{
+  "generated_utc": "2026-10-20T03:17:33.976802+00:00",
+  "universe_snapshot_utc": "2026-10-20T03:13:08.761636+00:00",
+  "market": "US",
+  "mode": "FREE_ONLY_RESEARCH",
+  "source": "Stooq daily public CSV",
+  "source_denied": false,
+  "source_coverage_unverified": true,
+  "historical_delistings_included": false,
+  "universe_count": 6248,
+  "batch_offset": 100,
+  "batch_requested": 100,
+  "batch_success": 0,
+  "batch_failed": 100,
+  "workers": 4,
+  "last_completed_session_estimate": "2026-10-19",
+  "candidates": [],
+  "failures": [
+    {
+      "symbol": "ADIL",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ADI",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ADIG",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ADM",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ADP",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ADPT",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ADMA",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ADNT",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ADRX",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ADT",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ADSE",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ADSK",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ADV",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ADUS",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ADTN",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ADUR",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AEAQ",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AEAQU",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ADX",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ADVB",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AEBI",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AEE",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AEF",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AEC",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AEFC",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AEG",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AEHL",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AEHR",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AEI",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AEIS",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AEMD",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AEM",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AENT",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AEO",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AEON",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AEP",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AESI",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AES",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AER",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AERT",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AESPU",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AESP",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AEXA",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AEVA",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AFG",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AFB",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AFCG",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AEYE",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AFGD",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AFGB",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AFGC",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AFGE",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AFJKR",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AFJKU",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AFL",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AFJK",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AFRI",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AFRM",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AFYA",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AG",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AGBK",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AGCO",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AGCC",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AGD",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AGI",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AGIG",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AGEN",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AGIO",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AGL",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AGM.A",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AGM",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AGMB",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AGO",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AGMH",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AGNC",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AGNT",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AGRZ",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AGPU",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AGRO",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AHL$D",
+      "error": "UNSUPPORTED_SYMBOL_FORMAT"
+    },
+    {
+      "symbol": "AGX",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AHR",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AHCO",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AHMA",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AGYS",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AHT",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AHRT",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AI",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AIAI",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AIB",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AIFA",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AIBZ",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AIDX",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AIFC",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AIG",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AIFU",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AIFF",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AII",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AIIA",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "AIIA.U",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    }
+  ],
+  "warnings": [
+    "Current listings only; not point-in-time delisted universe",
+    "Stooq data license, completeness and adjustment basis not independently validated",
+    "Heuristic scores are NOT calibrated probabilities",
+    "US market holiday handling is approximate; stale bars are rejected",
+    "Do not trade based solely on this screen"
+  ]
+}

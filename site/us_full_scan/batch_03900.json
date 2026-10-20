@@ -1,0 +1,427 @@
+{
+  "generated_utc": "2026-10-20T03:13:24.714852+00:00",
+  "universe_snapshot_utc": "2026-10-20T03:13:08.761636+00:00",
+  "market": "US",
+  "mode": "FREE_ONLY_RESEARCH",
+  "source": "Stooq daily public CSV",
+  "source_denied": true,
+  "source_coverage_unverified": true,
+  "historical_delistings_included": false,
+  "universe_count": 6248,
+  "batch_offset": 3900,
+  "batch_requested": 100,
+  "batch_success": 0,
+  "batch_failed": 100,
+  "workers": 4,
+  "last_completed_session_estimate": "2026-10-19",
+  "candidates": [],
+  "failures": [
+    {
+      "symbol": "NKX",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "NLY$F",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NMAD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NMAI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NMAX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NMCO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NMFC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NMFCZ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NMG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NMI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NMIH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NML",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NMM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NMP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NMPAR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NMPAU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NMRA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NMRK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NMS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NMT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NMTC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NMZ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NNBR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NNE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NNI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NNN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NNNN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NNOX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NNVC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NNY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NOA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NOC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NODK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NOEM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NOEMR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NOEMU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NOG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NOMA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NOMD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NOV",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NOVT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NOVTU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NOW",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NPAC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NPACU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NPB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NPCE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NPCT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NPFD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NPK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NPKI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NPO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NPT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NPV",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NPWR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NRC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NRDS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NRDY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NREF",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NRG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NRGV",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NRIM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NRIX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NRK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NRO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NRP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NRSN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NRT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NRUC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NRXP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NRXS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NSAI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NSAIU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NSC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NSIT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NSLR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NSLRL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NSP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NSPR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NSRX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NSSC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NSTR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NSYS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NTAP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NTB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NTCL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NTCT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NTGR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NTHI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NTIC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NTIP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NTLA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NTNX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NTR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NTRA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NLOP",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "NLY",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "NL",
+      "error": "SOURCE_DENIED_BODY"
+    }
+  ],
+  "warnings": [
+    "Current listings only; not point-in-time delisted universe",
+    "Stooq data license, completeness and adjustment basis not independently validated",
+    "Heuristic scores are NOT calibrated probabilities",
+    "US market holiday handling is approximate; stale bars are rejected",
+    "Do not trade based solely on this screen"
+  ]
+}

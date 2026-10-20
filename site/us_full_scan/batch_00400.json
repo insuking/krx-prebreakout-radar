@@ -1,0 +1,427 @@
+{
+  "generated_utc": "2026-10-20T03:13:19.985553+00:00",
+  "universe_snapshot_utc": "2026-10-20T03:13:08.761636+00:00",
+  "market": "US",
+  "mode": "FREE_ONLY_RESEARCH",
+  "source": "Stooq daily public CSV",
+  "source_denied": true,
+  "source_coverage_unverified": true,
+  "historical_delistings_included": false,
+  "universe_count": 6248,
+  "batch_offset": 400,
+  "batch_requested": 100,
+  "batch_success": 0,
+  "batch_failed": 100,
+  "workers": 4,
+  "last_completed_session_estimate": "2026-10-19",
+  "candidates": [],
+  "failures": [
+    {
+      "symbol": "APYX",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "AQMS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "AQN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "AQNB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "AQST",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "AR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARAI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARAY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARBB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARBE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARCB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARCC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARCI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARCIU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARCL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARCLR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARCLU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARCO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARCT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARDC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARDT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARDX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "AREC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARES",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARHS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARIS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARKO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARKR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARLO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARLP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARMK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARMP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "AROC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "AROW",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARQ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARQQ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARQT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARRY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARTC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARTCU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARTL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARTNA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARTV",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARTW",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARVN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARW",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARWR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ARXS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "AS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ASA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ASAN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ASB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ASBA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ASBH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ASBP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ASC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ASG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ASGI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ASH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ASIC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ASIX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ASLE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ASM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ASMB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ASML",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ASND",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ASO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ASPC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ASPCR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ASPCU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ASPI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ASPN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ASPS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ASR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ASRV",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ASST",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ASTC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ASTE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ASTH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ASTI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ASTL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ASTS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ASUR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ASYS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ATCH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ATCX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ATEC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ATEN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ATER",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ATEX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ATGL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ATHR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "AQB",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "APXT",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "APXTU",
+      "error": "SOURCE_DENIED_BODY"
+    }
+  ],
+  "warnings": [
+    "Current listings only; not point-in-time delisted universe",
+    "Stooq data license, completeness and adjustment basis not independently validated",
+    "Heuristic scores are NOT calibrated probabilities",
+    "US market holiday handling is approximate; stale bars are rejected",
+    "Do not trade based solely on this screen"
+  ]
+}

@@ -1,0 +1,427 @@
+{
+  "generated_utc": "2026-10-20T03:13:25.174316+00:00",
+  "universe_snapshot_utc": "2026-10-20T03:13:08.761636+00:00",
+  "market": "US",
+  "mode": "FREE_ONLY_RESEARCH",
+  "source": "Stooq daily public CSV",
+  "source_denied": true,
+  "source_coverage_unverified": true,
+  "historical_delistings_included": false,
+  "universe_count": 6248,
+  "batch_offset": 4800,
+  "batch_requested": 100,
+  "batch_success": 0,
+  "batch_failed": 100,
+  "workers": 4,
+  "last_completed_session_estimate": "2026-10-19",
+  "candidates": [],
+  "failures": [
+    {
+      "symbol": "RKLB",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "RKT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RKTO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RLAY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RLGT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RLI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RLJ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RLJ$A",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RLMD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RLTY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RLYB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RMBI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RMBS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RMCF",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RMCO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RMD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RMI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RMIX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RMM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RMMZ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RMNI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RMR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RMSG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RMT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RMTI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RNA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RNAC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RNAQ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RNAQU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RNAZ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RNG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RNGR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RNGT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RNGTU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RNP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RNR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RNST",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RNTX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RNTZ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RNW",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RNXT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ROAD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ROC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ROCK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ROG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ROIV",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ROK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ROKU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ROL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ROLR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ROMA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ROOT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ROP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ROST",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RPAY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RPC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RPD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RPGL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RPID",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RPM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RPRX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RPT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RQI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RRBI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RRC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RREV",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RREVU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RRGB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RRR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RRX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RSF",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RSG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RSI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RSKD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RSSS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RSVR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RTAC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RTACU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RTB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RTSN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RTX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RUBI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RUM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RUN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RUSHA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RUSHB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RVI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RVII",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RVLV",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RVMD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RVP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RVSB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RVSN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RKDA",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "RJF",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "RJET",
+      "error": "SOURCE_DENIED_BODY"
+    }
+  ],
+  "warnings": [
+    "Current listings only; not point-in-time delisted universe",
+    "Stooq data license, completeness and adjustment basis not independently validated",
+    "Heuristic scores are NOT calibrated probabilities",
+    "US market holiday handling is approximate; stale bars are rejected",
+    "Do not trade based solely on this screen"
+  ]
+}

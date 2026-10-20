@@ -1,0 +1,427 @@
+{
+  "generated_utc": "2026-10-20T03:13:22.280369+00:00",
+  "universe_snapshot_utc": "2026-10-20T03:13:08.761636+00:00",
+  "market": "US",
+  "mode": "FREE_ONLY_RESEARCH",
+  "source": "Stooq daily public CSV",
+  "source_denied": true,
+  "source_coverage_unverified": true,
+  "historical_delistings_included": false,
+  "universe_count": 6248,
+  "batch_offset": 1900,
+  "batch_requested": 100,
+  "batch_success": 0,
+  "batch_failed": 100,
+  "workers": 4,
+  "last_completed_session_estimate": "2026-10-19",
+  "candidates": [],
+  "failures": [
+    {
+      "symbol": "EPR",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "EPR$C",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EPR$E",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EPR$G",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EPRT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EPRX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EPSM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EPSN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EQ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EQBK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EQH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EQIX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EQNR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EQPT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EQS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EQT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EQX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ERAS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ERC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ERH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ERIE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ERII",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ERNA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ERO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EROC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EROK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ES",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ESAB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ESBA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ESCA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ESE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ESEA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ESI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ESLA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ESLT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ESNT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ESOA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ESP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ESQ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ESRT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ESS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ESTA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ESTC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ESYN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ET",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ET$I",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ETB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ETD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ETG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ETJ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ETN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ETO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ETON",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ETOR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ETR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ETRA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ETS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ETSS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ETSY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ETV",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ETW",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ETX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ETY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EUDA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EURK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EURKR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EURKU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EVAC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EVC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EVCM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EVER",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EVEX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EVF",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EVG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EVGN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EVGO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EVH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EVI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EVLV",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EVMN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EVN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EVOX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EVOXU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EVR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EVRG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EVT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EVTC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EVTL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EVV",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EW",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EWAV",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EWAVU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EWBC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EWTX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EXC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EXE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EPM",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "EPOW",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "EPD",
+      "error": "SOURCE_DENIED_BODY"
+    }
+  ],
+  "warnings": [
+    "Current listings only; not point-in-time delisted universe",
+    "Stooq data license, completeness and adjustment basis not independently validated",
+    "Heuristic scores are NOT calibrated probabilities",
+    "US market holiday handling is approximate; stale bars are rejected",
+    "Do not trade based solely on this screen"
+  ]
+}

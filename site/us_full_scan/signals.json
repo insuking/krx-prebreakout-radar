@@ -1,0 +1,21 @@
+{
+  "generated_utc": "2026-10-20T03:47:07.891518+00:00",
+  "market": "US",
+  "status": "DAILY_RESEARCH_SIGNALS",
+  "coverage": {
+    "status": "SOURCE_UNAVAILABLE",
+    "universe_count": 6248,
+    "symbols_attempted": 6248,
+    "symbols_with_usable_prices": 0,
+    "symbols_failed": 6248,
+    "symbols_unattempted": 0
+  },
+  "signals": [],
+  "major_leaders_in_top_watchlist": [],
+  "warnings": [
+    "No verified intraday VWAP, quote or fill",
+    "No BUY_NOW assertion",
+    "Entry/stop/target are illustrative daily-close reference levels",
+    "Only top-ranked research watchlist was assessed for leader membership"
+  ]
+}

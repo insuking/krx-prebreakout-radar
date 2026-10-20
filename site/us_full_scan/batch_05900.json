@@ -1,0 +1,427 @@
+{
+  "generated_utc": "2026-10-20T03:13:25.854864+00:00",
+  "universe_snapshot_utc": "2026-10-20T03:13:08.761636+00:00",
+  "market": "US",
+  "mode": "FREE_ONLY_RESEARCH",
+  "source": "Stooq daily public CSV",
+  "source_denied": true,
+  "source_coverage_unverified": true,
+  "historical_delistings_included": false,
+  "universe_count": 6248,
+  "batch_offset": 5900,
+  "batch_requested": 100,
+  "batch_success": 0,
+  "batch_failed": 100,
+  "workers": 4,
+  "last_completed_session_estimate": "2026-10-19",
+  "candidates": [],
+  "failures": [
+    {
+      "symbol": "VNCE",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "VNDA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VNME",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VNMEU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VNO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VNO$L",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VNO$M",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VNO$N",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VNO$O",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VNOM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VNRX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VNT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VNTG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VOC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VOGX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VOR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VOXR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VOYA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VOYG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VPG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VPV",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VRA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VRAX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VRCA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VRDN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VREX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VRM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VRNS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VRRM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VRSK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VRSN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VRT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VRTS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VRTX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VRXA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VSAT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VSEC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VSECU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VSH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VSME",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VSNT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VST",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VSTM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VSTS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VSXY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VTEX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VTGN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VTIX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VTN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VTOL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VTR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VTRS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VTS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VTSI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VTVT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VUZI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VVOS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VVR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VVV",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VVX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VWAV",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VYGR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VYLR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VYX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VZ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VZLA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "W",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "WAB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "WABC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "WAFD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "WAFU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "WAL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "WASH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "WAT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "WATR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "WATT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "WAY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "WBI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "WBTN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "WBUY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "WBX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "WCC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "WCCB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "WCN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "WCT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "WD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "WDAY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "WDC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "WDFC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "WDI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "WEA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "WEAV",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "WEC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "WELL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "WEN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "WENC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VMO",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "VMRK",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "VMI",
+      "error": "SOURCE_DENIED_BODY"
+    }
+  ],
+  "warnings": [
+    "Current listings only; not point-in-time delisted universe",
+    "Stooq data license, completeness and adjustment basis not independently validated",
+    "Heuristic scores are NOT calibrated probabilities",
+    "US market holiday handling is approximate; stale bars are rejected",
+    "Do not trade based solely on this screen"
+  ]
+}

@@ -1,0 +1,427 @@
+{
+  "generated_utc": "2026-10-20T03:13:21.872673+00:00",
+  "universe_snapshot_utc": "2026-10-20T03:13:08.761636+00:00",
+  "market": "US",
+  "mode": "FREE_ONLY_RESEARCH",
+  "source": "Stooq daily public CSV",
+  "source_denied": true,
+  "source_coverage_unverified": true,
+  "historical_delistings_included": false,
+  "universe_count": 6248,
+  "batch_offset": 1000,
+  "batch_requested": 100,
+  "batch_success": 0,
+  "batch_failed": 100,
+  "workers": 4,
+  "last_completed_session_estimate": "2026-10-19",
+  "candidates": [],
+  "failures": [
+    {
+      "symbol": "CABR",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "CADL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CAE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CAES",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CAF",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CAG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CAH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CAI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CAII",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CAIIU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CAKE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CAL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CALC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CALM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CALX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CALY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CAMP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CAMT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CANG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CAPL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CAPN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CAPNR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CAPNU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CAPR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CAPS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CAQ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CAQUU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CAR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CARE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CARG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CARL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CARR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CARS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CART",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CASH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CASS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CAST",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CASY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CAT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CATL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CATLU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CATO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CATX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CATY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CAVA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CBAN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CBAT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CBC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CBFV",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CBIO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CBK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CBL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CBLL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CBNA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CBNK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CBOE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CBRE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CBRL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CBRS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CBSH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CBT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CBU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CBUS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CBZ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CCAP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CCAQ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CCAQU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CCB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CCBG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CCC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CCCC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CCCT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CCCTU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CCD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CCEC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CCEL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CCEP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CCG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CCHH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CCI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CCID",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CCIF",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CCII",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CCIIU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CCJ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CCK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CCL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CCLD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CCNE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CCOI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CCS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CCSI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CCTG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CCU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CCXI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CACI",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "CACC",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "CAC",
+      "error": "SOURCE_DENIED_BODY"
+    }
+  ],
+  "warnings": [
+    "Current listings only; not point-in-time delisted universe",
+    "Stooq data license, completeness and adjustment basis not independently validated",
+    "Heuristic scores are NOT calibrated probabilities",
+    "US market holiday handling is approximate; stale bars are rejected",
+    "Do not trade based solely on this screen"
+  ]
+}

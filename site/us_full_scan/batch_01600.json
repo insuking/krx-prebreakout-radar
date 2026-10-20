@@ -1,0 +1,427 @@
+{
+  "generated_utc": "2026-10-20T03:13:22.267794+00:00",
+  "universe_snapshot_utc": "2026-10-20T03:13:08.761636+00:00",
+  "market": "US",
+  "mode": "FREE_ONLY_RESEARCH",
+  "source": "Stooq daily public CSV",
+  "source_denied": true,
+  "source_coverage_unverified": true,
+  "historical_delistings_included": false,
+  "universe_count": 6248,
+  "batch_offset": 1600,
+  "batch_requested": 100,
+  "batch_success": 0,
+  "batch_failed": 100,
+  "workers": 4,
+  "last_completed_session_estimate": "2026-10-19",
+  "candidates": [],
+  "failures": [
+    {
+      "symbol": "DGICA",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "DGX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DGXX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DHC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DHCNI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DHCNL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DHF",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DHI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DHR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DHT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DHX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DHY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DIBS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DIN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DINO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DIOD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DIS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DIT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DJCO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DJT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DKI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DKL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DKNG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DKS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DLB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DLHC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DLNG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DLNG$A",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DLO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DLPN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DLR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DLTH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DLTR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DLX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DLXY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DLY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DMA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DMAA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DMAAU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DMAC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DMB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DMC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DMII",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DMIIR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DMIIU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DMLP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DMO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DMRA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DMRC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DNA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DNLI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DNMX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DNMXU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DNN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DNOW",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DNP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DNTH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DNUT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DOC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DOCN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DOCS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DOCU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DOGZ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DOLE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DOMH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DOO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DORM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DOUG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DOV",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DOW",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DOX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DPC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DPG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DPRO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DPU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DPZ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DRDB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DRDBU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DRH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DRI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DRIO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DRK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DRMA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DRS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DRTS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DRUG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DRVN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DSAC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DSACU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DSGN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DSGR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DSGX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DSL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DSM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DSP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DGICB",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "DGNX",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "DGII",
+      "error": "SOURCE_DENIED_BODY"
+    }
+  ],
+  "warnings": [
+    "Current listings only; not point-in-time delisted universe",
+    "Stooq data license, completeness and adjustment basis not independently validated",
+    "Heuristic scores are NOT calibrated probabilities",
+    "US market holiday handling is approximate; stale bars are rejected",
+    "Do not trade based solely on this screen"
+  ]
+}

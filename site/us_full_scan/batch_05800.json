@@ -1,0 +1,427 @@
+{
+  "generated_utc": "2026-10-20T03:13:27.236081+00:00",
+  "universe_snapshot_utc": "2026-10-20T03:13:08.761636+00:00",
+  "market": "US",
+  "mode": "FREE_ONLY_RESEARCH",
+  "source": "Stooq daily public CSV",
+  "source_denied": true,
+  "source_coverage_unverified": true,
+  "historical_delistings_included": false,
+  "universe_count": 6248,
+  "batch_offset": 5800,
+  "batch_requested": 100,
+  "batch_success": 0,
+  "batch_failed": 100,
+  "workers": 4,
+  "last_completed_session_estimate": "2026-10-19",
+  "candidates": [],
+  "failures": [
+    {
+      "symbol": "UTG",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "UTHR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "UTI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "UTL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "UTMD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "UTSI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "UTZ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "UUUU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "UVE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "UVSP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "UVV",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "UWMC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "UYSC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "UYSCU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "UZD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "UZE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "UZF",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "UZX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "V",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VABK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VAC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VAI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VAL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VALU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VANI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VATE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VBF",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VBIO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VBNK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VCEL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VCIG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VCTR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VCV",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VCX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VCYT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VECA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VECA.U",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VECO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VEEA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VEEE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VEEV",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VEL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VELO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VENU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VERA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VERI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VERU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VERX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VET",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VFC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VFF",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VFS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VGAS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VGI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VGM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VGNT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VGZ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VHC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VHCP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VHCPU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VHI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VHUB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VIA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VIAV",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VICI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VICR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VIDA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VII",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VIK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VINP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VIP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VIR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VIRC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VIRT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VISN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VITL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VIVK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VIVO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VIVS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VJET",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VKI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VKQ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VKTX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VLGEA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VLN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VLO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VLOS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VLOSU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VLT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VLTO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VLY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VMAR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VMC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VMD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VMET",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "USPH",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "USNA",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "UTF",
+      "error": "SOURCE_DENIED_BODY"
+    }
+  ],
+  "warnings": [
+    "Current listings only; not point-in-time delisted universe",
+    "Stooq data license, completeness and adjustment basis not independently validated",
+    "Heuristic scores are NOT calibrated probabilities",
+    "US market holiday handling is approximate; stale bars are rejected",
+    "Do not trade based solely on this screen"
+  ]
+}

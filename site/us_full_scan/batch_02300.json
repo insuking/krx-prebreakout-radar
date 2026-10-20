@@ -1,0 +1,427 @@
+{
+  "generated_utc": "2026-10-20T03:13:23.007649+00:00",
+  "universe_snapshot_utc": "2026-10-20T03:13:08.761636+00:00",
+  "market": "US",
+  "mode": "FREE_ONLY_RESEARCH",
+  "source": "Stooq daily public CSV",
+  "source_denied": true,
+  "source_coverage_unverified": true,
+  "historical_delistings_included": false,
+  "universe_count": 6248,
+  "batch_offset": 2300,
+  "batch_requested": 100,
+  "batch_success": 0,
+  "batch_failed": 100,
+  "workers": 4,
+  "last_completed_session_estimate": "2026-10-19",
+  "candidates": [],
+  "failures": [
+    {
+      "symbol": "GBFH",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "GBLI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GBR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GBX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GCBC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GCDT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GCGR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GCGRU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GCL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GCMG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GCO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GCT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GCTK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GCTS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GCV",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GDC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GDDY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GDEV",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GDHG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GDL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GDO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GDOT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GDRX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GDTC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GDV",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GDV$H",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GDV$K",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GDYN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GECC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GECCG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GECCH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GECCI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GEF",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GEF.B",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GEG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GEGGL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GEHC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GEL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GELS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GEMI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GEN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GENB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GENC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GENI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GENK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GEO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GEOS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GERN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GEV",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GEVO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GF",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GFAI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GFF",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GFL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GFR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GFS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GFUZ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GGB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GGG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GGN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GGN$B",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GGR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GGT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GGT$G",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GGZ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GHC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GHI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GHM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GHRS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GHXI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GHXIU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GHY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GIB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GIBO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GIC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GIFT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GIGM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GIII",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GIL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GILD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GILT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GIPR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GIS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GITS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GIW",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GIWWU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GIX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GIXI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GIXXU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GJH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GJO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GJP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GJR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GJS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GBDC",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "GBAB",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "GBCI",
+      "error": "SOURCE_DENIED_BODY"
+    }
+  ],
+  "warnings": [
+    "Current listings only; not point-in-time delisted universe",
+    "Stooq data license, completeness and adjustment basis not independently validated",
+    "Heuristic scores are NOT calibrated probabilities",
+    "US market holiday handling is approximate; stale bars are rejected",
+    "Do not trade based solely on this screen"
+  ]
+}

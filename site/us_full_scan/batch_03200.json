@@ -1,0 +1,427 @@
+{
+  "generated_utc": "2026-10-20T03:13:23.779632+00:00",
+  "universe_snapshot_utc": "2026-10-20T03:13:08.761636+00:00",
+  "market": "US",
+  "mode": "FREE_ONLY_RESEARCH",
+  "source": "Stooq daily public CSV",
+  "source_denied": true,
+  "source_coverage_unverified": true,
+  "historical_delistings_included": false,
+  "universe_count": 6248,
+  "batch_offset": 3200,
+  "batch_requested": 100,
+  "batch_success": 0,
+  "batch_failed": 100,
+  "workers": 4,
+  "last_completed_session_estimate": "2026-10-19",
+  "candidates": [],
+  "failures": [
+    {
+      "symbol": "KXIN",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "KYMR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KYN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KYNB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KYTX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "L",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LAB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LABT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LAC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LAD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LADR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LAES",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LAFA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LAFAU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LAKE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LAMR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LAND",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LANV",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LAR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LARK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LASE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LASR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LATA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LATAU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LAUR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LAW",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LAWR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LAZ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LBGJ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LBRT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LBRX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LBTYA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LBTYB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LBTYK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LCCC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LCCCU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LCFY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LCID",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LCII",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LCLN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LCNB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LCTX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LCU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LCUT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LDI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LDOS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LDP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LEA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LECO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LEDRU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LEDS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LEE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LEGH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LEGO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LEN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LEN.B",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LENZ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LEO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LEU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LEVI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LEXX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LFAC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LFACU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LFCR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LFMD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LFST",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LFT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LFTO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LFUS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LFVN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LFWD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LGCL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LGCY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LGI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LGIH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LGL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LGN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LGND",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LGO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LGPS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LGVN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LHAI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LHSW",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LHX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LICN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LIDR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LIEN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LIF",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LIFE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LII",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LILA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LILAK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LILAP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LIME",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KWY",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "KWR",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "KYIV",
+      "error": "SOURCE_DENIED_BODY"
+    }
+  ],
+  "warnings": [
+    "Current listings only; not point-in-time delisted universe",
+    "Stooq data license, completeness and adjustment basis not independently validated",
+    "Heuristic scores are NOT calibrated probabilities",
+    "US market holiday handling is approximate; stale bars are rejected",
+    "Do not trade based solely on this screen"
+  ]
+}
