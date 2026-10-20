@@ -29,7 +29,7 @@ if ny.weekday()<5 and ny.time()<dt.time(18):
 while last_completed.weekday()>=5:last_completed-=dt.timedelta(days=1)
 start=last_completed-dt.timedelta(days=95)
 API_KEY=os.getenv("STOOQ_API_KEY","").strip()
-if not API_KEY:raise SystemExit("STOOQ_API_KEY missing: CSV download may require free API key; stopping before wasting thousands of requests")
+# Stooq key is optional; public access may be limited. Always emit batch diagnostics.
 source_denied=threading.Event()
 results=[];failures=[]
 def score(rows):
@@ -67,7 +67,7 @@ def fetch_one(item):
     if not all(ch.isalnum() or ch in ".-" for ch in sym):
         return None,{"symbol":sym,"error":"UNSUPPORTED_SYMBOL_FORMAT"}
     try:
-        q=requests.get("https://stooq.com/q/d/l/",params={"s":sym.lower()+".us","i":"d","apikey":API_KEY,
+        q=requests.get("https://stooq.com/q/d/l/",params={"s":sym.lower()+".us","i":"d",**({"apikey":API_KEY} if API_KEY else {}),
             "d1":start.strftime("%Y%m%d"),"d2":last_completed.strftime("%Y%m%d")},
             timeout=(5,12),headers={"User-Agent":"Mozilla/5.0 (compatible; FreeRadarResearch/1.0)"})
         if q.status_code in (403,429):
