@@ -1,7 +1,7 @@
 {
   "market": "US",
   "source": "KIS overseas dailyprice HHDFS76240000",
-  "asof_ny": "2026-10-19",
+  "asof_ny": "2026-10-20",
   "mode": "research_only_no_orders",
   "symbols_target": 25,
   "symbols_valid": 23,
@@ -13,12 +13,12 @@
       "exchange": "NAS",
       "asof": "2026-10-19",
       "days": 100,
-      "close_usd": 342.28,
+      "close_usd": 342.94,
       "status": "SCREENABLE",
-      "rvol_20d": 0.0,
-      "return_20d_pct": 0.97,
-      "return_60d_pct": 2.87,
-      "distance_from_20d_high_pct": -0.34
+      "rvol_20d": 0.93,
+      "return_20d_pct": 1.17,
+      "return_60d_pct": 3.07,
+      "distance_from_20d_high_pct": -0.15
     },
     {
       "symbol": "MSFT",
@@ -26,12 +26,12 @@
       "exchange": "NAS",
       "asof": "2026-10-19",
       "days": 100,
-      "close_usd": 531.409,
+      "close_usd": 533.52,
       "status": "SCREENABLE",
-      "rvol_20d": 0.0,
-      "return_20d_pct": 5.94,
-      "return_60d_pct": 39.48,
-      "distance_from_20d_high_pct": -2.22
+      "rvol_20d": 0.81,
+      "return_20d_pct": 6.36,
+      "return_60d_pct": 40.04,
+      "distance_from_20d_high_pct": -1.83
     },
     {
       "symbol": "NVDA",
@@ -39,12 +39,12 @@
       "exchange": "NAS",
       "asof": "2026-10-19",
       "days": 100,
-      "close_usd": 217.61,
+      "close_usd": 217.09,
       "status": "SCREENABLE",
-      "rvol_20d": 0.0,
-      "return_20d_pct": -4.3,
-      "return_60d_pct": 5.32,
-      "distance_from_20d_high_pct": -9.04
+      "rvol_20d": 0.94,
+      "return_20d_pct": -4.53,
+      "return_60d_pct": 5.07,
+      "distance_from_20d_high_pct": -9.26
     },
     {
       "symbol": "AMZN",
@@ -52,12 +52,12 @@
       "exchange": "NAS",
       "asof": "2026-10-19",
       "days": 100,
-      "close_usd": 253.3,
+      "close_usd": 262.45,
       "status": "SCREENABLE",
-      "rvol_20d": 0.0,
-      "return_20d_pct": -1.99,
-      "return_60d_pct": 9.13,
-      "distance_from_20d_high_pct": -3.48
+      "rvol_20d": 1.57,
+      "return_20d_pct": 1.55,
+      "return_60d_pct": 13.07,
+      "distance_from_20d_high_pct": 0.0
     },
     {
       "symbol": "GOOGL",
@@ -65,12 +65,12 @@
       "exchange": "NAS",
       "asof": "2026-10-19",
       "days": 100,
-      "close_usd": 342.87,
+      "close_usd": 344.18,
       "status": "SCREENABLE",
-      "rvol_20d": 0.0,
-      "return_20d_pct": -3.41,
-      "return_60d_pct": 7.3,
-      "distance_from_20d_high_pct": -3.08
+      "rvol_20d": 0.79,
+      "return_20d_pct": -3.04,
+      "return_60d_pct": 7.71,
+      "distance_from_20d_high_pct": -2.71
     },
     {
       "symbol": "META",
@@ -78,12 +78,12 @@
       "exchange": "NAS",
       "asof": "2026-10-19",
       "days": 100,
-      "close_usd": 705.5,
+      "close_usd": 705.44,
       "status": "SCREENABLE",
-      "rvol_20d": 0.0,
-      "return_20d_pct": -4.82,
-      "return_60d_pct": 18.63,
-      "distance_from_20d_high_pct": -9.27
+      "rvol_20d": 0.75,
+      "return_20d_pct": -4.83,
+      "return_60d_pct": 18.62,
+      "distance_from_20d_high_pct": -9.28
     },
     {
       "symbol": "TSLA",
@@ -91,12 +91,12 @@
       "exchange": "NAS",
       "asof": "2026-10-19",
       "days": 100,
-      "close_usd": 353.83,
+      "close_usd": 368.06,
       "status": "SCREENABLE",
-      "rvol_20d": 0.01,
-      "return_20d_pct": -5.72,
-      "return_60d_pct": 13.03,
-      "distance_from_20d_high_pct": -7.54
+      "rvol_20d": 1.13,
+      "return_20d_pct": -1.93,
+      "return_60d_pct": 17.58,
+      "distance_from_20d_high_pct": -3.83
     },
     {
       "symbol": "AMD",
@@ -104,12 +104,12 @@
       "exchange": "NAS",
       "asof": "2026-10-19",
       "days": 100,
-      "close_usd": 549.0,
+      "close_usd": 538.05,
       "status": "SCREENABLE",
-      "rvol_20d": 0.01,
-      "return_20d_pct": -10.81,
-      "return_60d_pct": 5.18,
-      "distance_from_20d_high_pct": -15.46
+      "rvol_20d": 0.95,
+      "return_20d_pct": -12.59,
+      "return_60d_pct": 3.08,
+      "distance_from_20d_high_pct": -17.15
     },
     {
       "symbol": "AVGO",
@@ -117,12 +117,12 @@
       "exchange": "NAS",
       "asof": "2026-10-19",
       "days": 100,
-      "close_usd": 338.61,
+      "close_usd": 334.59,
       "status": "SCREENABLE",
-      "rvol_20d": 0.0,
-      "return_20d_pct": -6.63,
-      "return_60d_pct": -11.18,
-      "distance_from_20d_high_pct": -10.07
+      "rvol_20d": 0.78,
+      "return_20d_pct": -7.74,
+      "return_60d_pct": -12.23,
+      "distance_from_20d_high_pct": -11.13
     },
     {
       "symbol": "PLTR",
@@ -130,12 +130,12 @@
       "exchange": "NAS",
       "asof": "2026-10-19",
       "days": 100,
-      "close_usd": 186.3,
+      "close_usd": 194.15,
       "status": "SCREENABLE",
-      "rvol_20d": 0.01,
-      "return_20d_pct": 1.75,
-      "return_60d_pct": 51.56,
-      "distance_from_20d_high_pct": -10.88
+      "rvol_20d": 1.04,
+      "return_20d_pct": 6.04,
+      "return_60d_pct": 57.95,
+      "distance_from_20d_high_pct": -7.13
     },
     {
       "symbol": "NFLX",
@@ -143,12 +143,12 @@
       "exchange": "NAS",
       "asof": "2026-10-19",
       "days": 100,
-      "close_usd": 70.46,
+      "close_usd": 69.85,
       "status": "SCREENABLE",
-      "rvol_20d": 0.0,
-      "return_20d_pct": -3.95,
-      "return_60d_pct": 0.53,
-      "distance_from_20d_high_pct": -2.96
+      "rvol_20d": 0.96,
+      "return_20d_pct": -4.78,
+      "return_60d_pct": -0.34,
+      "distance_from_20d_high_pct": -3.8
     },
     {
       "symbol": "COST",
@@ -156,12 +156,12 @@
       "exchange": "NAS",
       "asof": "2026-10-19",
       "days": 100,
-      "close_usd": 984.11,
+      "close_usd": 995.53,
       "status": "SCREENABLE",
-      "rvol_20d": 0.0,
-      "return_20d_pct": 9.53,
-      "return_60d_pct": 5.25,
-      "distance_from_20d_high_pct": -0.51
+      "rvol_20d": 0.76,
+      "return_20d_pct": 10.8,
+      "return_60d_pct": 6.47,
+      "distance_from_20d_high_pct": 0.0
     },
     {
       "symbol": "AMAT",
@@ -169,12 +169,12 @@
       "exchange": "NAS",
       "asof": "2026-10-19",
       "days": 100,
-      "close_usd": 425.6904,
+      "close_usd": 413.11,
       "status": "SCREENABLE",
-      "rvol_20d": 0.0,
-      "return_20d_pct": -8.3,
-      "return_60d_pct": -20.53,
-      "distance_from_20d_high_pct": -21.5
+      "rvol_20d": 1.05,
+      "return_20d_pct": -11.01,
+      "return_60d_pct": -22.88,
+      "distance_from_20d_high_pct": -23.82
     },
     {
       "symbol": "MU",
@@ -182,12 +182,12 @@
       "exchange": "NAS",
       "asof": "2026-10-19",
       "days": 100,
-      "close_usd": 910.52,
+      "close_usd": 904.9,
       "status": "SCREENABLE",
-      "rvol_20d": 0.01,
-      "return_20d_pct": -12.77,
-      "return_60d_pct": -1.12,
-      "distance_from_20d_high_pct": -17.02
+      "rvol_20d": 0.95,
+      "return_20d_pct": -13.31,
+      "return_60d_pct": -1.73,
+      "distance_from_20d_high_pct": -17.53
     },
     {
       "symbol": "QCOM",
@@ -195,12 +195,12 @@
       "exchange": "NAS",
       "asof": "2026-10-19",
       "days": 100,
-      "close_usd": 176.1,
+      "close_usd": 173.53,
       "status": "SCREENABLE",
-      "rvol_20d": 0.0,
-      "return_20d_pct": -9.33,
-      "return_60d_pct": 6.04,
-      "distance_from_20d_high_pct": -12.81
+      "rvol_20d": 0.95,
+      "return_20d_pct": -10.66,
+      "return_60d_pct": 4.49,
+      "distance_from_20d_high_pct": -14.08
     },
     {
       "symbol": "JPM",
@@ -208,12 +208,12 @@
       "exchange": "NYS",
       "asof": "2026-10-19",
       "days": 100,
-      "close_usd": 339.28,
+      "close_usd": 333.53,
       "status": "SCREENABLE",
-      "rvol_20d": 0.0,
-      "return_20d_pct": -3.14,
-      "return_60d_pct": -3.46,
-      "distance_from_20d_high_pct": -0.61
+      "rvol_20d": 0.85,
+      "return_20d_pct": -4.79,
+      "return_60d_pct": -5.1,
+      "distance_from_20d_high_pct": -2.29
     },
     {
       "symbol": "V",
@@ -221,12 +221,12 @@
       "exchange": "NYS",
       "asof": "2026-10-19",
       "days": 100,
-      "close_usd": 399.9,
+      "close_usd": 402.92,
       "status": "SCREENABLE",
-      "rvol_20d": 0.0,
-      "return_20d_pct": 8.1,
-      "return_60d_pct": 12.62,
-      "distance_from_20d_high_pct": -0.67
+      "rvol_20d": 0.98,
+      "return_20d_pct": 8.91,
+      "return_60d_pct": 13.47,
+      "distance_from_20d_high_pct": 0.0
     },
     {
       "symbol": "MA",
@@ -234,12 +234,12 @@
       "exchange": "NYS",
       "asof": "2026-10-19",
       "days": 100,
-      "close_usd": 615.4,
+      "close_usd": 616.4,
       "status": "SCREENABLE",
-      "rvol_20d": 0.0,
-      "return_20d_pct": 8.58,
-      "return_60d_pct": 14.21,
-      "distance_from_20d_high_pct": -0.33
+      "rvol_20d": 0.98,
+      "return_20d_pct": 8.75,
+      "return_60d_pct": 14.39,
+      "distance_from_20d_high_pct": -0.17
     },
     {
       "symbol": "UNH",
@@ -247,12 +247,12 @@
       "exchange": "NYS",
       "asof": "2026-10-19",
       "days": 100,
-      "close_usd": 398.62,
+      "close_usd": 406.88,
       "status": "SCREENABLE",
-      "rvol_20d": 0.0,
-      "return_20d_pct": 5.58,
-      "return_60d_pct": -4.67,
-      "distance_from_20d_high_pct": -1.98
+      "rvol_20d": 0.84,
+      "return_20d_pct": 7.77,
+      "return_60d_pct": -2.7,
+      "distance_from_20d_high_pct": 0.0
     },
     {
       "symbol": "XOM",
@@ -260,12 +260,12 @@
       "exchange": "NYS",
       "asof": "2026-10-19",
       "days": 100,
-      "close_usd": 177.4987,
+      "close_usd": 178.28,
       "status": "SCREENABLE",
-      "rvol_20d": 0.0,
-      "return_20d_pct": 12.13,
-      "return_60d_pct": 13.1,
-      "distance_from_20d_high_pct": -0.83
+      "rvol_20d": 0.95,
+      "return_20d_pct": 12.62,
+      "return_60d_pct": 13.6,
+      "distance_from_20d_high_pct": -0.39
     },
     {
       "symbol": "GE",
@@ -273,12 +273,12 @@
       "exchange": "NYS",
       "asof": "2026-10-19",
       "days": 100,
-      "close_usd": 315.75,
+      "close_usd": 311.28,
       "status": "SCREENABLE",
-      "rvol_20d": 0.0,
-      "return_20d_pct": -0.87,
-      "return_60d_pct": -10.6,
-      "distance_from_20d_high_pct": -3.32
+      "rvol_20d": 1.27,
+      "return_20d_pct": -2.27,
+      "return_60d_pct": -11.87,
+      "distance_from_20d_high_pct": -4.69
     },
     {
       "symbol": "CAT",
@@ -286,12 +286,12 @@
       "exchange": "NYS",
       "asof": "2026-10-19",
       "days": 100,
-      "close_usd": 743.34,
+      "close_usd": 725.79,
       "status": "SCREENABLE",
-      "rvol_20d": 0.0,
-      "return_20d_pct": -8.96,
-      "return_60d_pct": -16.36,
-      "distance_from_20d_high_pct": -13.91
+      "rvol_20d": 1.05,
+      "return_20d_pct": -11.11,
+      "return_60d_pct": -18.33,
+      "distance_from_20d_high_pct": -15.94
     },
     {
       "symbol": "LLY",
@@ -299,12 +299,12 @@
       "exchange": "NYS",
       "asof": "2026-10-19",
       "days": 100,
-      "close_usd": 1246.31,
+      "close_usd": 1240.34,
       "status": "SCREENABLE",
-      "rvol_20d": 0.0,
-      "return_20d_pct": 6.99,
-      "return_60d_pct": 4.35,
-      "distance_from_20d_high_pct": -0.85
+      "rvol_20d": 0.85,
+      "return_20d_pct": 6.48,
+      "return_60d_pct": 3.85,
+      "distance_from_20d_high_pct": -1.33
     }
   ],
   "errors": [

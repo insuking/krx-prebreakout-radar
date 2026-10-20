@@ -1,0 +1,12 @@
+{
+  "generated_at_utc": "2026-10-20T15:44:12.292485+00:00",
+  "market": "US",
+  "status": "NO_VERIFIED_SIGNAL",
+  "verified_count": 0,
+  "recommendations": [],
+  "trade_execution_enabled": false,
+  "note": "Only independently validated model candidates are published; research WATCH is excluded.",
+  "blocked_by": [
+    "validation_evidence_missing_or_invalid"
+  ]
+}

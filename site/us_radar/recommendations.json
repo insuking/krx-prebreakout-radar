@@ -1,0 +1,18 @@
+{
+  "generated_at_utc": "2026-10-20T15:44:11.886679+00:00",
+  "market": "US",
+  "source": "KIS overseas daily historical prices; no verified live quotes",
+  "eligible_watch_count": 0,
+  "scored_count": 0,
+  "universe_count": 25,
+  "data_asof": null,
+  "status": "RESEARCH_ONLY",
+  "recommendations": [],
+  "limitations": [
+    "No live VWAP or order book",
+    "No intraday 5-gate confirmation",
+    "Pilot universe only, not all US listed equities",
+    "Backtest and walk-forward validation pending",
+    "Targets and stops are hypothetical reference levels, not guaranteed fills"
+  ]
+}
