@@ -19,7 +19,7 @@ for b in sorted(batches,key=lambda x:x.get("generated_utc",""),reverse=True):
   if r["symbol"] not in seen:seen.add(r["symbol"]);candidates.append(r)
  for r in b.get("failures",[]):
   if r["symbol"] not in seen:seen.add(r["symbol"]);failed.append(r)
-status="PARTIAL" if len(seen)<universe else "ALL_SYMBOLS_ATTEMPTED"
+status=("SOURCE_UNAVAILABLE" if not candidates else ("PARTIAL" if len(seen)<universe else "ALL_SYMBOLS_ATTEMPTED"))
 out={"generated_utc":dt.datetime.now(dt.timezone.utc).isoformat(),
  "status":status,"universe_count":universe,"symbols_attempted":len(seen),
  "symbols_with_usable_prices":len(candidates),"symbols_failed":len(failed),
