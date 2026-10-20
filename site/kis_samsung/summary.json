@@ -3,9 +3,9 @@
   "name": "삼성전자",
   "source": "KIS FHKST01010900",
   "market": "KRX",
-  "asof": "2026-10-19",
-  "updated_at_kst": "2026-10-19T19:50:43.385156+09:00",
-  "observations": 30,
+  "asof": "2026-10-20",
+  "updated_at_kst": "2026-10-20T22:52:49.053547+09:00",
+  "observations": 31,
   "units": {
     "foreign_net_shares": "shares",
     "institution_net_shares": "shares",
