@@ -1,19 +1,19 @@
 {
-  "generated_utc": "2026-10-20T03:13:23.002307+00:00",
-  "universe_snapshot_utc": "2026-10-20T03:13:08.761636+00:00",
+  "generated_utc": "2026-10-21T01:52:13.561739+00:00",
+  "universe_snapshot_utc": "2026-10-21T01:52:00.377045+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6248,
+  "universe_count": 6247,
   "batch_offset": 2400,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-10-19",
+  "last_completed_session_estimate": "2026-10-20",
   "candidates": [],
   "failures": [
     {
@@ -21,12 +21,8 @@
       "error": "UNSUPPORTED_SYMBOL_FORMAT"
     },
     {
-      "symbol": "GKOS",
+      "symbol": "GL",
       "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "GLAS",
-      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "GLBE",
@@ -405,15 +401,19 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
+      "symbol": "GRND",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GLAS",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
       "symbol": "GLAD",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "GJT",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "GL",
+      "symbol": "GKOS",
       "error": "SOURCE_DENIED_BODY"
     }
   ],
