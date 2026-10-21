@@ -1,10 +1,10 @@
 {
-  "snapshot_utc": "2026-10-21T01:52:00.377045+00:00",
+  "snapshot_utc": "2026-10-21T15:57:48.043106+00:00",
   "source_urls": {
     "NASDAQ": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt",
     "OTHER": "https://www.nasdaqtrader.com/dynamic/SymDir/otherlisted.txt"
   },
-  "count": 6247,
+  "count": 6250,
   "point_in_time_history": false,
   "coverage": "Current NASDAQ and other-exchange listed issues; preliminary stock filtering",
   "limitations": [
@@ -25907,10 +25907,24 @@
       "security_classification": "PROVISIONAL"
     },
     {
+      "symbol": "MSGK.V",
+      "name": "Madison Square Garden Sports Corp. Class A Common Stock When-Issued",
+      "exchange_source": "OTHER",
+      "listing_exchange": "N",
+      "security_classification": "PROVISIONAL"
+    },
+    {
       "symbol": "MSGM",
       "name": "Motorsport Games Inc. - Class A Common Stock",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
+      "security_classification": "PROVISIONAL"
+    },
+    {
+      "symbol": "MSGR.V",
+      "name": "MSG Rangers Corp. Class A Common Stock When-Issued",
+      "exchange_source": "OTHER",
+      "listing_exchange": "N",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -31565,6 +31579,13 @@
     {
       "symbol": "POLEU",
       "name": "Andretti Acquisition Corp. II - Unit",
+      "exchange_source": "NASDAQ",
+      "listing_exchange": "NASDAQ",
+      "security_classification": "PROVISIONAL"
+    },
+    {
+      "symbol": "POM",
+      "name": "POMDOCTOR LIMITED - Class A Ordinary Shares",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
@@ -38886,7 +38907,7 @@
     },
     {
       "symbol": "TMDE",
-      "name": "TMD Energy Limited Ordinary Shares",
+      "name": "TMD Energy Limited Class A Ordinary Shares",
       "exchange_source": "OTHER",
       "listing_exchange": "A",
       "security_classification": "PROVISIONAL"
