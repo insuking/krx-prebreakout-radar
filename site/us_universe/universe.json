@@ -1,5 +1,5 @@
 {
-  "snapshot_utc": "2026-10-22T01:42:27.207848+00:00",
+  "snapshot_utc": "2026-10-22T15:53:03.220512+00:00",
   "source_urls": {
     "NASDAQ": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt",
     "OTHER": "https://www.nasdaqtrader.com/dynamic/SymDir/otherlisted.txt"
@@ -3525,20 +3525,6 @@
       "name": "ATI Inc. Common Stock",
       "exchange_source": "OTHER",
       "listing_exchange": "N",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "ATII",
-      "name": "Archimedes Tech SPAC Partners II Co. - Ordinary Shares",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "ATIIU",
-      "name": "Archimedes Tech SPAC Partners II Co. - Unit",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -10866,6 +10852,13 @@
     {
       "symbol": "DAVE",
       "name": "Dave Inc.  - Class A Common Stock",
+      "exchange_source": "NASDAQ",
+      "listing_exchange": "NASDAQ",
+      "security_classification": "PROVISIONAL"
+    },
+    {
+      "symbol": "DAVI",
+      "name": "Davion Healthcare Plc - Ordinary Shares",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
@@ -26513,6 +26506,13 @@
       "name": "Nuveen New York Quality Municipal Income Fund Common Stock",
       "exchange_source": "OTHER",
       "listing_exchange": "N",
+      "security_classification": "PROVISIONAL"
+    },
+    {
+      "symbol": "NANO",
+      "name": "Forge Nano Holdings Inc. - Common stock",
+      "exchange_source": "NASDAQ",
+      "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
     },
     {
