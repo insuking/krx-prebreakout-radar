@@ -1,5 +1,5 @@
 {
-  "snapshot_utc": "2026-10-23T01:46:46.820319+00:00",
+  "snapshot_utc": "2026-10-23T15:45:04.328312+00:00",
   "source_urls": {
     "NASDAQ": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt",
     "OTHER": "https://www.nasdaqtrader.com/dynamic/SymDir/otherlisted.txt"
@@ -23856,6 +23856,13 @@
       "security_classification": "PROVISIONAL"
     },
     {
+      "symbol": "LYCA",
+      "name": "Lycia Therapeutics, Inc. - Common Stock",
+      "exchange_source": "NASDAQ",
+      "listing_exchange": "NASDAQ",
+      "security_classification": "PROVISIONAL"
+    },
+    {
       "symbol": "LYEL",
       "name": "Lyell Immunopharma, Inc. - Common Stock",
       "exchange_source": "NASDAQ",
@@ -30093,6 +30100,13 @@
       "security_classification": "PROVISIONAL"
     },
     {
+      "symbol": "PAXG",
+      "name": "Pine Tree Acquisition Corp. - Class A Ordinary Shares",
+      "exchange_source": "NASDAQ",
+      "listing_exchange": "NASDAQ",
+      "security_classification": "PROVISIONAL"
+    },
+    {
       "symbol": "PAXGU",
       "name": "Pine Tree Acquisition Corp. - Units",
       "exchange_source": "NASDAQ",
@@ -30608,13 +30622,6 @@
       "name": "PepGen Inc. - Common Stock",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "PERF",
-      "name": "Perfect Corp. Class A Ordinary Share",
-      "exchange_source": "OTHER",
-      "listing_exchange": "N",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -35214,13 +35221,6 @@
       "name": "Seadrill Limited Common Shares",
       "exchange_source": "OTHER",
       "listing_exchange": "N",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "SDST",
-      "name": "Stardust Power Inc. - Common Stock",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
     },
     {
