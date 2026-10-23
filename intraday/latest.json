@@ -1,5 +1,5 @@
 {
-  "run_at_kst": "2026-10-22T13:36:03.371966+09:00",
+  "run_at_kst": "2026-10-23T13:41:43.936787+09:00",
   "market_open_window": true,
   "mode": "public_quote_observation_only",
   "message": "Public quote observations are not verified real-time trades. BUY disabled.",
@@ -8,19 +8,19 @@
       "code": "024740",
       "name": "한일단조",
       "group": "A",
-      "base_date": "2026-10-22",
-      "base_close": "2280",
-      "checked_at": "2026-10-22T13:36:03.371966+09:00",
+      "base_date": "2026-10-23",
+      "base_close": "2510",
+      "checked_at": "2026-10-23T13:41:43.936787+09:00",
       "status": "WATCH",
       "verified_gates": 0,
       "required_gates": 5,
       "errors": [
         "실시간성/거래일 확인 불가: 매수 신호 불허"
       ],
-      "public_display_price": 2275.0,
-      "quote_timestamp": "2026-10-22T13:35:22+09:00",
+      "public_display_price": 2420.0,
+      "quote_timestamp": "2026-10-23T13:41:22+09:00",
       "quote_source": "Naver mobile public endpoint (may be delayed)",
-      "price_vs_previous_close_pct": -0.22,
+      "price_vs_previous_close_pct": -3.59,
       "gates": {
         "quote_freshness": "UNVERIFIED",
         "opening_support": "UNVERIFIED",
@@ -30,22 +30,22 @@
       }
     },
     {
-      "code": "207940",
-      "name": "삼성바이오로직스",
+      "code": "441270",
+      "name": "파인엠텍",
       "group": "A",
-      "base_date": "2026-10-22",
-      "base_close": "1398000",
-      "checked_at": "2026-10-22T13:36:03.371966+09:00",
+      "base_date": "2026-10-23",
+      "base_close": "10230",
+      "checked_at": "2026-10-23T13:41:43.936787+09:00",
       "status": "WATCH",
       "verified_gates": 0,
       "required_gates": 5,
       "errors": [
         "실시간성/거래일 확인 불가: 매수 신호 불허"
       ],
-      "public_display_price": 1387000.0,
-      "quote_timestamp": "2026-10-22T13:35:22+09:00",
+      "public_display_price": 11040.0,
+      "quote_timestamp": "2026-10-23T13:41:21+09:00",
       "quote_source": "Naver mobile public endpoint (may be delayed)",
-      "price_vs_previous_close_pct": -0.79,
+      "price_vs_previous_close_pct": 7.92,
       "gates": {
         "quote_freshness": "UNVERIFIED",
         "opening_support": "UNVERIFIED",
@@ -55,20 +55,45 @@
       }
     },
     {
-      "code": "263750",
-      "name": "펄어비스",
+      "code": "000100",
+      "name": "유한양행",
       "group": "A",
-      "base_date": "2026-10-22",
-      "base_close": "34750",
-      "checked_at": "2026-10-22T13:36:03.371966+09:00",
+      "base_date": "2026-10-23",
+      "base_close": "85300",
+      "checked_at": "2026-10-23T13:41:43.936787+09:00",
       "status": "WATCH",
       "verified_gates": 0,
       "required_gates": 5,
       "errors": [
         "실시간성/거래일 확인 불가: 매수 신호 불허"
       ],
-      "public_display_price": 34750.0,
-      "quote_timestamp": "2026-10-22T13:35:23+09:00",
+      "public_display_price": 85400.0,
+      "quote_timestamp": "2026-10-23T13:41:20+09:00",
+      "quote_source": "Naver mobile public endpoint (may be delayed)",
+      "price_vs_previous_close_pct": 0.12,
+      "gates": {
+        "quote_freshness": "UNVERIFIED",
+        "opening_support": "UNVERIFIED",
+        "vwap": "UNVERIFIED",
+        "intraday_rvol": "UNVERIFIED",
+        "investor_flow_and_relative_strength": "UNVERIFIED"
+      }
+    },
+    {
+      "code": "013580",
+      "name": "계룡건설",
+      "group": "B",
+      "base_date": "2026-10-23",
+      "base_close": "26150",
+      "checked_at": "2026-10-23T13:41:43.936787+09:00",
+      "status": "WATCH",
+      "verified_gates": 0,
+      "required_gates": 5,
+      "errors": [
+        "실시간성/거래일 확인 불가: 매수 신호 불허"
+      ],
+      "public_display_price": 26150.0,
+      "quote_timestamp": "2026-10-23T13:41:19+09:00",
       "quote_source": "Naver mobile public endpoint (may be delayed)",
       "price_vs_previous_close_pct": 0.0,
       "gates": {
@@ -80,22 +105,22 @@
       }
     },
     {
-      "code": "456160",
-      "name": "지투지바이오",
+      "code": "089890",
+      "name": "코세스",
       "group": "B",
-      "base_date": "2026-10-22",
-      "base_close": "43850",
-      "checked_at": "2026-10-22T13:36:03.371966+09:00",
+      "base_date": "2026-10-23",
+      "base_close": "39350",
+      "checked_at": "2026-10-23T13:41:43.936787+09:00",
       "status": "WATCH",
       "verified_gates": 0,
       "required_gates": 5,
       "errors": [
         "실시간성/거래일 확인 불가: 매수 신호 불허"
       ],
-      "public_display_price": 42500.0,
-      "quote_timestamp": "2026-10-22T13:35:21+09:00",
+      "public_display_price": 39100.0,
+      "quote_timestamp": "2026-10-23T13:41:18+09:00",
       "quote_source": "Naver mobile public endpoint (may be delayed)",
-      "price_vs_previous_close_pct": -3.08,
+      "price_vs_previous_close_pct": -0.64,
       "gates": {
         "quote_freshness": "UNVERIFIED",
         "opening_support": "UNVERIFIED",
@@ -105,47 +130,22 @@
       }
     },
     {
-      "code": "013990",
-      "name": "아가방컴퍼니",
+      "code": "126340",
+      "name": "비나텍",
       "group": "B",
-      "base_date": "2026-10-22",
-      "base_close": "5290",
-      "checked_at": "2026-10-22T13:36:03.371966+09:00",
+      "base_date": "2026-10-23",
+      "base_close": "111800",
+      "checked_at": "2026-10-23T13:41:43.936787+09:00",
       "status": "WATCH",
       "verified_gates": 0,
       "required_gates": 5,
       "errors": [
         "실시간성/거래일 확인 불가: 매수 신호 불허"
       ],
-      "public_display_price": 4770.0,
-      "quote_timestamp": "2026-10-22T13:35:58+09:00",
+      "public_display_price": 117100.0,
+      "quote_timestamp": "2026-10-23T13:41:18+09:00",
       "quote_source": "Naver mobile public endpoint (may be delayed)",
-      "price_vs_previous_close_pct": -9.83,
-      "gates": {
-        "quote_freshness": "UNVERIFIED",
-        "opening_support": "UNVERIFIED",
-        "vwap": "UNVERIFIED",
-        "intraday_rvol": "UNVERIFIED",
-        "investor_flow_and_relative_strength": "UNVERIFIED"
-      }
-    },
-    {
-      "code": "270660",
-      "name": "에브리봇",
-      "group": "B",
-      "base_date": "2026-10-22",
-      "base_close": "14010",
-      "checked_at": "2026-10-22T13:36:03.371966+09:00",
-      "status": "WATCH",
-      "verified_gates": 0,
-      "required_gates": 5,
-      "errors": [
-        "실시간성/거래일 확인 불가: 매수 신호 불허"
-      ],
-      "public_display_price": 14040.0,
-      "quote_timestamp": "2026-10-22T13:35:21+09:00",
-      "quote_source": "Naver mobile public endpoint (may be delayed)",
-      "price_vs_previous_close_pct": 0.21,
+      "price_vs_previous_close_pct": 4.74,
       "gates": {
         "quote_freshness": "UNVERIFIED",
         "opening_support": "UNVERIFIED",
