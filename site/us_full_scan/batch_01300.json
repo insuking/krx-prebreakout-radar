@@ -1,40 +1,28 @@
 {
-  "generated_utc": "2026-10-20T03:13:19.517881+00:00",
-  "universe_snapshot_utc": "2026-10-20T03:13:08.761636+00:00",
+  "generated_utc": "2026-10-23T01:47:05.101016+00:00",
+  "universe_snapshot_utc": "2026-10-23T01:46:46.820319+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6248,
+  "universe_count": 6250,
   "batch_offset": 1300,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-10-19",
+  "last_completed_session_estimate": "2026-10-22",
   "candidates": [],
   "failures": [
     {
-      "symbol": "CNM",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "CNO",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "CNO$A",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "UNSUPPORTED_SYMBOL_FORMAT"
     },
     {
       "symbol": "CNOB",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "CNP",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "CNQ",
@@ -405,15 +393,27 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
+      "symbol": "CRDL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CRDO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CRE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
       "symbol": "CNNE",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "CNMD",
+      "symbol": "CNO",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "CNL",
+      "symbol": "CNP",
       "error": "SOURCE_DENIED_BODY"
     }
   ],

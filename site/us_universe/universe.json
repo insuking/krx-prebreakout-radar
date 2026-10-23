@@ -1,5 +1,5 @@
 {
-  "snapshot_utc": "2026-10-22T15:53:03.220512+00:00",
+  "snapshot_utc": "2026-10-23T01:46:46.820319+00:00",
   "source_urls": {
     "NASDAQ": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt",
     "OTHER": "https://www.nasdaqtrader.com/dynamic/SymDir/otherlisted.txt"
