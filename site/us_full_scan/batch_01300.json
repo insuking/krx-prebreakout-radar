@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-23T01:47:05.101016+00:00",
-  "universe_snapshot_utc": "2026-10-23T01:46:46.820319+00:00",
+  "generated_utc": "2026-10-24T01:51:42.997456+00:00",
+  "universe_snapshot_utc": "2026-10-24T01:51:29.534572+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
@@ -13,7 +13,7 @@
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-10-22",
+  "last_completed_session_estimate": "2026-10-23",
   "candidates": [],
   "failures": [
     {
@@ -405,7 +405,7 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "CNNE",
+      "symbol": "CNP",
       "error": "SOURCE_DENIED_BODY"
     },
     {
@@ -413,7 +413,7 @@
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "CNP",
+      "symbol": "CNNE",
       "error": "SOURCE_DENIED_BODY"
     }
   ],

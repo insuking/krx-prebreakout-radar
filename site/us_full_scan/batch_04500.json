@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-23T01:47:08.210659+00:00",
-  "universe_snapshot_utc": "2026-10-23T01:46:46.820319+00:00",
+  "generated_utc": "2026-10-24T01:51:45.532476+00:00",
+  "universe_snapshot_utc": "2026-10-24T01:51:29.534572+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
@@ -13,12 +13,16 @@
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-10-22",
+  "last_completed_session_estimate": "2026-10-23",
   "candidates": [],
   "failures": [
     {
-      "symbol": "POCI",
+      "symbol": "POAS",
       "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "POCI",
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "PODC",
@@ -401,19 +405,15 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "PTHS",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "POAS",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "PNTG",
+      "symbol": "PNRG",
       "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "PNW",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "PNTG",
       "error": "SOURCE_DENIED_BODY"
     }
   ],
