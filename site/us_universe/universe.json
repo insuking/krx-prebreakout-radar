@@ -1,10 +1,10 @@
 {
-  "snapshot_utc": "2026-10-27T02:20:04.760402+00:00",
+  "snapshot_utc": "2026-10-27T16:38:35.425923+00:00",
   "source_urls": {
     "NASDAQ": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt",
     "OTHER": "https://www.nasdaqtrader.com/dynamic/SymDir/otherlisted.txt"
   },
-  "count": 6247,
+  "count": 6246,
   "point_in_time_history": false,
   "coverage": "Current NASDAQ and other-exchange listed issues; preliminary stock filtering",
   "limitations": [
@@ -25907,8 +25907,8 @@
       "security_classification": "PROVISIONAL"
     },
     {
-      "symbol": "MSGK.V",
-      "name": "Madison Square Garden Sports Corp. Class A Common Stock When-Issued",
+      "symbol": "MSGK",
+      "name": "MSG Knickerbockers Corp. Class A Common Stock",
       "exchange_source": "OTHER",
       "listing_exchange": "N",
       "security_classification": "PROVISIONAL"
@@ -25921,15 +25921,8 @@
       "security_classification": "PROVISIONAL"
     },
     {
-      "symbol": "MSGR.V",
-      "name": "MSG Rangers Corp. Class A Common Stock When-Issued",
-      "exchange_source": "OTHER",
-      "listing_exchange": "N",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "MSGS",
-      "name": "Madison Square Garden Sports Corp. Class A Common Stock (New)",
+      "symbol": "MSGR",
+      "name": "MSG Rangers Corp. Class A Common Stock",
       "exchange_source": "OTHER",
       "listing_exchange": "N",
       "security_classification": "PROVISIONAL"
@@ -26527,13 +26520,6 @@
       "name": "Nordic American Tankers Limited Common Stock",
       "exchange_source": "OTHER",
       "listing_exchange": "N",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "NATH",
-      "name": "Nathan's Famous, Inc. - Common Stock",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -30024,7 +30010,7 @@
     },
     {
       "symbol": "PARA",
-      "name": "Banzai International, Inc. - Class A Common Stock",
+      "name": "Parabolic Technologies, Inc. - Class A Common Stock",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
@@ -35107,6 +35093,13 @@
     {
       "symbol": "SCPQU",
       "name": "Social Commerce Partners Corporation - Unit",
+      "exchange_source": "NASDAQ",
+      "listing_exchange": "NASDAQ",
+      "security_classification": "PROVISIONAL"
+    },
+    {
+      "symbol": "SCQCU",
+      "name": "SPACCircle Acquisition Corp. - Units",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
