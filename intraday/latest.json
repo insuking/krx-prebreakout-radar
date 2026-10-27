@@ -1,5 +1,5 @@
 {
-  "run_at_kst": "2026-10-26T13:39:16.959500+09:00",
+  "run_at_kst": "2026-10-27T13:56:55.089721+09:00",
   "market_open_window": true,
   "mode": "public_quote_observation_only",
   "message": "Public quote observations are not verified real-time trades. BUY disabled.",
@@ -8,19 +8,19 @@
       "code": "018260",
       "name": "삼성에스디에스",
       "group": "A",
-      "base_date": "2026-10-26",
-      "base_close": "214500",
-      "checked_at": "2026-10-26T13:39:16.959500+09:00",
+      "base_date": "2026-10-27",
+      "base_close": "220000",
+      "checked_at": "2026-10-27T13:56:55.089721+09:00",
       "status": "WATCH",
       "verified_gates": 0,
       "required_gates": 5,
       "errors": [
         "실시간성/거래일 확인 불가: 매수 신호 불허"
       ],
-      "public_display_price": 215000.0,
-      "quote_timestamp": "2026-10-26T13:38:19+09:00",
+      "public_display_price": 215500.0,
+      "quote_timestamp": "2026-10-27T13:56:19+09:00",
       "quote_source": "Naver mobile public endpoint (may be delayed)",
-      "price_vs_previous_close_pct": 0.23,
+      "price_vs_previous_close_pct": -2.05,
       "gates": {
         "quote_freshness": "UNVERIFIED",
         "opening_support": "UNVERIFIED",
@@ -30,22 +30,22 @@
       }
     },
     {
-      "code": "253590",
-      "name": "네오셈",
+      "code": "064400",
+      "name": "LG씨엔에스",
       "group": "A",
-      "base_date": "2026-10-26",
-      "base_close": "16490",
-      "checked_at": "2026-10-26T13:39:16.959500+09:00",
+      "base_date": "2026-10-27",
+      "base_close": "75800",
+      "checked_at": "2026-10-27T13:56:55.089721+09:00",
       "status": "WATCH",
       "verified_gates": 0,
       "required_gates": 5,
       "errors": [
         "실시간성/거래일 확인 불가: 매수 신호 불허"
       ],
-      "public_display_price": 15930.0,
-      "quote_timestamp": "2026-10-26T13:38:19+09:00",
+      "public_display_price": 75300.0,
+      "quote_timestamp": "2026-10-27T13:56:22+09:00",
       "quote_source": "Naver mobile public endpoint (may be delayed)",
-      "price_vs_previous_close_pct": -3.4,
+      "price_vs_previous_close_pct": -0.66,
       "gates": {
         "quote_freshness": "UNVERIFIED",
         "opening_support": "UNVERIFIED",
@@ -55,22 +55,22 @@
       }
     },
     {
-      "code": "290550",
-      "name": "디케이티",
+      "code": "263750",
+      "name": "펄어비스",
       "group": "A",
-      "base_date": "2026-10-26",
-      "base_close": "25100",
-      "checked_at": "2026-10-26T13:39:16.959500+09:00",
+      "base_date": "2026-10-27",
+      "base_close": "34250",
+      "checked_at": "2026-10-27T13:56:55.089721+09:00",
       "status": "WATCH",
       "verified_gates": 0,
       "required_gates": 5,
       "errors": [
         "실시간성/거래일 확인 불가: 매수 신호 불허"
       ],
-      "public_display_price": 25350.0,
-      "quote_timestamp": "2026-10-26T13:39:18+09:00",
+      "public_display_price": 34000.0,
+      "quote_timestamp": "2026-10-27T13:56:23+09:00",
       "quote_source": "Naver mobile public endpoint (may be delayed)",
-      "price_vs_previous_close_pct": 1.0,
+      "price_vs_previous_close_pct": -0.73,
       "gates": {
         "quote_freshness": "UNVERIFIED",
         "opening_support": "UNVERIFIED",
@@ -80,47 +80,22 @@
       }
     },
     {
-      "code": "293490",
-      "name": "카카오게임즈",
+      "code": "050110",
+      "name": "캠시스",
       "group": "B",
-      "base_date": "2026-10-26",
-      "base_close": "11240",
-      "checked_at": "2026-10-26T13:39:16.959500+09:00",
+      "base_date": "2026-10-27",
+      "base_close": "7050",
+      "checked_at": "2026-10-27T13:56:55.089721+09:00",
       "status": "WATCH",
       "verified_gates": 0,
       "required_gates": 5,
       "errors": [
         "실시간성/거래일 확인 불가: 매수 신호 불허"
       ],
-      "public_display_price": 11280.0,
-      "quote_timestamp": "2026-10-26T13:38:19+09:00",
+      "public_display_price": 7050.0,
+      "quote_timestamp": "2026-10-27T13:56:19+09:00",
       "quote_source": "Naver mobile public endpoint (may be delayed)",
-      "price_vs_previous_close_pct": 0.36,
-      "gates": {
-        "quote_freshness": "UNVERIFIED",
-        "opening_support": "UNVERIFIED",
-        "vwap": "UNVERIFIED",
-        "intraday_rvol": "UNVERIFIED",
-        "investor_flow_and_relative_strength": "UNVERIFIED"
-      }
-    },
-    {
-      "code": "013580",
-      "name": "계룡건설",
-      "group": "B",
-      "base_date": "2026-10-26",
-      "base_close": "26150",
-      "checked_at": "2026-10-26T13:39:16.959500+09:00",
-      "status": "WATCH",
-      "verified_gates": 0,
-      "required_gates": 5,
-      "errors": [
-        "실시간성/거래일 확인 불가: 매수 신호 불허"
-      ],
-      "public_display_price": 25950.0,
-      "quote_timestamp": "2026-10-26T13:39:19+09:00",
-      "quote_source": "Naver mobile public endpoint (may be delayed)",
-      "price_vs_previous_close_pct": -0.76,
+      "price_vs_previous_close_pct": 0.0,
       "gates": {
         "quote_freshness": "UNVERIFIED",
         "opening_support": "UNVERIFIED",
@@ -133,19 +108,44 @@
       "code": "338840",
       "name": "와이바이오로직스",
       "group": "B",
-      "base_date": "2026-10-26",
-      "base_close": "10120",
-      "checked_at": "2026-10-26T13:39:16.959500+09:00",
+      "base_date": "2026-10-27",
+      "base_close": "10010",
+      "checked_at": "2026-10-27T13:56:55.089721+09:00",
       "status": "WATCH",
       "verified_gates": 0,
       "required_gates": 5,
       "errors": [
         "실시간성/거래일 확인 불가: 매수 신호 불허"
       ],
-      "public_display_price": 10050.0,
-      "quote_timestamp": "2026-10-26T13:39:18+09:00",
+      "public_display_price": 10150.0,
+      "quote_timestamp": "2026-10-27T13:56:18+09:00",
       "quote_source": "Naver mobile public endpoint (may be delayed)",
-      "price_vs_previous_close_pct": -0.69,
+      "price_vs_previous_close_pct": 1.4,
+      "gates": {
+        "quote_freshness": "UNVERIFIED",
+        "opening_support": "UNVERIFIED",
+        "vwap": "UNVERIFIED",
+        "intraday_rvol": "UNVERIFIED",
+        "investor_flow_and_relative_strength": "UNVERIFIED"
+      }
+    },
+    {
+      "code": "351320",
+      "name": "넥사다이내믹스",
+      "group": "B",
+      "base_date": "2026-10-27",
+      "base_close": "5410",
+      "checked_at": "2026-10-27T13:56:55.089721+09:00",
+      "status": "WATCH",
+      "verified_gates": 0,
+      "required_gates": 5,
+      "errors": [
+        "실시간성/거래일 확인 불가: 매수 신호 불허"
+      ],
+      "public_display_price": 5380.0,
+      "quote_timestamp": "2026-10-27T13:56:23+09:00",
+      "quote_source": "Naver mobile public endpoint (may be delayed)",
+      "price_vs_previous_close_pct": -0.55,
       "gates": {
         "quote_freshness": "UNVERIFIED",
         "opening_support": "UNVERIFIED",
