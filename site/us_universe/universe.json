@@ -1,10 +1,10 @@
 {
-  "snapshot_utc": "2026-10-24T14:32:21.367959+00:00",
+  "snapshot_utc": "2026-10-27T02:20:04.760402+00:00",
   "source_urls": {
     "NASDAQ": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt",
     "OTHER": "https://www.nasdaqtrader.com/dynamic/SymDir/otherlisted.txt"
   },
-  "count": 6250,
+  "count": 6247,
   "point_in_time_history": false,
   "coverage": "Current NASDAQ and other-exchange listed issues; preliminary stock filtering",
   "limitations": [
@@ -296,13 +296,6 @@
     {
       "symbol": "ABXL",
       "name": "Abacus Global Management, Inc. 9.875% Fixed Rate Senior Notes due 2028",
-      "exchange_source": "OTHER",
-      "listing_exchange": "N",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "ACA",
-      "name": "Arcosa, Inc. Common Stock ",
       "exchange_source": "OTHER",
       "listing_exchange": "N",
       "security_classification": "PROVISIONAL"
@@ -1003,6 +996,13 @@
     {
       "symbol": "AESPU",
       "name": "Aeon Acquisition I Corp. - Units",
+      "exchange_source": "NASDAQ",
+      "listing_exchange": "NASDAQ",
+      "security_classification": "PROVISIONAL"
+    },
+    {
+      "symbol": "AETR",
+      "name": "Aetherion Technologies Inc. - Common Shares",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
@@ -12873,13 +12873,6 @@
       "security_classification": "PROVISIONAL"
     },
     {
-      "symbol": "ELME",
-      "name": "Elme Communities Common Stock",
-      "exchange_source": "OTHER",
-      "listing_exchange": "N",
-      "security_classification": "PROVISIONAL"
-    },
-    {
       "symbol": "ELMT",
       "name": "The Elmet Group Co. - Common Stock",
       "exchange_source": "NASDAQ",
@@ -14359,6 +14352,13 @@
     {
       "symbol": "FCCO",
       "name": "First Community Corporation - Common Stock",
+      "exchange_source": "NASDAQ",
+      "listing_exchange": "NASDAQ",
+      "security_classification": "PROVISIONAL"
+    },
+    {
+      "symbol": "FCDH",
+      "name": "Forcendra Holding Limited - Class A Ordinary Shares",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
@@ -30016,13 +30016,6 @@
       "security_classification": "PROVISIONAL"
     },
     {
-      "symbol": "PAPL",
-      "name": "Pineapple Financial Inc. Common Stock",
-      "exchange_source": "OTHER",
-      "listing_exchange": "A",
-      "security_classification": "PROVISIONAL"
-    },
-    {
       "symbol": "PAR",
       "name": "PAR Technology Corporation Common Stock",
       "exchange_source": "OTHER",
@@ -32216,6 +32209,13 @@
     {
       "symbol": "PTHS",
       "name": "Pelthos Therapeutics Inc. Common Stock",
+      "exchange_source": "OTHER",
+      "listing_exchange": "A",
+      "security_classification": "PROVISIONAL"
+    },
+    {
+      "symbol": "PTIV",
+      "name": "Pineapple Financial Inc. Common Stock",
       "exchange_source": "OTHER",
       "listing_exchange": "A",
       "security_classification": "PROVISIONAL"
@@ -41629,13 +41629,6 @@
       "security_classification": "PROVISIONAL"
     },
     {
-      "symbol": "VSME",
-      "name": "VS Media Holdings Limited - Class A Ordinary Shares",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
       "symbol": "VSNT",
       "name": "Versant Media Group, Inc. - Class A Common Stock",
       "exchange_source": "NASDAQ",
@@ -41988,13 +41981,6 @@
     {
       "symbol": "WEA",
       "name": "Western Asset Bond Fund Share of Beneficial Interest",
-      "exchange_source": "OTHER",
-      "listing_exchange": "N",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "WEAV",
-      "name": "Weave Communications, Inc. Common Stock",
       "exchange_source": "OTHER",
       "listing_exchange": "N",
       "security_classification": "PROVISIONAL"
@@ -42501,13 +42487,6 @@
       "name": "Wheaton Precious Metals Corp Common Shares (Canada)",
       "exchange_source": "OTHER",
       "listing_exchange": "N",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "WPRT",
-      "name": "Westport Fuel Systems Inc - Common Shares",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
     },
     {

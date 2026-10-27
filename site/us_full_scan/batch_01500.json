@@ -1,36 +1,24 @@
 {
-  "generated_utc": "2026-10-20T03:13:22.084346+00:00",
-  "universe_snapshot_utc": "2026-10-20T03:13:08.761636+00:00",
+  "generated_utc": "2026-10-27T02:20:19.123725+00:00",
+  "universe_snapshot_utc": "2026-10-27T02:20:04.760402+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6248,
+  "universe_count": 6247,
   "batch_offset": 1500,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-10-19",
+  "last_completed_session_estimate": "2026-10-26",
   "candidates": [],
   "failures": [
     {
-      "symbol": "CVR",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
       "symbol": "CVRX",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "CVS",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "CVSA",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "CVU",
@@ -210,6 +198,10 @@
     },
     {
       "symbol": "DAVE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DAVI",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
@@ -405,15 +397,23 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "CVLT",
+      "symbol": "DGICA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DGICB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CVS",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "CVNA",
+      "symbol": "CVSA",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "CVM",
+      "symbol": "CVR",
       "error": "SOURCE_DENIED_BODY"
     }
   ],
@@ -424,5 +424,4 @@
     "US market holiday handling is approximate; stale bars are rejected",
     "Do not trade based solely on this screen"
   ]
-}}
 }
