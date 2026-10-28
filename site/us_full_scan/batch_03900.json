@@ -1,28 +1,24 @@
 {
-  "generated_utc": "2026-10-22T01:42:47.328531+00:00",
-  "universe_snapshot_utc": "2026-10-22T01:42:27.207848+00:00",
+  "generated_utc": "2026-10-28T02:31:53.042097+00:00",
+  "universe_snapshot_utc": "2026-10-28T02:31:31.530808+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6250,
+  "universe_count": 6246,
   "batch_offset": 3900,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-10-21",
+  "last_completed_session_estimate": "2026-10-27",
   "candidates": [],
   "failures": [
     {
-      "symbol": "NKTX",
+      "symbol": "NKX",
       "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "NLY",
-      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "NLY$F",
@@ -405,15 +401,19 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
+      "symbol": "NTRA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
       "symbol": "NL",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "NKX",
+      "symbol": "NLOP",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "NLOP",
+      "symbol": "NLY",
       "error": "SOURCE_DENIED_BODY"
     }
   ],
@@ -424,4 +424,4 @@
     "US market holiday handling is approximate; stale bars are rejected",
     "Do not trade based solely on this screen"
   ]
-}}
+}
