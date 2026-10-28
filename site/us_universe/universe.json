@@ -1,5 +1,5 @@
 {
-  "snapshot_utc": "2026-10-28T02:31:31.530808+00:00",
+  "snapshot_utc": "2026-10-28T17:09:52.160553+00:00",
   "source_urls": {
     "NASDAQ": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt",
     "OTHER": "https://www.nasdaqtrader.com/dynamic/SymDir/otherlisted.txt"
@@ -14637,6 +14637,13 @@
       "security_classification": "PROVISIONAL"
     },
     {
+      "symbol": "FFTT",
+      "name": "Masonglory Limited - Class A Ordinary Shares",
+      "exchange_source": "NASDAQ",
+      "listing_exchange": "NASDAQ",
+      "security_classification": "PROVISIONAL"
+    },
+    {
       "symbol": "FG",
       "name": "F&G Annuities & Life, Inc. Common Stock",
       "exchange_source": "OTHER",
@@ -25925,13 +25932,6 @@
       "name": "MSG Rangers Corp. Class A Common Stock",
       "exchange_source": "OTHER",
       "listing_exchange": "N",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "MSGY",
-      "name": "Masonglory Limited - Class A Ordinary Shares",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
     },
     {
