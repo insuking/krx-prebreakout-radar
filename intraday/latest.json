@@ -1,26 +1,76 @@
 {
-  "run_at_kst": "2026-10-28T14:32:41.229413+09:00",
+  "run_at_kst": "2026-10-29T14:40:10.418322+09:00",
   "market_open_window": true,
   "mode": "public_quote_observation_only",
   "message": "Public quote observations are not verified real-time trades. BUY disabled.",
   "results": [
     {
+      "code": "079940",
+      "name": "가비아",
+      "group": "A",
+      "base_date": "2026-10-29",
+      "base_close": "50300",
+      "checked_at": "2026-10-29T14:40:10.418322+09:00",
+      "status": "WATCH",
+      "verified_gates": 0,
+      "required_gates": 5,
+      "errors": [
+        "실시간성/거래일 확인 불가: 매수 신호 불허"
+      ],
+      "public_display_price": 50400.0,
+      "quote_timestamp": "2026-10-29T14:39:51+09:00",
+      "quote_source": "Naver mobile public endpoint (may be delayed)",
+      "price_vs_previous_close_pct": 0.2,
+      "gates": {
+        "quote_freshness": "UNVERIFIED",
+        "opening_support": "UNVERIFIED",
+        "vwap": "UNVERIFIED",
+        "intraday_rvol": "UNVERIFIED",
+        "investor_flow_and_relative_strength": "UNVERIFIED"
+      }
+    },
+    {
+      "code": "064400",
+      "name": "LG씨엔에스",
+      "group": "A",
+      "base_date": "2026-10-29",
+      "base_close": "77950",
+      "checked_at": "2026-10-29T14:40:10.418322+09:00",
+      "status": "WATCH",
+      "verified_gates": 0,
+      "required_gates": 5,
+      "errors": [
+        "실시간성/거래일 확인 불가: 매수 신호 불허"
+      ],
+      "public_display_price": 78100.0,
+      "quote_timestamp": "2026-10-29T14:40:00+09:00",
+      "quote_source": "Naver mobile public endpoint (may be delayed)",
+      "price_vs_previous_close_pct": 0.19,
+      "gates": {
+        "quote_freshness": "UNVERIFIED",
+        "opening_support": "UNVERIFIED",
+        "vwap": "UNVERIFIED",
+        "intraday_rvol": "UNVERIFIED",
+        "investor_flow_and_relative_strength": "UNVERIFIED"
+      }
+    },
+    {
       "code": "293490",
       "name": "카카오게임즈",
       "group": "A",
-      "base_date": "2026-10-28",
-      "base_close": "11610",
-      "checked_at": "2026-10-28T14:32:41.229413+09:00",
+      "base_date": "2026-10-29",
+      "base_close": "11470",
+      "checked_at": "2026-10-29T14:40:10.418322+09:00",
       "status": "WATCH",
       "verified_gates": 0,
       "required_gates": 5,
       "errors": [
         "실시간성/거래일 확인 불가: 매수 신호 불허"
       ],
-      "public_display_price": 11600.0,
-      "quote_timestamp": "2026-10-28T14:32:14+09:00",
+      "public_display_price": 11270.0,
+      "quote_timestamp": "2026-10-29T14:39:21+09:00",
       "quote_source": "Naver mobile public endpoint (may be delayed)",
-      "price_vs_previous_close_pct": -0.09,
+      "price_vs_previous_close_pct": -1.74,
       "gates": {
         "quote_freshness": "UNVERIFIED",
         "opening_support": "UNVERIFIED",
@@ -30,72 +80,22 @@
       }
     },
     {
-      "code": "018260",
-      "name": "삼성에스디에스",
-      "group": "A",
-      "base_date": "2026-10-28",
-      "base_close": "221500",
-      "checked_at": "2026-10-28T14:32:41.229413+09:00",
-      "status": "WATCH",
-      "verified_gates": 0,
-      "required_gates": 5,
-      "errors": [
-        "실시간성/거래일 확인 불가: 매수 신호 불허"
-      ],
-      "public_display_price": 223500.0,
-      "quote_timestamp": "2026-10-28T14:32:19+09:00",
-      "quote_source": "Naver mobile public endpoint (may be delayed)",
-      "price_vs_previous_close_pct": 0.9,
-      "gates": {
-        "quote_freshness": "UNVERIFIED",
-        "opening_support": "UNVERIFIED",
-        "vwap": "UNVERIFIED",
-        "intraday_rvol": "UNVERIFIED",
-        "investor_flow_and_relative_strength": "UNVERIFIED"
-      }
-    },
-    {
-      "code": "097520",
-      "name": "엠씨넥스",
-      "group": "A",
-      "base_date": "2026-10-28",
-      "base_close": "20400",
-      "checked_at": "2026-10-28T14:32:41.229413+09:00",
-      "status": "WATCH",
-      "verified_gates": 0,
-      "required_gates": 5,
-      "errors": [
-        "실시간성/거래일 확인 불가: 매수 신호 불허"
-      ],
-      "public_display_price": 20100.0,
-      "quote_timestamp": "2026-10-28T14:32:21+09:00",
-      "quote_source": "Naver mobile public endpoint (may be delayed)",
-      "price_vs_previous_close_pct": -1.47,
-      "gates": {
-        "quote_freshness": "UNVERIFIED",
-        "opening_support": "UNVERIFIED",
-        "vwap": "UNVERIFIED",
-        "intraday_rvol": "UNVERIFIED",
-        "investor_flow_and_relative_strength": "UNVERIFIED"
-      }
-    },
-    {
-      "code": "100700",
-      "name": "세운메디칼",
+      "code": "028050",
+      "name": "삼성E&A",
       "group": "B",
-      "base_date": "2026-10-28",
-      "base_close": "2335",
-      "checked_at": "2026-10-28T14:32:41.229413+09:00",
+      "base_date": "2026-10-29",
+      "base_close": "62800",
+      "checked_at": "2026-10-29T14:40:10.418322+09:00",
       "status": "WATCH",
       "verified_gates": 0,
       "required_gates": 5,
       "errors": [
         "실시간성/거래일 확인 불가: 매수 신호 불허"
       ],
-      "public_display_price": 2315.0,
-      "quote_timestamp": "2026-10-28T14:32:19+09:00",
+      "public_display_price": 63100.0,
+      "quote_timestamp": "2026-10-29T14:39:23+09:00",
       "quote_source": "Naver mobile public endpoint (may be delayed)",
-      "price_vs_previous_close_pct": -0.86,
+      "price_vs_previous_close_pct": 0.48,
       "gates": {
         "quote_freshness": "UNVERIFIED",
         "opening_support": "UNVERIFIED",
@@ -105,22 +105,22 @@
       }
     },
     {
-      "code": "013580",
-      "name": "계룡건설",
+      "code": "031210",
+      "name": "서울보증보험",
       "group": "B",
-      "base_date": "2026-10-28",
-      "base_close": "26350",
-      "checked_at": "2026-10-28T14:32:41.229413+09:00",
+      "base_date": "2026-10-29",
+      "base_close": "43000",
+      "checked_at": "2026-10-29T14:40:10.418322+09:00",
       "status": "WATCH",
       "verified_gates": 0,
       "required_gates": 5,
       "errors": [
         "실시간성/거래일 확인 불가: 매수 신호 불허"
       ],
-      "public_display_price": 26300.0,
-      "quote_timestamp": "2026-10-28T14:32:19+09:00",
+      "public_display_price": 43000.0,
+      "quote_timestamp": "2026-10-29T14:40:13+09:00",
       "quote_source": "Naver mobile public endpoint (may be delayed)",
-      "price_vs_previous_close_pct": -0.19,
+      "price_vs_previous_close_pct": 0.0,
       "gates": {
         "quote_freshness": "UNVERIFIED",
         "opening_support": "UNVERIFIED",
@@ -130,22 +130,22 @@
       }
     },
     {
-      "code": "200470",
-      "name": "에이팩트",
+      "code": "144960",
+      "name": "뉴파워프라즈마",
       "group": "B",
-      "base_date": "2026-10-28",
-      "base_close": "10570",
-      "checked_at": "2026-10-28T14:32:41.229413+09:00",
+      "base_date": "2026-10-29",
+      "base_close": "15780",
+      "checked_at": "2026-10-29T14:40:10.418322+09:00",
       "status": "WATCH",
       "verified_gates": 0,
       "required_gates": 5,
       "errors": [
         "실시간성/거래일 확인 불가: 매수 신호 불허"
       ],
-      "public_display_price": 10820.0,
-      "quote_timestamp": "2026-10-28T14:32:20+09:00",
+      "public_display_price": 15520.0,
+      "quote_timestamp": "2026-10-29T14:40:07+09:00",
       "quote_source": "Naver mobile public endpoint (may be delayed)",
-      "price_vs_previous_close_pct": 2.37,
+      "price_vs_previous_close_pct": -1.65,
       "gates": {
         "quote_freshness": "UNVERIFIED",
         "opening_support": "UNVERIFIED",
