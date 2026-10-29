@@ -1,28 +1,24 @@
 {
-  "generated_utc": "2026-10-20T03:13:21.225962+00:00",
-  "universe_snapshot_utc": "2026-10-20T03:13:08.761636+00:00",
+  "generated_utc": "2026-10-29T02:42:22.546933+00:00",
+  "universe_snapshot_utc": "2026-10-29T02:42:08.253119+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6248,
+  "universe_count": 6246,
   "batch_offset": 2200,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-10-19",
+  "last_completed_session_estimate": "2026-10-28",
   "candidates": [],
   "failures": [
     {
-      "symbol": "FRME",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
       "symbol": "FRNM",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "FRO",
@@ -405,8 +401,8 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "FRHC",
-      "error": "SOURCE_DENIED_BODY"
+      "symbol": "GBAB",
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "FRMM",
@@ -414,6 +410,10 @@
     },
     {
       "symbol": "FRMI",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "FRME",
       "error": "SOURCE_DENIED_BODY"
     }
   ],
