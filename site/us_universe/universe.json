@@ -1,10 +1,10 @@
 {
-  "snapshot_utc": "2026-10-30T02:49:19.678393+00:00",
+  "snapshot_utc": "2026-10-30T17:00:33.878711+00:00",
   "source_urls": {
     "NASDAQ": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt",
     "OTHER": "https://www.nasdaqtrader.com/dynamic/SymDir/otherlisted.txt"
   },
-  "count": 6247,
+  "count": 6243,
   "point_in_time_history": false,
   "coverage": "Current NASDAQ and other-exchange listed issues; preliminary stock filtering",
   "limitations": [
@@ -3353,6 +3353,13 @@
       "security_classification": "PROVISIONAL"
     },
     {
+      "symbol": "ASPE",
+      "name": "Aspen Neuroscience, Inc. - Common Stock",
+      "exchange_source": "NASDAQ",
+      "listing_exchange": "NASDAQ",
+      "security_classification": "PROVISIONAL"
+    },
+    {
       "symbol": "ASPI",
       "name": "ASP Isotopes Inc. - Common Stock",
       "exchange_source": "NASDAQ",
@@ -4505,6 +4512,13 @@
       "name": "Beacon Financial Corporation Common stock",
       "exchange_source": "OTHER",
       "listing_exchange": "N",
+      "security_classification": "PROVISIONAL"
+    },
+    {
+      "symbol": "BBTX",
+      "name": "Bambusa Therapeutics, Inc. - Common stock",
+      "exchange_source": "NASDAQ",
+      "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -12229,20 +12243,6 @@
       "security_classification": "PROVISIONAL"
     },
     {
-      "symbol": "DYNC",
-      "name": "Dynamix Corporation - Class A Ordinary Share",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "DYNCU",
-      "name": "Dynamix Corporation - Unit",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
       "symbol": "DYOR",
       "name": "Insight Digital Partners II - Class A Ordinary Shares",
       "exchange_source": "NASDAQ",
@@ -16214,13 +16214,6 @@
     {
       "symbol": "GCT",
       "name": "GigaCloud Technology Inc - Class A Ordinary Shares",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "GCTK",
-      "name": "GlucoTrack, Inc. - Common Stock",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
@@ -23289,13 +23282,6 @@
       "security_classification": "PROVISIONAL"
     },
     {
-      "symbol": "LNAI",
-      "name": "Lunai Bioworks Inc. - Common Stock",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
       "symbol": "LNC",
       "name": "Lincoln National Corporation Common Stock",
       "exchange_source": "OTHER",
@@ -27619,6 +27605,13 @@
       "name": "Nomad Foods Limited Ordinary Shares",
       "exchange_source": "OTHER",
       "listing_exchange": "N",
+      "security_classification": "PROVISIONAL"
+    },
+    {
+      "symbol": "NORD",
+      "name": "Nordicus Partners Corporation - Common Stock",
+      "exchange_source": "NASDAQ",
+      "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -43332,27 +43325,6 @@
     {
       "symbol": "YHGJ",
       "name": "Yunhong Green CTI Ltd. - Common Stock",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "YHNA",
-      "name": "YHN Acquisition I Limited - Ordinary Shares",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "YHNAR",
-      "name": "YHN Acquisition I Limited - Right",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "YHNAU",
-      "name": "YHN Acquisition I Limited - Unit",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
