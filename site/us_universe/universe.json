@@ -1,10 +1,10 @@
 {
-  "snapshot_utc": "2026-10-29T17:25:53.201431+00:00",
+  "snapshot_utc": "2026-10-30T02:49:19.678393+00:00",
   "source_urls": {
     "NASDAQ": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt",
     "OTHER": "https://www.nasdaqtrader.com/dynamic/SymDir/otherlisted.txt"
   },
-  "count": 6248,
+  "count": 6247,
   "point_in_time_history": false,
   "coverage": "Current NASDAQ and other-exchange listed issues; preliminary stock filtering",
   "limitations": [
@@ -12742,13 +12742,6 @@
     {
       "symbol": "EIC",
       "name": "Eagle Point Income Company Common Shares of Beneficial Interest",
-      "exchange_source": "OTHER",
-      "listing_exchange": "N",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "EICA",
-      "name": "Eagle Point Income Company 5.00% Series A Term Preferred Shares due 2026",
       "exchange_source": "OTHER",
       "listing_exchange": "N",
       "security_classification": "PROVISIONAL"
