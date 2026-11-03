@@ -1,420 +1,420 @@
 {
-  "generated_utc": "2026-10-20T03:42:42.389791+00:00",
-  "universe_snapshot_utc": "2026-10-20T03:13:08.761636+00:00",
+  "generated_utc": "2026-11-03T03:59:35.788275+00:00",
+  "universe_snapshot_utc": "2026-11-03T03:59:19.600610+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
-  "source_denied": false,
+  "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6248,
+  "universe_count": 6240,
   "batch_offset": 4900,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-10-19",
+  "last_completed_session_estimate": "2026-11-02",
   "candidates": [],
   "failures": [
     {
-      "symbol": "RVTY",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
-    },
-    {
-      "symbol": "RVT",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
-    },
-    {
-      "symbol": "RWAYI",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
-    },
-    {
-      "symbol": "RWAY",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "symbol": "RWAYM",
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "RWT",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "RWTN",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
-    },
-    {
-      "symbol": "RWAYL",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
-    },
-    {
-      "symbol": "RWAYM",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "RWTO",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
-    },
-    {
-      "symbol": "RWTS",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
-    },
-    {
-      "symbol": "RWTQ",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "RWTP",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "RXT",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "symbol": "RWTQ",
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "RXRX",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
-    },
-    {
-      "symbol": "RXST",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "symbol": "RWTS",
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "RXO",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RXRX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RXST",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RXT",
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "RY",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "RYAM",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
-    },
-    {
-      "symbol": "RYDE",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "RYAN",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RYDE",
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "RYET",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "RYM",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
-    },
-    {
-      "symbol": "RYOJ",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "RYN",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "RZC",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
-    },
-    {
-      "symbol": "RZAI",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
-    },
-    {
-      "symbol": "RYZ",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "symbol": "RYOJ",
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "RYTM",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "SA",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "symbol": "RYZ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RZAI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RZC",
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "RZLT",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "RZLV",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "S",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "SABA",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "symbol": "SA",
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "SAAQ",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "SAAQU",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SABA",
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "SABR",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
-    },
-    {
-      "symbol": "SAFE",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
-    },
-    {
-      "symbol": "SAC",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
-    },
-    {
-      "symbol": "SACH",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "SABS",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "SAGT",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "symbol": "SAC",
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "SAGU",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "symbol": "SACH",
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "SAFX",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "symbol": "SAFE",
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "SAFT",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "SAIA",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "symbol": "SAFX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SAGT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SAGU",
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "SAH",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SAIA",
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "SAIC",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "SAIH",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "SAIL",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
-    },
-    {
-      "symbol": "SAJ",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "SAIQ",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SAJ",
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "SAM",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
-    },
-    {
-      "symbol": "SANA",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
-    },
-    {
-      "symbol": "SAMO",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
-    },
-    {
-      "symbol": "SAN",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "SAMG",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "SAR",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "symbol": "SAMO",
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "SAP",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "symbol": "SAN",
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "SANM",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "symbol": "SANA",
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "SANG",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "SATL",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "symbol": "SANM",
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "SAV",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "symbol": "SAP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SAR",
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "SARO",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SATL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SAV",
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "SAX",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
-    },
-    {
-      "symbol": "SB$C",
-      "error": "UNSUPPORTED_SYMBOL_FORMAT"
-    },
-    {
-      "symbol": "SB$D",
-      "error": "UNSUPPORTED_SYMBOL_FORMAT"
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "SAY",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "SAZ",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "SB",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SB$C",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SB$D",
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "SBAC",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
-    },
-    {
-      "symbol": "SBET",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "SBC",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "SBCF",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SBET",
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "SBFG",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "SBFM",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
-    },
-    {
-      "symbol": "SBH",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "SBGI",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SBH",
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "SBI",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "SBLK",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
-    },
-    {
-      "symbol": "SBR",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
-    },
-    {
-      "symbol": "SBRA",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "SBMT",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SBR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SBRA",
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "SBSI",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
-    },
-    {
-      "symbol": "SBUX",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "SBSW",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SBUX",
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "SBXE",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "SCAT",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
-    },
-    {
-      "symbol": "SCCD",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
-    },
-    {
-      "symbol": "SCCE",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "SCATU",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SCCD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SCCE",
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "SCCF",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
-    },
-    {
-      "symbol": "SCE$G",
-      "error": "UNSUPPORTED_SYMBOL_FORMAT"
-    },
-    {
-      "symbol": "SCE$L",
-      "error": "UNSUPPORTED_SYMBOL_FORMAT"
-    },
-    {
-      "symbol": "SCE$M",
-      "error": "UNSUPPORTED_SYMBOL_FORMAT"
-    },
-    {
-      "symbol": "SCE$N",
-      "error": "UNSUPPORTED_SYMBOL_FORMAT"
-    },
-    {
-      "symbol": "SCD",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "SCCG",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "SCCO",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "SCHW",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "symbol": "SCD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SCE$G",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SCE$L",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SCE$M",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SCE$N",
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "SCHL",
-      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SCHW",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SCI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SCII",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RWAY",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "RWAYI",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "RWAYL",
+      "error": "SOURCE_DENIED_BODY"
     }
   ],
   "warnings": [

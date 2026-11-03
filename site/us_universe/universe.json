@@ -1,10 +1,10 @@
 {
-  "snapshot_utc": "2026-10-31T16:06:02.397918+00:00",
+  "snapshot_utc": "2026-11-03T03:59:19.600610+00:00",
   "source_urls": {
     "NASDAQ": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt",
     "OTHER": "https://www.nasdaqtrader.com/dynamic/SymDir/otherlisted.txt"
   },
-  "count": 6243,
+  "count": 6240,
   "point_in_time_history": false,
   "coverage": "Current NASDAQ and other-exchange listed issues; preliminary stock filtering",
   "limitations": [
@@ -7280,6 +7280,13 @@
       "security_classification": "PROVISIONAL"
     },
     {
+      "symbol": "CASK",
+      "name": "Sempreon, Inc. - Common Stock",
+      "exchange_source": "NASDAQ",
+      "listing_exchange": "NASDAQ",
+      "security_classification": "PROVISIONAL"
+    },
+    {
       "symbol": "CASS",
       "name": "Cass Information Systems, Inc - Common Stock",
       "exchange_source": "NASDAQ",
@@ -7480,13 +7487,6 @@
       "name": "Cibus, Inc. - Class A Common Stock",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "CBZ",
-      "name": "CBIZ, Inc. Common Stock",
-      "exchange_source": "OTHER",
-      "listing_exchange": "N",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -7843,7 +7843,7 @@
       "symbol": "CECO",
       "name": "CECO Environmental Corp. Common Stock",
       "exchange_source": "OTHER",
-      "listing_exchange": "TXSE",
+      "listing_exchange": "F",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -11063,14 +11063,14 @@
       "symbol": "DDS",
       "name": "Dillard's, Inc. Common Stock",
       "exchange_source": "OTHER",
-      "listing_exchange": "TXSE",
+      "listing_exchange": "F",
       "security_classification": "PROVISIONAL"
     },
     {
       "symbol": "DDT",
       "name": "Dillard's Capital Trust I",
       "exchange_source": "OTHER",
-      "listing_exchange": "TXSE",
+      "listing_exchange": "F",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -13625,14 +13625,14 @@
       "symbol": "ET",
       "name": "Energy Transfer LP Common Units",
       "exchange_source": "OTHER",
-      "listing_exchange": "TXSE",
+      "listing_exchange": "F",
       "security_classification": "PROVISIONAL"
     },
     {
       "symbol": "ET$I",
       "name": "Energy Transfer L.P. Series I Fixed Rate Perpetual Preferred Units",
       "exchange_source": "OTHER",
-      "listing_exchange": "TXSE",
+      "listing_exchange": "F",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -19498,7 +19498,7 @@
       "symbol": "IBOC",
       "name": "International Bancshares Corporation Common Stock",
       "exchange_source": "OTHER",
-      "listing_exchange": "TXSE",
+      "listing_exchange": "F",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -21064,7 +21064,7 @@
     },
     {
       "symbol": "JBDI",
-      "name": "JBDI Holdings Limited - Ordinary Shares",
+      "name": "JBDI Holdings Limited - Class A Ordinary Shares",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
@@ -22390,13 +22390,6 @@
       "name": "KVH Industries, Inc. - Common Stock",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "KVUE",
-      "name": "Kenvue Inc. Common Stock",
-      "exchange_source": "OTHER",
-      "listing_exchange": "N",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -23828,13 +23821,6 @@
       "security_classification": "PROVISIONAL"
     },
     {
-      "symbol": "LXP",
-      "name": "LXP Industrial Trust Common Stock (Maryland REIT)",
-      "exchange_source": "OTHER",
-      "listing_exchange": "N",
-      "security_classification": "PROVISIONAL"
-    },
-    {
       "symbol": "LXRX",
       "name": "Lexicon Pharmaceuticals, Inc. - Common Stock",
       "exchange_source": "NASDAQ",
@@ -24852,13 +24838,6 @@
     {
       "symbol": "MGNX",
       "name": "MacroGenics, Inc. - Common Stock",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "MGPI",
-      "name": "MGP Ingredients, Inc. - Common Stock",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
@@ -26504,6 +26483,13 @@
     {
       "symbol": "NANO",
       "name": "Forge Nano Holdings Inc. - Common stock",
+      "exchange_source": "NASDAQ",
+      "listing_exchange": "NASDAQ",
+      "security_classification": "PROVISIONAL"
+    },
+    {
+      "symbol": "NARA",
+      "name": "Narragansett Bancorp, Inc. - Common Stock",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
@@ -28619,7 +28605,7 @@
       "symbol": "OBK",
       "name": "Origin Bancorp, Inc. Common Stock",
       "exchange_source": "OTHER",
-      "listing_exchange": "TXSE",
+      "listing_exchange": "F",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -32790,13 +32776,6 @@
     {
       "symbol": "RAL",
       "name": "Ralliant Corporation Common Stock",
-      "exchange_source": "OTHER",
-      "listing_exchange": "N",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "RAMP",
-      "name": "LiveRamp Holdings, Inc. Common Stock",
       "exchange_source": "OTHER",
       "listing_exchange": "N",
       "security_classification": "PROVISIONAL"
@@ -37537,7 +37516,7 @@
       "symbol": "SUN",
       "name": "Sunoco LP Common Units representing limited partner interests",
       "exchange_source": "OTHER",
-      "listing_exchange": "TXSE",
+      "listing_exchange": "F",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -37551,7 +37530,7 @@
       "symbol": "SUNC",
       "name": "SunocoCorp LLC Common Units, representing limited liability company interests",
       "exchange_source": "OTHER",
-      "listing_exchange": "TXSE",
+      "listing_exchange": "F",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -38118,7 +38097,7 @@
       "symbol": "TCBI",
       "name": "Texas Capital Bancshares, Inc. Common Stock",
       "exchange_source": "OTHER",
-      "listing_exchange": "TXSE",
+      "listing_exchange": "F",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -40533,7 +40512,7 @@
       "symbol": "USAC",
       "name": "USA Compression Partners, LP Common Units Representing Limited Partner Interests",
       "exchange_source": "OTHER",
-      "listing_exchange": "TXSE",
+      "listing_exchange": "F",
       "security_classification": "PROVISIONAL"
     },
     {
