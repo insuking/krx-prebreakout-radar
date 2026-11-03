@@ -1,10 +1,10 @@
 {
-  "snapshot_utc": "2026-11-03T03:59:19.600610+00:00",
+  "snapshot_utc": "2026-11-03T18:26:52.174905+00:00",
   "source_urls": {
     "NASDAQ": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt",
     "OTHER": "https://www.nasdaqtrader.com/dynamic/SymDir/otherlisted.txt"
   },
-  "count": 6240,
+  "count": 6236,
   "point_in_time_history": false,
   "coverage": "Current NASDAQ and other-exchange listed issues; preliminary stock filtering",
   "limitations": [
@@ -18683,13 +18683,6 @@
       "security_classification": "PROVISIONAL"
     },
     {
-      "symbol": "HODO",
-      "name": "House of Doge Inc. - Common Stock",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
       "symbol": "HOFT",
       "name": "Hooker Furnishings Corporation - Common Stock",
       "exchange_source": "NASDAQ",
@@ -20148,13 +20141,6 @@
     {
       "symbol": "INDP",
       "name": "Indaptus Therapeutics, Inc. - Common Stock",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "INDV",
-      "name": "Indivior Pharmaceuticals, Inc.  - Common Stock",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
@@ -25209,13 +25195,6 @@
     {
       "symbol": "MLCIL",
       "name": "Mount Logan Capital Inc. - 8.00% Notes Due 2031",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "MLEC",
-      "name": "Moolec Science SA - Ordinary Shares",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
@@ -37549,7 +37528,7 @@
     },
     {
       "symbol": "SUPN",
-      "name": "Supernus Pharmaceuticals, Inc. - Common Stock",
+      "name": "Supernus, Inc. - Common Stock",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
@@ -37699,13 +37678,6 @@
       "name": "Stanley Black & Decker, Inc. Common Stock",
       "exchange_source": "OTHER",
       "listing_exchange": "N",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "SWKHL",
-      "name": "SWK Holdings Corporation - 9.00% Senior Notes due 2027",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
     },
     {
