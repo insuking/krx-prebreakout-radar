@@ -1,10 +1,10 @@
 {
-  "snapshot_utc": "2026-11-04T03:07:19.921078+00:00",
+  "snapshot_utc": "2026-11-04T18:38:09.641166+00:00",
   "source_urls": {
     "NASDAQ": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt",
     "OTHER": "https://www.nasdaqtrader.com/dynamic/SymDir/otherlisted.txt"
   },
-  "count": 6236,
+  "count": 6235,
   "point_in_time_history": false,
   "coverage": "Current NASDAQ and other-exchange listed issues; preliminary stock filtering",
   "limitations": [
@@ -16170,13 +16170,6 @@
       "security_classification": "PROVISIONAL"
     },
     {
-      "symbol": "GCDT",
-      "name": "Green Circle Decarbonize Technology Limited Class A Ordinary Shares",
-      "exchange_source": "OTHER",
-      "listing_exchange": "A",
-      "security_classification": "PROVISIONAL"
-    },
-    {
       "symbol": "GCGR",
       "name": "General Catalyst Global Resilience Merger Corp. - Class A Ordinary Shares",
       "exchange_source": "NASDAQ",
@@ -22548,7 +22541,7 @@
     },
     {
       "symbol": "LASE",
-      "name": "Laser Photonics Corporation - Common Stock",
+      "name": "LASE Corp. - Common Stock",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
@@ -31816,7 +31809,7 @@
     },
     {
       "symbol": "PRM",
-      "name": "Perimeter Solutions, SA Common Stock",
+      "name": "Perimeter Group Inc. Common Stock",
       "exchange_source": "OTHER",
       "listing_exchange": "N",
       "security_classification": "PROVISIONAL"
