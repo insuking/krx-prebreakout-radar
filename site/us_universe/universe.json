@@ -1,5 +1,5 @@
 {
-  "snapshot_utc": "2026-11-05T03:39:00.754321+00:00",
+  "snapshot_utc": "2026-11-05T18:45:50.126893+00:00",
   "source_urls": {
     "NASDAQ": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt",
     "OTHER": "https://www.nasdaqtrader.com/dynamic/SymDir/otherlisted.txt"
@@ -1187,6 +1187,13 @@
       "name": "agilon health, inc. Common Stock",
       "exchange_source": "OTHER",
       "listing_exchange": "N",
+      "security_classification": "PROVISIONAL"
+    },
+    {
+      "symbol": "AGLT",
+      "name": "Agility Robotics, Inc. - Ordinary Shares",
+      "exchange_source": "NASDAQ",
+      "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -7707,20 +7714,6 @@
       "security_classification": "PROVISIONAL"
     },
     {
-      "symbol": "CCXI",
-      "name": "Churchill Capital Corp XI - Class A Ordinary Shares",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "CCXIU",
-      "name": "Churchill Capital Corp XI - Units",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
       "symbol": "CCZ",
       "name": "Comcast Holdings ZONES",
       "exchange_source": "OTHER",
@@ -7746,6 +7739,13 @@
       "name": "Cardio Diagnostics Holdings Inc. - Common stock",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
+      "security_classification": "PROVISIONAL"
+    },
+    {
+      "symbol": "CDLR",
+      "name": "Cadeler plc Ordinary Shares",
+      "exchange_source": "OTHER",
+      "listing_exchange": "N",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -13763,7 +13763,7 @@
     },
     {
       "symbol": "EUDA",
-      "name": "Euda Health Holdings Limited - Ordinary Shares",
+      "name": "Euda Health Holdings Limited - Class A Ordinary Shares",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
@@ -18586,9 +18586,9 @@
     },
     {
       "symbol": "HLT",
-      "name": "Hilton Worldwide Holdings Inc. Common Stock ",
-      "exchange_source": "OTHER",
-      "listing_exchange": "N",
+      "name": "Hilton Worldwide Holdings Inc. - Common Stock",
+      "exchange_source": "NASDAQ",
+      "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -43107,14 +43107,14 @@
     },
     {
       "symbol": "XTER",
-      "name": "Karman Line Acquisition Corp. - Class A Ordinary Shares",
+      "name": "Xterax Corporation II - Class A Ordinary Shares",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
     },
     {
       "symbol": "XTERU",
-      "name": "Karman Line Acquisition Corp. - Units",
+      "name": "Xterax Corporation II - Units",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
