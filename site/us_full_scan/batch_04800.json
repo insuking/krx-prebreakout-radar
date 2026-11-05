@@ -389,11 +389,7 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "RVTY",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "RWAY",
+      "symbol": "RVTAY",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
@@ -405,15 +401,19 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "RLAY",
-      "error": "SOURCE_DENIED_BODY"
+      "symbol": "RWAYM",
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "RL",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "RKTO",
+      "symbol": "RLGT",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "RLI",
       "error": "SOURCE_DENIED_BODY"
     }
   ],

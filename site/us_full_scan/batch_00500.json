@@ -1,23 +1,23 @@
 {
-  "generated_utc": "2026-10-24T01:51:42.237521+00:00",
-  "universe_snapshot_utc": "2026-10-24T01:51:29.534572+00:00",
+  "generated_utc": "2026-11-05T03:39:12.756413+00:00",
+  "universe_snapshot_utc": "2026-11-05T03:39:00.754321+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6250,
+  "universe_count": 6235,
   "batch_offset": 500,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-10-23",
+  "last_completed_session_estimate": "2026-11-04",
   "candidates": [],
   "failures": [
     {
-      "symbol": "ATI",
+      "symbol": "ATHS",
       "error": "SOURCE_DENIED_BODY"
     },
     {
@@ -385,6 +385,10 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
+      "symbol": "AZR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
       "symbol": "AZTA",
       "error": "SOURCE_DENIED_SKIPPED"
     },
@@ -401,19 +405,15 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "BA",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "symbol": "ATLCL",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "ATI",
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "ATLC",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "ATHS",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "ATLCL",
       "error": "SOURCE_DENIED_BODY"
     }
   ],
