@@ -1,10 +1,10 @@
 {
-  "snapshot_utc": "2026-11-06T03:35:01.725846+00:00",
+  "snapshot_utc": "2026-11-06T17:57:10.534066+00:00",
   "source_urls": {
     "NASDAQ": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt",
     "OTHER": "https://www.nasdaqtrader.com/dynamic/SymDir/otherlisted.txt"
   },
-  "count": 6235,
+  "count": 6234,
   "point_in_time_history": false,
   "coverage": "Current NASDAQ and other-exchange listed issues; preliminary stock filtering",
   "limitations": [
@@ -1668,20 +1668,6 @@
     {
       "symbol": "ALCO",
       "name": "Alico, Inc. - Common Stock",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "ALDF",
-      "name": "Aldel Financial II Inc. - Class A Ordinary Shares",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "ALDFU",
-      "name": "Aldel Financial II Inc. - Units",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
@@ -22752,6 +22738,13 @@
     {
       "symbol": "LECO",
       "name": "Lincoln Electric Holdings, Inc. - Common Shares",
+      "exchange_source": "NASDAQ",
+      "listing_exchange": "NASDAQ",
+      "security_classification": "PROVISIONAL"
+    },
+    {
+      "symbol": "LEDR",
+      "name": "Leader's Advantage Acquisition Corp. - Class A Ordinary Shares",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
