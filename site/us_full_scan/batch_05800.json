@@ -1,52 +1,24 @@
 {
-  "generated_utc": "2026-10-20T03:13:27.236081+00:00",
-  "universe_snapshot_utc": "2026-10-20T03:13:08.761636+00:00",
+  "generated_utc": "2026-11-06T03:35:17.452640+00:00",
+  "universe_snapshot_utc": "2026-11-06T03:35:01.725846+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6248,
+  "universe_count": 6235,
   "batch_offset": 5800,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-10-19",
+  "last_completed_session_estimate": "2026-11-05",
   "candidates": [],
   "failures": [
     {
-      "symbol": "UTG",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "UTHR",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "UTI",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "UTL",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "UTMD",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "UTSI",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "UTZ",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "UUUU",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "UVE",
@@ -405,15 +377,43 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "USPH",
+      "symbol": "VMI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VMO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VMRK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VNCE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VNDA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VNME",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VNMEU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "UTMD",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "USNA",
+      "symbol": "UUUU",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "UTF",
+      "symbol": "UTSI",
       "error": "SOURCE_DENIED_BODY"
     }
   ],
@@ -424,4 +424,4 @@
     "US market holiday handling is approximate; stale bars are rejected",
     "Do not trade based solely on this screen"
   ]
-}}
+}

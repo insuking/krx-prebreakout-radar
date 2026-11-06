@@ -1,48 +1,24 @@
 {
-  "generated_utc": "2026-10-20T03:13:24.499565+00:00",
-  "universe_snapshot_utc": "2026-10-20T03:13:08.761636+00:00",
+  "generated_utc": "2026-11-06T03:35:15.495411+00:00",
+  "universe_snapshot_utc": "2026-11-06T03:35:01.725846+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6248,
+  "universe_count": 6235,
   "batch_offset": 3400,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-10-19",
+  "last_completed_session_estimate": "2026-11-05",
   "candidates": [],
   "failures": [
     {
-      "symbol": "LXFR",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "LXP",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "LXRX",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "LXU",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "LYB",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "LYEL",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "LYFT",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "LYNX",
@@ -405,15 +381,39 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "LXEO",
+      "symbol": "MDU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MDWD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MDXG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MDXH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MEC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MED",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LYB",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "LWAY",
+      "symbol": "LYFT",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "LWLG",
+      "symbol": "LYCA",
       "error": "SOURCE_DENIED_BODY"
     }
   ],

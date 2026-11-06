@@ -1,28 +1,24 @@
 {
-  "generated_utc": "2026-10-20T03:13:22.681539+00:00",
-  "universe_snapshot_utc": "2026-10-20T03:13:08.761636+00:00",
+  "generated_utc": "2026-11-06T03:35:14.363683+00:00",
+  "universe_snapshot_utc": "2026-11-06T03:35:01.725846+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6248,
+  "universe_count": 6235,
   "batch_offset": 1800,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-10-19",
+  "last_completed_session_estimate": "2026-11-05",
   "candidates": [],
   "failures": [
     {
-      "symbol": "EFXT",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
       "symbol": "EGAN",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "EGBN",
@@ -82,10 +78,6 @@
     },
     {
       "symbol": "EIC",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "EICA",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
@@ -158,10 +150,6 @@
     },
     {
       "symbol": "ELMD",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "ELME",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
@@ -405,11 +393,23 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "EFTY",
-      "error": "SOURCE_DENIED_BODY"
+      "symbol": "EPD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EPM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EPOW",
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "EFX",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "EFXT",
       "error": "SOURCE_DENIED_BODY"
     },
     {

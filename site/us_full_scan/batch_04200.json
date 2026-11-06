@@ -1,48 +1,24 @@
 {
-  "generated_utc": "2026-10-20T03:13:25.333442+00:00",
-  "universe_snapshot_utc": "2026-10-20T03:13:08.761636+00:00",
+  "generated_utc": "2026-11-06T03:35:16.183651+00:00",
+  "universe_snapshot_utc": "2026-11-06T03:35:01.725846+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6248,
+  "universe_count": 6235,
   "batch_offset": 4200,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-10-19",
+  "last_completed_session_estimate": "2026-11-05",
   "candidates": [],
   "failures": [
     {
-      "symbol": "ORIO",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "ORIQ",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "ORIQU",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "ORKA",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "ORKT",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "ORLY",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "ORMP",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "ORN",
@@ -341,10 +317,6 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "PAPL",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "PAR",
       "error": "SOURCE_DENIED_SKIPPED"
     },
@@ -389,6 +361,10 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
+      "symbol": "PAXG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
       "symbol": "PAXGU",
       "error": "SOURCE_DENIED_SKIPPED"
     },
@@ -405,15 +381,39 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "ORIC",
+      "symbol": "PAYO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PAYP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PAYS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PAYX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PBA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ORKT",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "ORGO",
+      "symbol": "ORKA",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "ORI",
+      "symbol": "ORMP",
       "error": "SOURCE_DENIED_BODY"
     }
   ],

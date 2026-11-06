@@ -1,51 +1,31 @@
 {
-  "generated_utc": "2026-10-20T03:13:26.251242+00:00",
-  "universe_snapshot_utc": "2026-10-20T03:13:08.761636+00:00",
+  "generated_utc": "2026-11-06T03:35:16.811415+00:00",
+  "universe_snapshot_utc": "2026-11-06T03:35:01.725846+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6248,
+  "universe_count": 6235,
   "batch_offset": 5000,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-10-19",
+  "last_completed_session_estimate": "2026-11-05",
   "candidates": [],
   "failures": [
     {
-      "symbol": "SCIIU",
+      "symbol": "SCPQ",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "SCL",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SCLX",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SCM",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SCNX",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SCOR",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SCPQ",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "SCPQU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SCQCU",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
@@ -110,10 +90,6 @@
     },
     {
       "symbol": "SDRL",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SDST",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
@@ -405,15 +381,39 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "SCII",
+      "symbol": "SIEB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SIF",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SIFY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SIG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SIGA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SIGI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SCNX",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "SCI",
+      "symbol": "SCM",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "SCKT",
+      "symbol": "SCOR",
       "error": "SOURCE_DENIED_BODY"
     }
   ],
@@ -424,5 +424,4 @@
     "US market holiday handling is approximate; stale bars are rejected",
     "Do not trade based solely on this screen"
   ]
-}}  ]
 }
