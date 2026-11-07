@@ -1,28 +1,24 @@
 {
-  "generated_utc": "2026-11-05T03:39:15.205921+00:00",
-  "universe_snapshot_utc": "2026-11-05T03:39:00.754321+00:00",
+  "generated_utc": "2026-11-07T03:04:02.177797+00:00",
+  "universe_snapshot_utc": "2026-11-07T03:03:46.920523+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6235,
+  "universe_count": 6234,
   "batch_offset": 3700,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-11-04",
+  "last_completed_session_estimate": "2026-11-06",
   "candidates": [],
   "failures": [
     {
-      "symbol": "MSS",
+      "symbol": "MSTR",
       "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "MTAK",
-      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "MTAKU",
@@ -405,15 +401,19 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
+      "symbol": "NC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
       "symbol": "MTA",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "MT",
+      "symbol": "MTAK",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "MSTR",
+      "symbol": "MT",
       "error": "SOURCE_DENIED_BODY"
     }
   ],
@@ -424,4 +424,4 @@
     "US market holiday handling is approximate; stale bars are rejected",
     "Do not trade based solely on this screen"
   ]
-}
+}}

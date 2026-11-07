@@ -1,76 +1,24 @@
 {
-  "generated_utc": "2026-10-24T01:51:47.024860+00:00",
-  "universe_snapshot_utc": "2026-10-24T01:51:29.534572+00:00",
+  "generated_utc": "2026-11-07T03:04:03.659401+00:00",
+  "universe_snapshot_utc": "2026-11-07T03:03:46.920523+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6250,
+  "universe_count": 6234,
   "batch_offset": 6100,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-10-23",
+  "last_completed_session_estimate": "2026-11-06",
   "candidates": [],
   "failures": [
     {
-      "symbol": "WTG",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "WTRG",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "WTS",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "WTTR",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "WTW",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "WU",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "WULF",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "WVE",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "WVVI",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "WW",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "WWD",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "WWR",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "WWW",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "WXM",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "WY",
@@ -373,18 +321,6 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "YHNA",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "YHNAR",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "YHNAU",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "YIBO",
       "error": "SOURCE_DENIED_SKIPPED"
     },
@@ -405,15 +341,79 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "WTI",
+      "symbol": "YORW",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "YOU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "YSS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "YSWY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "YSXT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "YTRA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "YUM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "YUMC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "YXT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "YYAI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "Z",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZBAO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZBH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZBIO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZBRA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ZCMD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "WWD",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "WTM",
+      "symbol": "WXM",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "WTGUU",
+      "symbol": "WWW",
       "error": "SOURCE_DENIED_BODY"
     }
   ],

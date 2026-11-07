@@ -1,32 +1,24 @@
 {
-  "generated_utc": "2026-10-31T02:39:28.921771+00:00",
-  "universe_snapshot_utc": "2026-10-31T02:39:09.247016+00:00",
+  "generated_utc": "2026-11-07T03:04:04.271497+00:00",
+  "universe_snapshot_utc": "2026-11-07T03:03:46.920523+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6243,
+  "universe_count": 6234,
   "batch_offset": 1100,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-10-30",
+  "last_completed_session_estimate": "2026-11-06",
   "candidates": [],
   "failures": [
     {
-      "symbol": "CD",
+      "symbol": "CDE",
       "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "CDIO",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "CDLX",
-      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "CDNA",
@@ -405,15 +397,23 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "CDE",
+      "symbol": "CHYM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CDIO",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "CCXIU",
+      "symbol": "CDLR",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "CCZ",
+      "symbol": "CDLX",
       "error": "SOURCE_DENIED_BODY"
     }
   ],

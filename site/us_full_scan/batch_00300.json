@@ -1,28 +1,24 @@
 {
-  "generated_utc": "2026-10-31T02:39:28.268141+00:00",
-  "universe_snapshot_utc": "2026-10-31T02:39:09.247016+00:00",
+  "generated_utc": "2026-11-07T03:04:03.503708+00:00",
+  "universe_snapshot_utc": "2026-11-07T03:03:46.920523+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6243,
+  "universe_count": 6234,
   "batch_offset": 300,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-10-30",
+  "last_completed_session_estimate": "2026-11-06",
   "candidates": [],
   "failures": [
     {
-      "symbol": "AMD",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
       "symbol": "AME",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "AMG",
@@ -405,7 +401,11 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "AMCR",
+      "symbol": "APXTU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "AMD",
       "error": "SOURCE_DENIED_BODY"
     },
     {
@@ -413,7 +413,7 @@
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "AMCI",
+      "symbol": "AMCR",
       "error": "SOURCE_DENIED_BODY"
     }
   ],

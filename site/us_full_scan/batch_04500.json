@@ -1,28 +1,24 @@
 {
-  "generated_utc": "2026-11-05T03:39:15.866162+00:00",
-  "universe_snapshot_utc": "2026-11-05T03:39:00.754321+00:00",
+  "generated_utc": "2026-11-07T03:04:02.632084+00:00",
+  "universe_snapshot_utc": "2026-11-07T03:03:46.920523+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6235,
+  "universe_count": 6234,
   "batch_offset": 4500,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-11-04",
+  "last_completed_session_estimate": "2026-11-06",
   "candidates": [],
   "failures": [
     {
       "symbol": "POM",
       "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "PONOU",
-      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "POOL",
@@ -405,11 +401,15 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
+      "symbol": "PTY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
       "symbol": "PONO",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "POLE",
+      "symbol": "PONOU",
       "error": "SOURCE_DENIED_BODY"
     },
     {
@@ -424,4 +424,4 @@
     "US market holiday handling is approximate; stale bars are rejected",
     "Do not trade based solely on this screen"
   ]
-}
+}}
