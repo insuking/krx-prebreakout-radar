@@ -1,10 +1,10 @@
 {
-  "snapshot_utc": "2026-11-07T16:50:24.949666+00:00",
+  "snapshot_utc": "2026-11-10T04:44:09.346174+00:00",
   "source_urls": {
     "NASDAQ": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt",
     "OTHER": "https://www.nasdaqtrader.com/dynamic/SymDir/otherlisted.txt"
   },
-  "count": 6234,
+  "count": 6231,
   "point_in_time_history": false,
   "coverage": "Current NASDAQ and other-exchange listed issues; preliminary stock filtering",
   "limitations": [
@@ -3000,13 +3000,6 @@
       "name": "Arhaus, Inc. - Class A Common Stock",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "ARI",
-      "name": "Apollo Commercial Real Estate Finance, Inc",
-      "exchange_source": "OTHER",
-      "listing_exchange": "N",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -6822,13 +6815,6 @@
       "name": "BW LPG Limited Common Shares",
       "exchange_source": "OTHER",
       "listing_exchange": "N",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "BWMN",
-      "name": "Bowman Consulting Group Ltd. - Common Stock",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -19257,6 +19243,13 @@
       "security_classification": "PROVISIONAL"
     },
     {
+      "symbol": "HYAC",
+      "name": "Haymaker Acquisition Corp V Class A Ordinary Shares",
+      "exchange_source": "OTHER",
+      "listing_exchange": "N",
+      "security_classification": "PROVISIONAL"
+    },
+    {
       "symbol": "HYFM",
       "name": "Hydrofarm Holdings Group, Inc. - Common Stock",
       "exchange_source": "NASDAQ",
@@ -20206,13 +20199,6 @@
       "name": "Intellinetics, Inc. Common Stock",
       "exchange_source": "OTHER",
       "listing_exchange": "A",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "INM",
-      "name": "InMed Pharmaceuticals Inc. - Common Shares",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -24367,13 +24353,6 @@
       "security_classification": "PROVISIONAL"
     },
     {
-      "symbol": "MCTA",
-      "name": "Charming Medical Limited - Class A Ordinary Shares",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
       "symbol": "MCY",
       "name": "Mercury General Corporation Common Stock",
       "exchange_source": "OTHER",
@@ -26051,6 +26030,13 @@
       "name": "Mesa Royalty Trust Common Stock",
       "exchange_source": "OTHER",
       "listing_exchange": "N",
+      "security_classification": "PROVISIONAL"
+    },
+    {
+      "symbol": "MTRI",
+      "name": "Mentari Therapeutics, Inc. - Common Stock",
+      "exchange_source": "NASDAQ",
+      "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -33929,13 +33915,6 @@
       "security_classification": "PROVISIONAL"
     },
     {
-      "symbol": "ROKU",
-      "name": "Roku, Inc. - Class A Common Stock",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
       "symbol": "ROL",
       "name": "Rollins, Inc. Common Stock",
       "exchange_source": "OTHER",
@@ -38052,13 +38031,6 @@
       "security_classification": "PROVISIONAL"
     },
     {
-      "symbol": "TCBI",
-      "name": "Texas Capital Bancshares, Inc. Common Stock",
-      "exchange_source": "OTHER",
-      "listing_exchange": "F",
-      "security_classification": "PROVISIONAL"
-    },
-    {
       "symbol": "TCBK",
       "name": "TriCo Bancshares - Common Stock",
       "exchange_source": "NASDAQ",
@@ -39883,6 +39855,13 @@
       "name": "Twist Bioscience Corporation - Common Stock",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
+      "security_classification": "PROVISIONAL"
+    },
+    {
+      "symbol": "TXCP",
+      "name": "Texas Capital Bancshares, Inc. Common Stock",
+      "exchange_source": "OTHER",
+      "listing_exchange": "F",
       "security_classification": "PROVISIONAL"
     },
     {

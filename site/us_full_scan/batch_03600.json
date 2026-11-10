@@ -1,72 +1,24 @@
 {
-  "generated_utc": "2026-10-20T03:13:22.621202+00:00",
-  "universe_snapshot_utc": "2026-10-20T03:13:08.761636+00:00",
+  "generated_utc": "2026-11-10T04:44:25.912373+00:00",
+  "universe_snapshot_utc": "2026-11-10T04:44:09.346174+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6248,
+  "universe_count": 6231,
   "batch_offset": 3600,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-10-19",
+  "last_completed_session_estimate": "2026-11-09",
   "candidates": [],
   "failures": [
     {
-      "symbol": "MLAAU",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "MLEC",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "MLGO",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "MLI",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "MLKN",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "MLM",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "MLP",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "MLR",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "MLSS",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "MLTX",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "MLYS",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "MMA",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "MMD",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "MMED",
@@ -405,15 +357,63 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "MLCIL",
+      "symbol": "MSGK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MSGM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MSGR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MSI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MSIF",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MSLE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MSM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MSN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MSS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MSTR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MTA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MLYS",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "MLCI",
+      "symbol": "MMA",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "MLAB",
+      "symbol": "MMD",
       "error": "SOURCE_DENIED_BODY"
     }
   ],

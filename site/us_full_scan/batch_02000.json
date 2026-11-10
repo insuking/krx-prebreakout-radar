@@ -1,52 +1,24 @@
 {
-  "generated_utc": "2026-10-20T03:13:21.327965+00:00",
-  "universe_snapshot_utc": "2026-10-20T03:13:08.761636+00:00",
+  "generated_utc": "2026-11-10T04:44:24.380212+00:00",
+  "universe_snapshot_utc": "2026-11-10T04:44:09.346174+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6248,
+  "universe_count": 6231,
   "batch_offset": 2000,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-10-19",
+  "last_completed_session_estimate": "2026-11-09",
   "candidates": [],
   "failures": [
     {
-      "symbol": "EXFY",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "EXLS",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "EXOD",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "EXOZ",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "EXP",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "EXPD",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "EXPE",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "EXPO",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "EXR",
@@ -213,6 +185,10 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
+      "symbol": "FCDH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
       "symbol": "FCEL",
       "error": "SOURCE_DENIED_SKIPPED"
     },
@@ -369,6 +345,10 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
+      "symbol": "FFTT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
       "symbol": "FG",
       "error": "SOURCE_DENIED_SKIPPED"
     },
@@ -405,15 +385,35 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "EXEL",
+      "symbol": "FHB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "FHI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "FHN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "FHTX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "FIBK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EXPO",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "EXK",
+      "symbol": "EXPE",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "EXG",
+      "symbol": "EXPD",
       "error": "SOURCE_DENIED_BODY"
     }
   ],

@@ -1,40 +1,28 @@
 {
-  "generated_utc": "2026-11-06T03:35:17.448283+00:00",
-  "universe_snapshot_utc": "2026-11-06T03:35:01.725846+00:00",
+  "generated_utc": "2026-11-10T04:44:24.986220+00:00",
+  "universe_snapshot_utc": "2026-11-10T04:44:09.346174+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6235,
+  "universe_count": 6231,
   "batch_offset": 4800,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-11-05",
+  "last_completed_session_estimate": "2026-11-09",
   "candidates": [],
   "failures": [
     {
-      "symbol": "RL",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "RLJ",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "RLJ$A",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "RLMD",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "UNSUPPORTED_SYMBOL_FORMAT"
     },
     {
       "symbol": "RLTY",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "RLYB",
@@ -186,10 +174,6 @@
     },
     {
       "symbol": "ROK",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "ROKU",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
@@ -405,7 +389,23 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "RLGT",
+      "symbol": "RWT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RWTN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RWTO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RWTP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RLMD",
       "error": "SOURCE_DENIED_BODY"
     },
     {
@@ -413,7 +413,7 @@
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "RLAY",
+      "symbol": "RLJ",
       "error": "SOURCE_DENIED_BODY"
     }
   ],

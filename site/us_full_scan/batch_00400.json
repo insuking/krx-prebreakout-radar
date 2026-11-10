@@ -1,32 +1,24 @@
 {
-  "generated_utc": "2026-10-20T03:13:19.985553+00:00",
-  "universe_snapshot_utc": "2026-10-20T03:13:08.761636+00:00",
+  "generated_utc": "2026-11-10T04:44:22.857771+00:00",
+  "universe_snapshot_utc": "2026-11-10T04:44:09.346174+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6248,
+  "universe_count": 6231,
   "batch_offset": 400,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-10-19",
+  "last_completed_session_estimate": "2026-11-09",
   "candidates": [],
   "failures": [
     {
-      "symbol": "APYX",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "AQMS",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "AQN",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "AQNB",
@@ -118,10 +110,6 @@
     },
     {
       "symbol": "ARHS",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "ARI",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
@@ -317,6 +305,10 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
+      "symbol": "ASPE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
       "symbol": "ASPI",
       "error": "SOURCE_DENIED_SKIPPED"
     },
@@ -405,15 +397,23 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
+      "symbol": "ATHS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ATI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
       "symbol": "AQB",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "APXT",
+      "symbol": "AQMS",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "APXTU",
+      "symbol": "APYX",
       "error": "SOURCE_DENIED_BODY"
     }
   ],

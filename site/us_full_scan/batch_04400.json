@@ -1,64 +1,24 @@
 {
-  "generated_utc": "2026-10-20T03:13:23.154302+00:00",
-  "universe_snapshot_utc": "2026-10-20T03:13:08.761636+00:00",
+  "generated_utc": "2026-11-10T04:44:26.793436+00:00",
+  "universe_snapshot_utc": "2026-11-10T04:44:09.346174+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6248,
+  "universe_count": 6231,
   "batch_offset": 4400,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-10-19",
+  "last_completed_session_estimate": "2026-11-09",
   "candidates": [],
   "failures": [
     {
-      "symbol": "PGY",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "PGZ",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "PH",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "PHAR",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "PHAT",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "PHG",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "PHI",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "PHIN",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "PHIO",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "PHK",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "PHM",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "PHOE",
@@ -405,15 +365,55 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "PGP",
+      "symbol": "PNW",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "POAS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "POCI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PODC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PODD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "POET",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "POLA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "POLE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "POLEU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "POM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PHIO",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "PGNY",
+      "symbol": "PHM",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "PGR",
+      "symbol": "PHK",
       "error": "SOURCE_DENIED_BODY"
     }
   ],

@@ -1,48 +1,24 @@
 {
-  "generated_utc": "2026-10-20T03:13:21.975298+00:00",
-  "universe_snapshot_utc": "2026-10-20T03:13:08.761636+00:00",
+  "generated_utc": "2026-11-10T04:44:25.160507+00:00",
+  "universe_snapshot_utc": "2026-11-10T04:44:09.346174+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6248,
+  "universe_count": 6231,
   "batch_offset": 2800,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-10-19",
+  "last_completed_session_estimate": "2026-11-09",
   "candidates": [],
   "failures": [
     {
-      "symbol": "IDCC",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "IDE",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "IDN",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "IDR",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "IDT",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "IDXX",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "IDYA",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "IE",
@@ -317,10 +293,6 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "INDV",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "INEO",
       "error": "SOURCE_DENIED_SKIPPED"
     },
@@ -369,10 +341,6 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "INM",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "INMB",
       "error": "SOURCE_DENIED_SKIPPED"
     },
@@ -405,15 +373,47 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "IDACU",
+      "symbol": "INSG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "INSM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "INSP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "INSW",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "INTA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "INTC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "INTG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "INTJ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "IDR",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "IDAI",
+      "symbol": "IDXX",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "IDAC",
+      "symbol": "IDT",
       "error": "SOURCE_DENIED_BODY"
     }
   ],

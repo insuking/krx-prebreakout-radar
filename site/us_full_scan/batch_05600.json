@@ -1,44 +1,24 @@
 {
-  "generated_utc": "2026-11-05T03:39:18.390180+00:00",
-  "universe_snapshot_utc": "2026-11-05T03:39:00.754321+00:00",
+  "generated_utc": "2026-11-10T04:44:25.482570+00:00",
+  "universe_snapshot_utc": "2026-11-10T04:44:09.346174+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6235,
+  "universe_count": 6231,
   "batch_offset": 5600,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-11-04",
+  "last_completed_session_estimate": "2026-11-09",
   "candidates": [],
   "failures": [
     {
-      "symbol": "TRDA",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "TREO",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "TREX",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "TRGP",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "TRGS",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "TRGSU",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "TRI",
@@ -393,6 +373,10 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
+      "symbol": "TXCP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
       "symbol": "TXG",
       "error": "SOURCE_DENIED_SKIPPED"
     },
@@ -405,15 +389,31 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "TRC",
+      "symbol": "TXNM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TXO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TXRH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TXT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TRGP",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "TRBG",
+      "symbol": "TRGSU",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "TREE",
+      "symbol": "TRGS",
       "error": "SOURCE_DENIED_BODY"
     }
   ],
