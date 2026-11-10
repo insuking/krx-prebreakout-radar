@@ -1,5 +1,5 @@
 {
-  "snapshot_utc": "2026-11-10T04:44:09.346174+00:00",
+  "snapshot_utc": "2026-11-10T18:40:09.711343+00:00",
   "source_urls": {
     "NASDAQ": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt",
     "OTHER": "https://www.nasdaqtrader.com/dynamic/SymDir/otherlisted.txt"
@@ -424,13 +424,6 @@
       "name": "Archer Aviation Inc. Class A Common Stock",
       "exchange_source": "OTHER",
       "listing_exchange": "N",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "ACHV",
-      "name": "Achieve Life Sciences, Inc.  - Common Shares",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -14091,13 +14084,6 @@
       "security_classification": "PROVISIONAL"
     },
     {
-      "symbol": "EZRA",
-      "name": "Reliance Global Group, Inc. - Common Stock",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
       "symbol": "F",
       "name": "Ford Motor Company Common Stock",
       "exchange_source": "OTHER",
@@ -16136,7 +16122,7 @@
     },
     {
       "symbol": "GCBC",
-      "name": "Greene County Bancorp, Inc. - Common Stock",
+      "name": "Greene Bancorp, Inc. - Common Stock",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
@@ -32046,13 +32032,6 @@
       "security_classification": "PROVISIONAL"
     },
     {
-      "symbol": "PSQH",
-      "name": "PSQ Holdings, Inc. Class A Common Stock",
-      "exchange_source": "OTHER",
-      "listing_exchange": "N",
-      "security_classification": "PROVISIONAL"
-    },
-    {
       "symbol": "PSQL",
       "name": "Pasqal Holding SA - Ordinary Shares",
       "exchange_source": "NASDAQ",
@@ -32622,6 +32601,13 @@
     {
       "symbol": "QUIK",
       "name": "QuickLogic Corporation - Common Stock",
+      "exchange_source": "NASDAQ",
+      "listing_exchange": "NASDAQ",
+      "security_classification": "PROVISIONAL"
+    },
+    {
+      "symbol": "QUIT",
+      "name": "Achieve Life Sciences, Inc.  - Common Shares",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
@@ -35016,6 +35002,13 @@
     {
       "symbol": "SCPQU",
       "name": "Social Commerce Partners Corporation - Unit",
+      "exchange_source": "NASDAQ",
+      "listing_exchange": "NASDAQ",
+      "security_classification": "PROVISIONAL"
+    },
+    {
+      "symbol": "SCQC",
+      "name": "SPACCircle Acquisition Corp. - Class A Ordinary Shares",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
@@ -42877,6 +42870,13 @@
     {
       "symbol": "XGN",
       "name": "Exagen Inc. - Common Stock",
+      "exchange_source": "NASDAQ",
+      "listing_exchange": "NASDAQ",
+      "security_classification": "PROVISIONAL"
+    },
+    {
+      "symbol": "XGPU",
+      "name": "Reliance Global Group, Inc. - Common Stock",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
