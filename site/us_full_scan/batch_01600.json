@@ -1,44 +1,24 @@
 {
-  "generated_utc": "2026-11-04T03:07:34.976051+00:00",
-  "universe_snapshot_utc": "2026-11-04T03:07:19.921078+00:00",
+  "generated_utc": "2026-11-11T02:56:30.369490+00:00",
+  "universe_snapshot_utc": "2026-11-11T02:56:14.321347+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6236,
+  "universe_count": 6231,
   "batch_offset": 1600,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-11-03",
+  "last_completed_session_estimate": "2026-11-10",
   "candidates": [],
   "failures": [
     {
-      "symbol": "DGICB",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "DGNX",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "DGX",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "DGXX",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "DH",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "DHC",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "DHCNI",
@@ -405,15 +385,35 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "DGICA",
+      "symbol": "DSP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DSS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DSU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DSWL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DSX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DGX",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "DGII",
+      "symbol": "DH",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "DGAC.U",
+      "symbol": "DGXX",
       "error": "SOURCE_DENIED_BODY"
     }
   ],
@@ -423,5 +423,7 @@
     "Heuristic scores are NOT calibrated probabilities",
     "US market holiday handling is approximate; stale bars are rejected",
     "Do not trade based solely on this screen"
+  ]
+}n"
   ]
 }

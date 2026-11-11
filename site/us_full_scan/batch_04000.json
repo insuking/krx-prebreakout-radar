@@ -1,48 +1,24 @@
 {
-  "generated_utc": "2026-11-04T03:07:36.476379+00:00",
-  "universe_snapshot_utc": "2026-11-04T03:07:19.921078+00:00",
+  "generated_utc": "2026-11-11T02:56:32.096843+00:00",
+  "universe_snapshot_utc": "2026-11-11T02:56:14.321347+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6236,
+  "universe_count": 6231,
   "batch_offset": 4000,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-11-03",
+  "last_completed_session_estimate": "2026-11-10",
   "candidates": [],
   "failures": [
     {
-      "symbol": "NU",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "NUAI",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NUCL",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NUE",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NUR",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "NUS",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NUTX",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "NUV",
@@ -405,15 +381,39 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "NTWOU",
+      "symbol": "ODTX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ODYS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OEC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OESX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OFAL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OFG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NUR",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "NTWO",
+      "symbol": "NUE",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "NTWK",
+      "symbol": "NUTX",
       "error": "SOURCE_DENIED_BODY"
     }
   ],
@@ -424,4 +424,4 @@
     "US market holiday handling is approximate; stale bars are rejected",
     "Do not trade based solely on this screen"
   ]
-}
+}}

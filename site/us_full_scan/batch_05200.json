@@ -1,68 +1,24 @@
 {
-  "generated_utc": "2026-10-20T03:13:23.686927+00:00",
-  "universe_snapshot_utc": "2026-10-20T03:13:08.761636+00:00",
+  "generated_utc": "2026-11-11T02:56:34.789835+00:00",
+  "universe_snapshot_utc": "2026-11-11T02:56:14.321347+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6248,
+  "universe_count": 6231,
   "batch_offset": 5200,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-10-19",
+  "last_completed_session_estimate": "2026-11-10",
   "candidates": [],
   "failures": [
     {
-      "symbol": "SNT",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "SNTG",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SNTI",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SNWV",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SNX",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SO",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SOAR",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SOBO",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SOC",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SOCA",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "SOCAU",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SOFI",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "SOJC",
@@ -405,15 +361,59 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "SNPS",
+      "symbol": "SSM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SSMR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SSNC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SSP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SSRM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SST",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SSTI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SSTK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SSYS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ST",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "STAA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SOCA",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "SNOW",
+      "symbol": "SOC",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "SNSC",
+      "symbol": "SOFI",
       "error": "SOURCE_DENIED_BODY"
     }
   ],

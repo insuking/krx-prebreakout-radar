@@ -1,52 +1,24 @@
 {
-  "generated_utc": "2026-11-04T03:07:36.047375+00:00",
-  "universe_snapshot_utc": "2026-11-04T03:07:19.921078+00:00",
+  "generated_utc": "2026-11-11T02:56:31.473541+00:00",
+  "universe_snapshot_utc": "2026-11-11T02:56:14.321347+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6236,
+  "universe_count": 6231,
   "batch_offset": 3200,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-11-03",
+  "last_completed_session_estimate": "2026-11-10",
   "candidates": [],
   "failures": [
     {
-      "symbol": "KYTX",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "L",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "LAB",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "LABT",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "LAC",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "LAD",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "LADR",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "LAES",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "LAFA",
@@ -186,6 +158,34 @@
     },
     {
       "symbol": "LDOS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LDP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LEA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LECO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LEDR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LEDRU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OS",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
@@ -424,4 +424,5 @@
     "US market holiday handling is approximate; stale bars are rejected",
     "Do not trade based solely on this screen"
   ]
+}  ]
 }

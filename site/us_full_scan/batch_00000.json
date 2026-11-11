@@ -1,23 +1,23 @@
 {
-  "generated_utc": "2026-11-04T03:07:33.835204+00:00",
-  "universe_snapshot_utc": "2026-11-04T03:07:19.921078+00:00",
+  "generated_utc": "2026-11-11T02:56:29.296316+00:00",
+  "universe_snapshot_utc": "2026-11-11T02:56:14.321347+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6236,
+  "universe_count": 6231,
   "batch_offset": 0,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-11-03",
+  "last_completed_session_estimate": "2026-11-10",
   "candidates": [],
   "failures": [
     {
-      "symbol": "AACI",
+      "symbol": "AA",
       "error": "SOURCE_DENIED_BODY"
     },
     {
@@ -241,10 +241,6 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "ACHV",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "ACI",
       "error": "SOURCE_DENIED_SKIPPED"
     },
@@ -405,7 +401,11 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "A",
+      "symbol": "ADIG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "AACI",
       "error": "SOURCE_DENIED_BODY"
     },
     {
@@ -413,7 +413,7 @@
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "AA",
+      "symbol": "A",
       "error": "SOURCE_DENIED_BODY"
     }
   ],
