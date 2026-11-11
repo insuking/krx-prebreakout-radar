@@ -1,10 +1,10 @@
 {
-  "snapshot_utc": "2026-11-11T02:56:14.321347+00:00",
+  "snapshot_utc": "2026-11-11T18:41:57.648155+00:00",
   "source_urls": {
     "NASDAQ": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt",
     "OTHER": "https://www.nasdaqtrader.com/dynamic/SymDir/otherlisted.txt"
   },
-  "count": 6231,
+  "count": 6228,
   "point_in_time_history": false,
   "coverage": "Current NASDAQ and other-exchange listed issues; preliminary stock filtering",
   "limitations": [
@@ -3434,13 +3434,6 @@
       "name": "Amtech Systems, Inc. - Common Stock",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "ATCH",
-      "name": "AtlasClear Holdings, Inc. Common Stock",
-      "exchange_source": "OTHER",
-      "listing_exchange": "A",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -18536,13 +18529,6 @@
       "security_classification": "PROVISIONAL"
     },
     {
-      "symbol": "HLSQ",
-      "name": "Tessera Defense and Homeland Security Inc. Common Stock",
-      "exchange_source": "OTHER",
-      "listing_exchange": "A",
-      "security_classification": "PROVISIONAL"
-    },
-    {
       "symbol": "HLT",
       "name": "Hilton Worldwide Holdings Inc. - Common Stock",
       "exchange_source": "NASDAQ",
@@ -22073,13 +22059,6 @@
     {
       "symbol": "KPRX",
       "name": "Kiora Pharmaceuticals, Inc.  - Common Stock",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "KPTI",
-      "name": "Karyopharm Therapeutics Inc. - Common Stock",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
