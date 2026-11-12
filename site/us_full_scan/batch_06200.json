@@ -1,100 +1,24 @@
 {
-  "generated_utc": "2026-10-30T02:49:37.547874+00:00",
-  "universe_snapshot_utc": "2026-10-30T02:49:19.678393+00:00",
+  "generated_utc": "2026-11-12T04:02:23.057579+00:00",
+  "universe_snapshot_utc": "2026-11-12T04:02:08.633209+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6247,
+  "universe_count": 6228,
   "batch_offset": 6200,
-  "batch_requested": 47,
+  "batch_requested": 28,
   "batch_success": 0,
-  "batch_failed": 47,
+  "batch_failed": 28,
   "workers": 4,
-  "last_completed_session_estimate": "2026-10-29",
+  "last_completed_session_estimate": "2026-11-11",
   "candidates": [],
   "failures": [
     {
-      "symbol": "YTRA",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "YUMC",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "YXT",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "YYAI",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "Z",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "ZBAO",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "ZBH",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "ZBIO",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "ZBRA",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "ZCMD",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "ZD",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "ZDAI",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "ZDGE",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "ZENA",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "ZEO",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "ZETA",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "ZG",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "ZGN",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "ZIM",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "ZION",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "ZIP",
@@ -193,15 +117,15 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "YSWY",
+      "symbol": "ZG",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "YSXT",
+      "symbol": "ZION",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "YUM",
+      "symbol": "ZIM",
       "error": "SOURCE_DENIED_BODY"
     }
   ],

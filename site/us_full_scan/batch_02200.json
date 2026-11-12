@@ -1,52 +1,24 @@
 {
-  "generated_utc": "2026-10-30T02:49:34.706354+00:00",
-  "universe_snapshot_utc": "2026-10-30T02:49:19.678393+00:00",
+  "generated_utc": "2026-11-12T04:02:20.086211+00:00",
+  "universe_snapshot_utc": "2026-11-12T04:02:08.633209+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6247,
+  "universe_count": 6228,
   "batch_offset": 2200,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-10-29",
+  "last_completed_session_estimate": "2026-11-11",
   "candidates": [],
   "failures": [
     {
-      "symbol": "FRME",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "FRO",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "FROG",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "FRPH",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "FRPT",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "FRSH",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "FRST",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "FRT",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "FRTT",
@@ -405,15 +377,43 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "FRMM",
+      "symbol": "GBC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GBCI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GBDC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GBFH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GBLI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GBR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GBX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "FRST",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "FRMI",
+      "symbol": "FRT",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "FRNM",
+      "symbol": "FRPT",
       "error": "SOURCE_DENIED_BODY"
     }
   ],

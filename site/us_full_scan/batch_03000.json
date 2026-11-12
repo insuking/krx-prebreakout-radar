@@ -1,72 +1,24 @@
 {
-  "generated_utc": "2026-10-30T02:49:35.283312+00:00",
-  "universe_snapshot_utc": "2026-10-30T02:49:19.678393+00:00",
+  "generated_utc": "2026-11-12T04:02:20.792391+00:00",
+  "universe_snapshot_utc": "2026-11-12T04:02:08.633209+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6247,
+  "universe_count": 6228,
   "batch_offset": 3000,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-10-29",
+  "last_completed_session_estimate": "2026-11-11",
   "candidates": [],
   "failures": [
     {
-      "symbol": "JAGU",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "JAN",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "JANX",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "JATT",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "JAZZ",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "JBDI",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "JBGS",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "JBHT",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "JBI",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "JBIO",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "JBK",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "JBL",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "JBLU",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "JBS",
@@ -405,15 +357,63 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "JAKK",
+      "symbol": "KEY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KEYS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KEYY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KEYYU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KF",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KFFB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KFII",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KFIIU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KFRC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KFY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KGC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "JBL",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "JACS.U",
+      "symbol": "JBK",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "JAGX",
+      "symbol": "JBIO",
       "error": "SOURCE_DENIED_BODY"
     }
   ],

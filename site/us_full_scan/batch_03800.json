@@ -1,88 +1,24 @@
 {
-  "generated_utc": "2026-10-30T02:49:35.769013+00:00",
-  "universe_snapshot_utc": "2026-10-30T02:49:19.678393+00:00",
+  "generated_utc": "2026-11-12T04:02:21.403792+00:00",
+  "universe_snapshot_utc": "2026-11-12T04:02:08.633209+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6247,
+  "universe_count": 6228,
   "batch_offset": 3800,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-10-29",
+  "last_completed_session_estimate": "2026-11-11",
   "candidates": [],
   "failures": [
     {
-      "symbol": "NBRG",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "NBRGU",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NBTB",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NBTX",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NBXG",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NC",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NCA",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NCDL",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NCEL",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NCEW",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NCI",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NCLH",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NCMI",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NCNO",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "NCO",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NCOOU",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NCPL",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "NCRA",
@@ -405,15 +341,79 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "NBR",
+      "symbol": "NKTX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NKX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NLOP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NLY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NLY$F",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NMAD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NMAI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NMAX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NMCO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NMFC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NMFCZ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NMG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NMI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NMIH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NML",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NCPL",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "NBN",
+      "symbol": "NCOOU",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "NBIX",
+      "symbol": "NCNO",
       "error": "SOURCE_DENIED_BODY"
     }
   ],

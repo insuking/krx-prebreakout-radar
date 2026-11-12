@@ -1,84 +1,24 @@
 {
-  "generated_utc": "2026-10-30T02:49:36.373343+00:00",
-  "universe_snapshot_utc": "2026-10-30T02:49:19.678393+00:00",
+  "generated_utc": "2026-11-12T04:02:21.866003+00:00",
+  "universe_snapshot_utc": "2026-11-12T04:02:08.633209+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6246,
+  "universe_count": 6228,
   "batch_offset": 4600,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-10-28",
+  "last_completed_session_estimate": "2026-11-11",
   "candidates": [],
   "failures": [
     {
-      "symbol": "PTOR",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "PTORU",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "PTRN",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "PTY",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "PUBM",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "PUK",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "PULM",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "PUMP",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "PURR",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "PUSA",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "PVH",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "PVL",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "PVLA",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "PW",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "PWCM",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "PWP",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "PWR",
@@ -277,6 +217,10 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
+      "symbol": "QUIT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
       "symbol": "QUMS",
       "error": "SOURCE_DENIED_SKIPPED"
     },
@@ -334,10 +278,6 @@
     },
     {
       "symbol": "RAL",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "RAMP",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
@@ -405,15 +345,75 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "PTN",
+      "symbol": "RBRK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RCAT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RCBC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RCD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RCEL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RCG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RCI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RCKT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RCKY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RCL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RCMT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RCON",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RCS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RCT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PW",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "PTON",
+      "symbol": "PVLA",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "PTLO",
+      "symbol": "PWP",
       "error": "SOURCE_DENIED_BODY"
     }
   ],

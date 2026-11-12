@@ -1,92 +1,24 @@
 {
-  "generated_utc": "2026-10-30T02:49:36.947629+00:00",
-  "universe_snapshot_utc": "2026-10-30T02:49:19.678393+00:00",
+  "generated_utc": "2026-11-12T04:02:22.461588+00:00",
+  "universe_snapshot_utc": "2026-11-12T04:02:08.633209+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6247,
+  "universe_count": 6228,
   "batch_offset": 5400,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-10-29",
+  "last_completed_session_estimate": "2026-11-11",
   "candidates": [],
   "failures": [
     {
-      "symbol": "SY",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "SYM",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SYNA",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SYNX",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SYPR",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SYRE",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SYY",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SZZL",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SZZLR",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SZZLU",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "T",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "TAC",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "TACH",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "TACHU",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "TACO",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "TACOU",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "TACT",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "TALO",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "TANH",
@@ -178,10 +110,6 @@
     },
     {
       "symbol": "TBN",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "TCBI",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
@@ -405,15 +333,87 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "SYK",
+      "symbol": "TGB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TGE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TGEN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TGHL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TGL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TGLS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TGS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TGT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TGTX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "THC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "THCH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "THEO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "THEOU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "THFF",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "THG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "THH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "THM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TALO",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "SYF",
+      "symbol": "TACT",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "SYBT",
+      "symbol": "TACOU",
       "error": "SOURCE_DENIED_BODY"
     }
   ],
