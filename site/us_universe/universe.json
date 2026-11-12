@@ -1,10 +1,10 @@
 {
-  "snapshot_utc": "2026-11-12T04:02:08.633209+00:00",
+  "snapshot_utc": "2026-11-12T18:55:12.984375+00:00",
   "source_urls": {
     "NASDAQ": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt",
     "OTHER": "https://www.nasdaqtrader.com/dynamic/SymDir/otherlisted.txt"
   },
-  "count": 6228,
+  "count": 6226,
   "point_in_time_history": false,
   "coverage": "Current NASDAQ and other-exchange listed issues; preliminary stock filtering",
   "limitations": [
@@ -8004,7 +8004,7 @@
       "symbol": "CFR",
       "name": "Cullen/Frost Bankers, Inc. Common Stock",
       "exchange_source": "OTHER",
-      "listing_exchange": "N",
+      "listing_exchange": "F",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -9872,6 +9872,13 @@
     {
       "symbol": "CRML",
       "name": "Critical Metals Corp. - Ordinary Shares",
+      "exchange_source": "NASDAQ",
+      "listing_exchange": "NASDAQ",
+      "security_classification": "PROVISIONAL"
+    },
+    {
+      "symbol": "CRMN",
+      "name": "Skyline Builders Group Holding Limited - Class A Ordinary Shares",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
@@ -21476,13 +21483,6 @@
       "security_classification": "PROVISIONAL"
     },
     {
-      "symbol": "KAZR",
-      "name": "Skyline Builders Group Holding Limited - Class A Ordinary Shares",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
       "symbol": "KB",
       "name": "KB Financial Group Inc",
       "exchange_source": "OTHER",
@@ -21942,13 +21942,6 @@
       "name": "KNOT Offshore Partners LP Common Units representing Limited Partner Interests",
       "exchange_source": "OTHER",
       "listing_exchange": "N",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "KNRX",
-      "name": "KNOREX LTD. Class A Ordinary Shares",
-      "exchange_source": "OTHER",
-      "listing_exchange": "A",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -28387,13 +28380,6 @@
     {
       "symbol": "NXTT",
       "name": "Next Technology Holding Inc. - Ordinary Shares",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "NXXT",
-      "name": "NextNRG, Inc. - Common Stock",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
