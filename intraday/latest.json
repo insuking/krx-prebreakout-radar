@@ -1,91 +1,16 @@
 {
-  "run_at_kst": "2026-11-11T15:04:13.966890+09:00",
-  "market_open_window": true,
+  "run_at_kst": "2026-11-12T16:03:59.059916+09:00",
+  "market_open_window": false,
   "mode": "public_quote_observation_only",
   "message": "Public quote observations are not verified real-time trades. BUY disabled.",
   "results": [
     {
-      "code": "035420",
-      "name": "NAVER",
-      "group": "A",
-      "base_date": "2026-11-11",
-      "base_close": "192400",
-      "checked_at": "2026-11-11T15:04:13.966890+09:00",
-      "status": "WATCH",
-      "verified_gates": 0,
-      "required_gates": 5,
-      "errors": [
-        "실시간성/거래일 확인 불가: 매수 신호 불허"
-      ],
-      "public_display_price": 195500.0,
-      "quote_timestamp": "2026-11-11T15:03:22+09:00",
-      "quote_source": "Naver mobile public endpoint (may be delayed)",
-      "price_vs_previous_close_pct": 1.61,
-      "gates": {
-        "quote_freshness": "UNVERIFIED",
-        "opening_support": "UNVERIFIED",
-        "vwap": "UNVERIFIED",
-        "intraday_rvol": "UNVERIFIED",
-        "investor_flow_and_relative_strength": "UNVERIFIED"
-      }
-    },
-    {
-      "code": "068760",
-      "name": "셀트리온제약",
-      "group": "A",
-      "base_date": "2026-11-11",
-      "base_close": "41750",
-      "checked_at": "2026-11-11T15:04:13.966890+09:00",
-      "status": "WATCH",
-      "verified_gates": 0,
-      "required_gates": 5,
-      "errors": [
-        "실시간성/거래일 확인 불가: 매수 신호 불허"
-      ],
-      "public_display_price": 41150.0,
-      "quote_timestamp": "2026-11-11T15:03:59+09:00",
-      "quote_source": "Naver mobile public endpoint (may be delayed)",
-      "price_vs_previous_close_pct": -1.44,
-      "gates": {
-        "quote_freshness": "UNVERIFIED",
-        "opening_support": "UNVERIFIED",
-        "vwap": "UNVERIFIED",
-        "intraday_rvol": "UNVERIFIED",
-        "investor_flow_and_relative_strength": "UNVERIFIED"
-      }
-    },
-    {
-      "code": "064550",
-      "name": "바이오니아",
-      "group": "A",
-      "base_date": "2026-11-11",
-      "base_close": "7470",
-      "checked_at": "2026-11-11T15:04:13.966890+09:00",
-      "status": "WATCH",
-      "verified_gates": 0,
-      "required_gates": 5,
-      "errors": [
-        "실시간성/거래일 확인 불가: 매수 신호 불허"
-      ],
-      "public_display_price": 7450.0,
-      "quote_timestamp": "2026-11-11T15:04:16+09:00",
-      "quote_source": "Naver mobile public endpoint (may be delayed)",
-      "price_vs_previous_close_pct": -0.27,
-      "gates": {
-        "quote_freshness": "UNVERIFIED",
-        "opening_support": "UNVERIFIED",
-        "vwap": "UNVERIFIED",
-        "intraday_rvol": "UNVERIFIED",
-        "investor_flow_and_relative_strength": "UNVERIFIED"
-      }
-    },
-    {
       "code": "089860",
       "name": "롯데렌탈",
-      "group": "B",
-      "base_date": "2026-11-11",
-      "base_close": "58500",
-      "checked_at": "2026-11-11T15:04:13.966890+09:00",
+      "group": "A",
+      "base_date": "2026-11-12",
+      "base_close": "58450",
+      "checked_at": "2026-11-12T16:03:59.059916+09:00",
       "status": "WATCH",
       "verified_gates": 0,
       "required_gates": 5,
@@ -93,9 +18,9 @@
         "실시간성/거래일 확인 불가: 매수 신호 불허"
       ],
       "public_display_price": 58500.0,
-      "quote_timestamp": "2026-11-11T15:03:19+09:00",
+      "quote_timestamp": "2026-11-12T16:03:21+09:00",
       "quote_source": "Naver mobile public endpoint (may be delayed)",
-      "price_vs_previous_close_pct": 0.0,
+      "price_vs_previous_close_pct": 0.09,
       "gates": {
         "quote_freshness": "UNVERIFIED",
         "opening_support": "UNVERIFIED",
@@ -105,22 +30,22 @@
       }
     },
     {
-      "code": "089590",
-      "name": "제주항공",
-      "group": "B",
-      "base_date": "2026-11-11",
-      "base_close": "7580",
-      "checked_at": "2026-11-11T15:04:13.966890+09:00",
+      "code": "018260",
+      "name": "삼성에스디에스",
+      "group": "A",
+      "base_date": "2026-11-12",
+      "base_close": "228000",
+      "checked_at": "2026-11-12T16:03:59.059916+09:00",
       "status": "WATCH",
       "verified_gates": 0,
       "required_gates": 5,
       "errors": [
         "실시간성/거래일 확인 불가: 매수 신호 불허"
       ],
-      "public_display_price": 7500.0,
-      "quote_timestamp": "2026-11-11T15:04:18+09:00",
+      "public_display_price": 229000.0,
+      "quote_timestamp": "2026-11-12T16:03:21+09:00",
       "quote_source": "Naver mobile public endpoint (may be delayed)",
-      "price_vs_previous_close_pct": -1.06,
+      "price_vs_previous_close_pct": 0.44,
       "gates": {
         "quote_freshness": "UNVERIFIED",
         "opening_support": "UNVERIFIED",
@@ -130,22 +55,97 @@
       }
     },
     {
-      "code": "126880",
-      "name": "제이엔케이글로벌",
-      "group": "B",
-      "base_date": "2026-11-11",
-      "base_close": "2980",
-      "checked_at": "2026-11-11T15:04:13.966890+09:00",
+      "code": "005430",
+      "name": "한국공항",
+      "group": "A",
+      "base_date": "2026-11-12",
+      "base_close": "103400",
+      "checked_at": "2026-11-12T16:03:59.059916+09:00",
       "status": "WATCH",
       "verified_gates": 0,
       "required_gates": 5,
       "errors": [
         "실시간성/거래일 확인 불가: 매수 신호 불허"
       ],
-      "public_display_price": 3095.0,
-      "quote_timestamp": "2026-11-11T15:04:14+09:00",
+      "public_display_price": 105700.0,
+      "quote_timestamp": "2026-11-12T16:03:24+09:00",
       "quote_source": "Naver mobile public endpoint (may be delayed)",
-      "price_vs_previous_close_pct": 3.86,
+      "price_vs_previous_close_pct": 2.22,
+      "gates": {
+        "quote_freshness": "UNVERIFIED",
+        "opening_support": "UNVERIFIED",
+        "vwap": "UNVERIFIED",
+        "intraday_rvol": "UNVERIFIED",
+        "investor_flow_and_relative_strength": "UNVERIFIED"
+      }
+    },
+    {
+      "code": "104700",
+      "name": "한국철강",
+      "group": "B",
+      "base_date": "2026-11-12",
+      "base_close": "12900",
+      "checked_at": "2026-11-12T16:03:59.059916+09:00",
+      "status": "WATCH",
+      "verified_gates": 0,
+      "required_gates": 5,
+      "errors": [
+        "실시간성/거래일 확인 불가: 매수 신호 불허"
+      ],
+      "public_display_price": 12950.0,
+      "quote_timestamp": "2026-11-12T16:03:21+09:00",
+      "quote_source": "Naver mobile public endpoint (may be delayed)",
+      "price_vs_previous_close_pct": 0.39,
+      "gates": {
+        "quote_freshness": "UNVERIFIED",
+        "opening_support": "UNVERIFIED",
+        "vwap": "UNVERIFIED",
+        "intraday_rvol": "UNVERIFIED",
+        "investor_flow_and_relative_strength": "UNVERIFIED"
+      }
+    },
+    {
+      "code": "093520",
+      "name": "매커스",
+      "group": "B",
+      "base_date": "2026-11-12",
+      "base_close": "27000",
+      "checked_at": "2026-11-12T16:03:59.059916+09:00",
+      "status": "WATCH",
+      "verified_gates": 0,
+      "required_gates": 5,
+      "errors": [
+        "실시간성/거래일 확인 불가: 매수 신호 불허"
+      ],
+      "public_display_price": 26750.0,
+      "quote_timestamp": "2026-11-12T15:30:30+09:00",
+      "quote_source": "Naver mobile public endpoint (may be delayed)",
+      "price_vs_previous_close_pct": -0.93,
+      "gates": {
+        "quote_freshness": "UNVERIFIED",
+        "opening_support": "UNVERIFIED",
+        "vwap": "UNVERIFIED",
+        "intraday_rvol": "UNVERIFIED",
+        "investor_flow_and_relative_strength": "UNVERIFIED"
+      }
+    },
+    {
+      "code": "058850",
+      "name": "KTcs",
+      "group": "B",
+      "base_date": "2026-11-12",
+      "base_close": "2270",
+      "checked_at": "2026-11-12T16:03:59.059916+09:00",
+      "status": "WATCH",
+      "verified_gates": 0,
+      "required_gates": 5,
+      "errors": [
+        "실시간성/거래일 확인 불가: 매수 신호 불허"
+      ],
+      "public_display_price": 2290.0,
+      "quote_timestamp": "2026-11-12T16:03:22+09:00",
+      "quote_source": "Naver mobile public endpoint (may be delayed)",
+      "price_vs_previous_close_pct": 0.88,
       "gates": {
         "quote_freshness": "UNVERIFIED",
         "opening_support": "UNVERIFIED",
