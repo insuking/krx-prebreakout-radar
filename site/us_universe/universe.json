@@ -1,10 +1,10 @@
 {
-  "snapshot_utc": "2026-11-13T03:32:02.411040+00:00",
+  "snapshot_utc": "2026-11-13T18:31:32.425257+00:00",
   "source_urls": {
     "NASDAQ": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt",
     "OTHER": "https://www.nasdaqtrader.com/dynamic/SymDir/otherlisted.txt"
   },
-  "count": 6226,
+  "count": 6230,
   "point_in_time_history": false,
   "coverage": "Current NASDAQ and other-exchange listed issues; preliminary stock filtering",
   "limitations": [
@@ -8654,13 +8654,6 @@
     {
       "symbol": "CLFD",
       "name": "Clearfield, Inc. - Common Stock",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "CLGN",
-      "name": "CollPlant Biotechnologies Ltd. - Ordinary Shares",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
@@ -23345,6 +23338,13 @@
       "security_classification": "PROVISIONAL"
     },
     {
+      "symbol": "LOVI",
+      "name": "Live Oak Acquisition Corp. VI - Class A Ordinary Shares",
+      "exchange_source": "NASDAQ",
+      "listing_exchange": "NASDAQ",
+      "security_classification": "PROVISIONAL"
+    },
+    {
       "symbol": "LOVIU",
       "name": "Live Oak Acquisition Corp. VI - Units",
       "exchange_source": "NASDAQ",
@@ -24385,6 +24385,13 @@
       "name": "Mondelez International, Inc. - Class A Common Stock",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
+      "security_classification": "PROVISIONAL"
+    },
+    {
+      "symbol": "MDRN",
+      "name": "Modern Mining Technology Corp. Common Shares",
+      "exchange_source": "OTHER",
+      "listing_exchange": "A",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -28911,7 +28918,7 @@
     },
     {
       "symbol": "OLMA",
-      "name": "Olema Pharmaceuticals, Inc. - Common Stock",
+      "name": "Olema Oncology, Inc. - Common Stock",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
@@ -29173,6 +29180,13 @@
       "name": "OptimumBank Holdings, Inc. Common Stock",
       "exchange_source": "OTHER",
       "listing_exchange": "A",
+      "security_classification": "PROVISIONAL"
+    },
+    {
+      "symbol": "OPHI",
+      "name": "CollPlant Biotechnologies Ltd. - Ordinary Shares",
+      "exchange_source": "NASDAQ",
+      "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -32085,13 +32099,6 @@
       "name": "Pineapple Financial Inc. Common Stock",
       "exchange_source": "OTHER",
       "listing_exchange": "A",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "PTLE",
-      "name": "PTL LTD - Class A Ordinary Shares",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -41629,6 +41636,13 @@
       "security_classification": "PROVISIONAL"
     },
     {
+      "symbol": "VVVV",
+      "name": "vVARDIS Holding AG Class A Ordinary Shares",
+      "exchange_source": "OTHER",
+      "listing_exchange": "N",
+      "security_classification": "PROVISIONAL"
+    },
+    {
       "symbol": "VVX",
       "name": "V2X, Inc. Common Stock",
       "exchange_source": "OTHER",
@@ -41980,7 +41994,7 @@
     },
     {
       "symbol": "WFRD",
-      "name": "Weatherford International plc - Ordinary shares",
+      "name": "Weatherford International Corp - Common Stock",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
@@ -42646,6 +42660,13 @@
     {
       "symbol": "WW",
       "name": "WW International, Inc.  - Common Stock",
+      "exchange_source": "NASDAQ",
+      "listing_exchange": "NASDAQ",
+      "security_classification": "PROVISIONAL"
+    },
+    {
+      "symbol": "WWB",
+      "name": "Windward Bio Group AG - Common shares",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
@@ -43591,6 +43612,13 @@
     {
       "symbol": "ZYME",
       "name": "Zymeworks Inc. - Common Stock",
+      "exchange_source": "NASDAQ",
+      "listing_exchange": "NASDAQ",
+      "security_classification": "PROVISIONAL"
+    },
+    {
+      "symbol": "ZYN",
+      "name": "PTL LTD - Class A Ordinary Shares",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
