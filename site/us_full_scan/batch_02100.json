@@ -1,40 +1,24 @@
 {
-  "generated_utc": "2026-11-07T03:04:01.266656+00:00",
-  "universe_snapshot_utc": "2026-11-07T03:03:46.920523+00:00",
+  "generated_utc": "2026-11-13T03:32:21.554277+00:00",
+  "universe_snapshot_utc": "2026-11-13T03:32:02.411040+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6234,
+  "universe_count": 6226,
   "batch_offset": 2100,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-11-06",
+  "last_completed_session_estimate": "2026-11-12",
   "candidates": [],
   "failures": [
     {
-      "symbol": "FHTX",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "FIG",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "FIGR",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "FIGS",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "FIGX",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "FIGXU",
@@ -405,15 +389,31 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "FIBK",
+      "symbol": "FRMM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "FRNM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "FRO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "FROG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "FIGR",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "FICO",
+      "symbol": "FIGS",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "FIEE",
+      "symbol": "FIG",
       "error": "SOURCE_DENIED_BODY"
     }
   ],
@@ -424,4 +424,4 @@
     "US market holiday handling is approximate; stale bars are rejected",
     "Do not trade based solely on this screen"
   ]
-}
+}}

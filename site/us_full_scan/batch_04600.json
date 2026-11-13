@@ -419,7 +419,7 @@
   ],
   "warnings": [
     "Current listings only; not point-in-time delisted universe",
-    "Stooq data license, completeness and adjustment basis not independently validated",
+    "Stooq data license, completeness and adjustment basisis not independently validated",
     "Heuristic scores are NOT calibrated probabilities",
     "US market holiday handling is approximate; stale bars are rejected",
     "Do not trade based solely on this screen"
