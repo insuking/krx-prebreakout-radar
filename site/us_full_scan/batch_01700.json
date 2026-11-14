@@ -1,48 +1,24 @@
 {
-  "generated_utc": "2026-11-03T03:59:33.074117+00:00",
-  "universe_snapshot_utc": "2026-11-03T03:59:19.600610+00:00",
+  "generated_utc": "2026-11-14T03:28:34.414930+00:00",
+  "universe_snapshot_utc": "2026-11-14T03:28:22.541017+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6240,
+  "universe_count": 6230,
   "batch_offset": 1700,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-11-02",
+  "last_completed_session_estimate": "2026-11-13",
   "candidates": [],
   "failures": [
     {
-      "symbol": "DSP",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "DSX",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "DSX$B",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "DSY",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "DT",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "DTB",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "DTCX",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "DTE",
@@ -405,15 +381,39 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "DSU",
+      "symbol": "EFX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EFXT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EGAN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EGBN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EGG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "DTB",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "DSWL",
+      "symbol": "DT",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "DSS",
+      "symbol": "DSY",
       "error": "SOURCE_DENIED_BODY"
     }
   ],

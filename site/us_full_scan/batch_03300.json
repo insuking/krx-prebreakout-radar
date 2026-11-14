@@ -1,76 +1,24 @@
 {
-  "generated_utc": "2026-11-03T03:59:34.398624+00:00",
-  "universe_snapshot_utc": "2026-11-03T03:59:19.600610+00:00",
+  "generated_utc": "2026-11-14T03:28:35.293884+00:00",
+  "universe_snapshot_utc": "2026-11-14T03:28:22.541017+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6240,
+  "universe_count": 6230,
   "batch_offset": 3300,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-11-02",
+  "last_completed_session_estimate": "2026-11-13",
   "candidates": [],
   "failures": [
     {
-      "symbol": "LINC",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "LION",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "LIQT",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "LITE",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "LITS",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "LIVE",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "LIVN",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "LKFN",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "LKQ",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "LKSP",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "LKSPU",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "LLY",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "LLYVA",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "LLYVK",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "LMAT",
@@ -182,6 +130,10 @@
     },
     {
       "symbol": "LOVE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LOVI",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
@@ -405,15 +357,63 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "LIND",
+      "symbol": "LXFR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LXRX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LXU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LYB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LYCA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LYEL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LYFT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LYNX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LYTS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LYV",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LZ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LZB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LLYVA",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "LINK",
+      "symbol": "LKSPU",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "LINE",
+      "symbol": "LLYVK",
       "error": "SOURCE_DENIED_BODY"
     }
   ],

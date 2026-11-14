@@ -1,80 +1,24 @@
 {
-  "generated_utc": "2026-11-03T03:59:35.788275+00:00",
-  "universe_snapshot_utc": "2026-11-03T03:59:19.600610+00:00",
+  "generated_utc": "2026-11-14T03:28:36.157846+00:00",
+  "universe_snapshot_utc": "2026-11-14T03:28:22.541017+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6240,
+  "universe_count": 6230,
   "batch_offset": 4900,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-11-02",
+  "last_completed_session_estimate": "2026-11-13",
   "candidates": [],
   "failures": [
     {
-      "symbol": "RWAYM",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "RWT",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "RWTN",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "RWTO",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "RWTP",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "RWTQ",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "RWTS",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "RXO",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "RXRX",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "RXST",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "RXT",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "RY",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "RYAM",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "RYAN",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "RYDE",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "RYET",
@@ -405,15 +349,71 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "RWAY",
+      "symbol": "SCIIU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SCKT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SCL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SCLX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SCM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SCNX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SCOR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SCPQ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SCPQU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SCQC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SCQCU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SCSC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SCTX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SCWO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RY",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "RWAYI",
+      "symbol": "RYAM",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "RWAYL",
+      "symbol": "RYDE",
       "error": "SOURCE_DENIED_BODY"
     }
   ],

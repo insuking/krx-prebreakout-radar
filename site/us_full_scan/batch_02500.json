@@ -1,56 +1,24 @@
 {
-  "generated_utc": "2026-11-03T03:59:33.706590+00:00",
-  "universe_snapshot_utc": "2026-11-03T03:59:19.600610+00:00",
+  "generated_utc": "2026-11-14T03:28:34.845486+00:00",
+  "universe_snapshot_utc": "2026-11-14T03:28:22.541017+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6240,
+  "universe_count": 6230,
   "batch_offset": 2500,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-11-02",
+  "last_completed_session_estimate": "2026-11-13",
   "candidates": [],
   "failures": [
     {
-      "symbol": "GRNT",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "GROW",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "GROY",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "GRPN",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "GRRR",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "GRSD",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "GRWG",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "GRX",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "GS",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "GS$D",
@@ -405,15 +373,47 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "GROV",
+      "symbol": "HCMAU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "HCSG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "HCTI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "HCWB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "HCXY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "HD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "HDB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "HDRN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GS",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "GRO",
+      "symbol": "GRX",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "GRNQ",
+      "symbol": "GRSD",
       "error": "SOURCE_DENIED_BODY"
     }
   ],

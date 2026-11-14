@@ -1,40 +1,24 @@
 {
-  "generated_utc": "2026-11-03T03:59:32.436353+00:00",
-  "universe_snapshot_utc": "2026-11-03T03:59:19.600610+00:00",
+  "generated_utc": "2026-11-14T03:28:33.875310+00:00",
+  "universe_snapshot_utc": "2026-11-14T03:28:22.541017+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6240,
+  "universe_count": 6230,
   "batch_offset": 900,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-11-02",
+  "last_completed_session_estimate": "2026-11-13",
   "candidates": [],
   "failures": [
     {
-      "symbol": "BRO",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
       "symbol": "BROS",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "BRRKU",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "BRT",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "BRTM",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "BRTMU",
@@ -301,10 +285,6 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "BWMN",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "BWMX",
       "error": "SOURCE_DENIED_SKIPPED"
     },
@@ -405,15 +385,35 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "BRN",
+      "symbol": "CABR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CAC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CACC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CACI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CADL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "BRRKU",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "BRNX",
+      "symbol": "BRT",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "BRLT",
+      "symbol": "BRTM",
       "error": "SOURCE_DENIED_BODY"
     }
   ],

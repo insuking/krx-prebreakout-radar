@@ -1,76 +1,24 @@
 {
-  "generated_utc": "2026-11-03T03:59:35.131455+00:00",
-  "universe_snapshot_utc": "2026-11-03T03:59:19.600610+00:00",
+  "generated_utc": "2026-11-14T03:28:35.724139+00:00",
+  "universe_snapshot_utc": "2026-11-14T03:28:22.541017+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6240,
+  "universe_count": 6230,
   "batch_offset": 4100,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-11-02",
+  "last_completed_session_estimate": "2026-11-13",
   "candidates": [],
   "failures": [
     {
-      "symbol": "ODD",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "ODYS",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "OEC",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "OESX",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "OFAL",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "OFG",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "OFIX",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "OFLX",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "OFRM",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "OFS",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "OFSSH",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "OFSSO",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "OGC",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "OGCP",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "OGE",
@@ -325,6 +273,10 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
+      "symbol": "OPHI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
       "symbol": "OPI",
       "error": "SOURCE_DENIED_SKIPPED"
     },
@@ -405,15 +357,63 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "ODC",
+      "symbol": "ORIC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ORIO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ORIQ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ORIQU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ORKA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ORKT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ORLY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ORMP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ORN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ORRF",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OSBC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OSCR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OGCP",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "ODFL",
+      "symbol": "OGC",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "ODTX",
+      "symbol": "OFSSO",
       "error": "SOURCE_DENIED_BODY"
     }
   ],
