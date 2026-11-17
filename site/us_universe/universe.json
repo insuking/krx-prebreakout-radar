@@ -1,10 +1,10 @@
 {
-  "snapshot_utc": "2026-11-17T05:11:35.049027+00:00",
+  "snapshot_utc": "2026-11-17T19:50:40.943141+00:00",
   "source_urls": {
     "NASDAQ": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt",
     "OTHER": "https://www.nasdaqtrader.com/dynamic/SymDir/otherlisted.txt"
   },
-  "count": 6228,
+  "count": 6227,
   "point_in_time_history": false,
   "coverage": "Current NASDAQ and other-exchange listed issues; preliminary stock filtering",
   "limitations": [
@@ -403,13 +403,6 @@
       "name": "Arch Capital Group Ltd. - Common Stock",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "ACH",
-      "name": "Accendra Health, Inc. Common Stock",
-      "exchange_source": "OTHER",
-      "listing_exchange": "N",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -12096,13 +12089,6 @@
       "security_classification": "PROVISIONAL"
     },
     {
-      "symbol": "DVLT",
-      "name": "Datavault AI Inc. - Common Stock",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
       "symbol": "DVN",
       "name": "Devon Energy Corporation Common Stock",
       "exchange_source": "OTHER",
@@ -16997,9 +16983,9 @@
     },
     {
       "symbol": "GM",
-      "name": "General Motors Company Common Stock",
-      "exchange_source": "OTHER",
-      "listing_exchange": "N",
+      "name": "General Motors Company - Common Stock",
+      "exchange_source": "NASDAQ",
+      "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -25404,7 +25390,7 @@
     },
     {
       "symbol": "MOD",
-      "name": "Modine Manufacturing Company Common Stock",
+      "name": "Modexus Solutions, Inc. Common Stock",
       "exchange_source": "OTHER",
       "listing_exchange": "N",
       "security_classification": "PROVISIONAL"
@@ -39851,6 +39837,13 @@
       "security_classification": "PROVISIONAL"
     },
     {
+      "symbol": "TXR",
+      "name": "Torex Resources Inc. Common Shares",
+      "exchange_source": "OTHER",
+      "listing_exchange": "N",
+      "security_classification": "PROVISIONAL"
+    },
+    {
       "symbol": "TXRH",
       "name": "Texas Roadhouse, Inc. - Common Stock",
       "exchange_source": "NASDAQ",
@@ -40705,13 +40698,6 @@
       "security_classification": "PROVISIONAL"
     },
     {
-      "symbol": "VBNK",
-      "name": "VersaBank - Common Shares",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
       "symbol": "VC",
       "name": "Visteon Corporation - Common Stock",
       "exchange_source": "NASDAQ",
@@ -41407,6 +41393,13 @@
     {
       "symbol": "VRRM",
       "name": "Verra Mobility Corporation - Class A Common Stock",
+      "exchange_source": "NASDAQ",
+      "listing_exchange": "NASDAQ",
+      "security_classification": "PROVISIONAL"
+    },
+    {
+      "symbol": "VRSA",
+      "name": "Versa Bancorp - Common Stock",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
