@@ -1,48 +1,24 @@
 {
-  "generated_utc": "2026-11-11T02:56:34.789835+00:00",
-  "universe_snapshot_utc": "2026-11-11T02:56:14.321347+00:00",
+  "generated_utc": "2026-11-17T05:11:52.754899+00:00",
+  "universe_snapshot_utc": "2026-11-17T05:11:35.049027+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6231,
+  "universe_count": 6228,
   "batch_offset": 5200,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-11-10",
+  "last_completed_session_estimate": "2026-11-16",
   "candidates": [],
   "failures": [
     {
-      "symbol": "SOCAU",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "SOJC",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SOJD",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SOJE",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "SOJF",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SOLS",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SOLV",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "SOMN",
@@ -405,15 +381,39 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "SOCA",
+      "symbol": "STAG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "STAK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "STBA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "STC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "STDN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "STE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SOLV",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "SOC",
+      "symbol": "SOLS",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "SOFI",
+      "symbol": "SOJE",
       "error": "SOURCE_DENIED_BODY"
     }
   ],

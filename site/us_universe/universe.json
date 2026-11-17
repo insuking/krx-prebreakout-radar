@@ -1,10 +1,10 @@
 {
-  "snapshot_utc": "2026-11-14T17:07:21.712626+00:00",
+  "snapshot_utc": "2026-11-17T05:11:35.049027+00:00",
   "source_urls": {
     "NASDAQ": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt",
     "OTHER": "https://www.nasdaqtrader.com/dynamic/SymDir/otherlisted.txt"
   },
-  "count": 6230,
+  "count": 6228,
   "point_in_time_history": false,
   "coverage": "Current NASDAQ and other-exchange listed issues; preliminary stock filtering",
   "limitations": [
@@ -5460,13 +5460,6 @@
       "security_classification": "PROVISIONAL"
     },
     {
-      "symbol": "BKH",
-      "name": "Black Hills Corporation Common Stock",
-      "exchange_source": "OTHER",
-      "listing_exchange": "N",
-      "security_classification": "PROVISIONAL"
-    },
-    {
       "symbol": "BKHA",
       "name": "Black Hawk Acquisition Corporation - Class A Ordinary Shares",
       "exchange_source": "NASDAQ",
@@ -6318,6 +6311,13 @@
       "name": "Dutch Bros Inc. Class A Common Stock",
       "exchange_source": "OTHER",
       "listing_exchange": "N",
+      "security_classification": "PROVISIONAL"
+    },
+    {
+      "symbol": "BRRK",
+      "name": "Bluerock Acquisition Corp. II - Class A Ordinary Shares",
+      "exchange_source": "NASDAQ",
+      "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -15212,7 +15212,7 @@
     },
     {
       "symbol": "FOFO",
-      "name": "Hang Feng Technology Innovation Co., Ltd. - Ordinary Shares",
+      "name": "Hang Feng Technology Innovation Co., Ltd. - Class A Ordinary Shares",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
@@ -19285,6 +19285,13 @@
       "security_classification": "PROVISIONAL"
     },
     {
+      "symbol": "HZN",
+      "name": "Bright Horizon Energy Corporation Common Stock",
+      "exchange_source": "OTHER",
+      "listing_exchange": "N",
+      "security_classification": "PROVISIONAL"
+    },
+    {
       "symbol": "HZO",
       "name": "MarineMax, Inc.  (FL) Common Stock",
       "exchange_source": "OTHER",
@@ -20755,13 +20762,6 @@
       "security_classification": "PROVISIONAL"
     },
     {
-      "symbol": "ITGR",
-      "name": "Integer Holdings Corporation Common Stock",
-      "exchange_source": "OTHER",
-      "listing_exchange": "N",
-      "security_classification": "PROVISIONAL"
-    },
-    {
       "symbol": "ITHA",
       "name": "ITHAX Acquisition Corp III - Class A Ordinary Shares",
       "exchange_source": "NASDAQ",
@@ -22222,13 +22222,6 @@
       "name": "Key Tronic Corporation - Common Stock",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "KTF",
-      "name": "DWS Municipal Income Trust",
-      "exchange_source": "OTHER",
-      "listing_exchange": "N",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -28196,13 +28189,6 @@
       "security_classification": "PROVISIONAL"
     },
     {
-      "symbol": "NWE",
-      "name": "NorthWestern Energy Group, Inc.  - Common Stock",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
       "symbol": "NWFL",
       "name": "Norwood Financial Corp. - Common Stock",
       "exchange_source": "NASDAQ",
@@ -30989,13 +30975,6 @@
       "security_classification": "PROVISIONAL"
     },
     {
-      "symbol": "PLCE",
-      "name": "Children's Place, Inc. (The) - Common Stock",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
       "symbol": "PLCI",
       "name": "Pelican Acquisition II Corporation - Ordinary Shares",
       "exchange_source": "NASDAQ",
@@ -31502,6 +31481,13 @@
     {
       "symbol": "POR",
       "name": "Portland General Electric Co Common Stock",
+      "exchange_source": "OTHER",
+      "listing_exchange": "N",
+      "security_classification": "PROVISIONAL"
+    },
+    {
+      "symbol": "PORT",
+      "name": "Southport Acquisition Corp. II Class A Ordinary Shares",
       "exchange_source": "OTHER",
       "listing_exchange": "N",
       "security_classification": "PROVISIONAL"

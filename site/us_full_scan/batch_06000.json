@@ -1,44 +1,24 @@
 {
-  "generated_utc": "2026-11-11T02:56:35.459517+00:00",
-  "universe_snapshot_utc": "2026-11-11T02:56:14.321347+00:00",
+  "generated_utc": "2026-11-17T05:11:53.496671+00:00",
+  "universe_snapshot_utc": "2026-11-17T05:11:35.049027+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6231,
+  "universe_count": 6228,
   "batch_offset": 6000,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-11-10",
+  "last_completed_session_estimate": "2026-11-16",
   "candidates": [],
   "failures": [
     {
-      "symbol": "WFRD",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "WHD",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "WHF",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "WHFCL",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "WHG",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "WHK",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "WHLR",
@@ -389,6 +369,10 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
+      "symbol": "WWB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
       "symbol": "WWD",
       "error": "SOURCE_DENIED_SKIPPED"
     },
@@ -405,15 +389,31 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "WH",
+      "symbol": "WY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "WYFI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "WYNN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "WYY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "WHK",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "WGS",
+      "symbol": "WHF",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "WGO",
+      "symbol": "WHG",
       "error": "SOURCE_DENIED_BODY"
     }
   ],

@@ -1,36 +1,24 @@
 {
-  "generated_utc": "2026-11-10T04:44:25.160507+00:00",
-  "universe_snapshot_utc": "2026-11-10T04:44:09.346174+00:00",
+  "generated_utc": "2026-11-17T05:11:50.582298+00:00",
+  "universe_snapshot_utc": "2026-11-17T05:11:35.049027+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6231,
+  "universe_count": 6228,
   "batch_offset": 2800,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-11-09",
+  "last_completed_session_estimate": "2026-11-16",
   "candidates": [],
   "failures": [
     {
-      "symbol": "IDYA",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "IE",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "IEAG",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "IEAGU",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "IEP",
@@ -405,15 +393,27 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "IDR",
+      "symbol": "INTR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "INTS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "INTT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "IEAGU",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "IDXX",
+      "symbol": "IDYA",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "IDT",
+      "symbol": "IE",
       "error": "SOURCE_DENIED_BODY"
     }
   ],
@@ -424,5 +424,4 @@
     "US market holiday handling is approximate; stale bars are rejected",
     "Do not trade based solely on this screen"
   ]
-}
 }

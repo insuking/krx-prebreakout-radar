@@ -1,56 +1,28 @@
 {
-  "generated_utc": "2026-11-10T04:44:26.793436+00:00",
-  "universe_snapshot_utc": "2026-11-10T04:44:09.346174+00:00",
+  "generated_utc": "2026-11-17T05:11:51.958547+00:00",
+  "universe_snapshot_utc": "2026-11-17T05:11:35.049027+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6231,
+  "universe_count": 6228,
   "batch_offset": 4400,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-11-09",
+  "last_completed_session_estimate": "2026-11-16",
   "candidates": [],
   "failures": [
     {
-      "symbol": "PHIN",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "PHOE",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "PHR",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "PHUN",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "PHVS",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "PHXE$",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "UNSUPPORTED_SYMBOL_FORMAT"
     },
     {
       "symbol": "PI",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "PICS",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "PII",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "PIII",
@@ -122,10 +94,6 @@
     },
     {
       "symbol": "PLBY",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "PLCE",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
@@ -405,15 +373,47 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "PHIO",
+      "symbol": "PONO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PONOU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "POOL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "POR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PORT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "POST",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "POWI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "POWL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PII",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "PHM",
+      "symbol": "PICS",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "PHK",
+      "symbol": "PHVS",
       "error": "SOURCE_DENIED_BODY"
     }
   ],
@@ -424,4 +424,4 @@
     "US market holiday handling is approximate; stale bars are rejected",
     "Do not trade based solely on this screen"
   ]
-}}
+}
