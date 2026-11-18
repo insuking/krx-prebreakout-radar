@@ -1,10 +1,10 @@
 {
-  "snapshot_utc": "2026-11-18T04:39:07.812446+00:00",
+  "snapshot_utc": "2026-11-18T19:24:27.017761+00:00",
   "source_urls": {
     "NASDAQ": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt",
     "OTHER": "https://www.nasdaqtrader.com/dynamic/SymDir/otherlisted.txt"
   },
-  "count": 6227,
+  "count": 6226,
   "point_in_time_history": false,
   "coverage": "Current NASDAQ and other-exchange listed issues; preliminary stock filtering",
   "limitations": [
@@ -17773,6 +17773,13 @@
       "security_classification": "PROVISIONAL"
     },
     {
+      "symbol": "GUER",
+      "name": "Guerrilla RF, Inc. - Common Stock",
+      "exchange_source": "NASDAQ",
+      "listing_exchange": "NASDAQ",
+      "security_classification": "PROVISIONAL"
+    },
+    {
       "symbol": "GUG",
       "name": "Guggenheim Active Allocation Fund Common Shares of Beneficial Interest",
       "exchange_source": "OTHER",
@@ -19415,13 +19422,6 @@
       "name": "ICICI Bank Limited Common Stock",
       "exchange_source": "OTHER",
       "listing_exchange": "N",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "IBO",
-      "name": "Impact BioMedical, Inc. Common Stock",
-      "exchange_source": "OTHER",
-      "listing_exchange": "A",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -30198,13 +30198,6 @@
       "security_classification": "PROVISIONAL"
     },
     {
-      "symbol": "PCRX",
-      "name": "Pacira BioSciences, Inc. - Common Stock",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
       "symbol": "PCSA",
       "name": "Processa Pharmaceuticals, Inc. - Common Stock",
       "exchange_source": "NASDAQ",
@@ -35457,13 +35450,6 @@
     {
       "symbol": "SHEN",
       "name": "Shenandoah Telecommunications Co - Common Stock",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "SHFS",
-      "name": "SHF Holdings, Inc. - Class A Common Stock",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
@@ -43488,6 +43474,13 @@
       "name": "Zentalis Pharmaceuticals, Inc. - common stock",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
+      "security_classification": "PROVISIONAL"
+    },
+    {
+      "symbol": "ZOAR",
+      "name": "Zoar Limited Ordinary Shares",
+      "exchange_source": "OTHER",
+      "listing_exchange": "A",
       "security_classification": "PROVISIONAL"
     },
     {
