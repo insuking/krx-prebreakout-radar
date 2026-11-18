@@ -1,56 +1,24 @@
 {
-  "generated_utc": "2026-11-11T02:56:31.473541+00:00",
-  "universe_snapshot_utc": "2026-11-11T02:56:14.321347+00:00",
+  "generated_utc": "2026-11-18T04:39:22.413402+00:00",
+  "universe_snapshot_utc": "2026-11-18T04:39:07.812446+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6231,
+  "universe_count": 6227,
   "batch_offset": 3200,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-11-10",
+  "last_completed_session_estimate": "2026-11-17",
   "candidates": [],
   "failures": [
     {
-      "symbol": "LAD",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "LAFA",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "LAFAU",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "LAKE",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "LAMR",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "LAND",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "LANV",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "LAR",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "LARK",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "LASE",
@@ -178,30 +146,6 @@
     },
     {
       "symbol": "LEDR",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "LEDRU",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "OS",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "LDP",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "LE",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "LEA",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "LECO",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
@@ -405,15 +349,71 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "KYMR",
+      "symbol": "LINE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LINK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LION",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LIQT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LITE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LITS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LIVE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LIVN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LKFN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LKQ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LKSP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LKSPU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LLY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LLYVA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LAR",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "KYNB",
+      "symbol": "LARK",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "KYN",
+      "symbol": "LAND",
       "error": "SOURCE_DENIED_BODY"
     }
   ],
@@ -424,5 +424,4 @@
     "US market holiday handling is approximate; stale bars are rejected",
     "Do not trade based solely on this screen"
   ]
-}  ]
 }

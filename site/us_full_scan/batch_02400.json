@@ -1,36 +1,24 @@
 {
-  "generated_utc": "2026-11-11T02:56:30.895192+00:00",
-  "universe_snapshot_utc": "2026-11-11T02:56:14.321347+00:00",
+  "generated_utc": "2026-11-18T04:39:21.890278+00:00",
+  "universe_snapshot_utc": "2026-11-18T04:39:07.812446+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6231,
+  "universe_count": 6227,
   "batch_offset": 2400,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-11-10",
+  "last_completed_session_estimate": "2026-11-17",
   "candidates": [],
   "failures": [
     {
-      "symbol": "GLED.U",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "GLIBA",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "GLIBK",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "GLND",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "GLNG",
@@ -405,15 +393,27 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "GLED",
+      "symbol": "GRRR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GRSD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GRWG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "GLIBA",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "GLE",
+      "symbol": "GLND",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "GLDG",
+      "symbol": "GLED.U",
       "error": "SOURCE_DENIED_BODY"
     }
   ],
@@ -424,5 +424,4 @@
     "US market holiday handling is approximate; stale bars are rejected",
     "Do not trade based solely on this screen"
   ]
-}]
 }

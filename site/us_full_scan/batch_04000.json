@@ -1,48 +1,24 @@
 {
-  "generated_utc": "2026-11-11T02:56:32.096843+00:00",
-  "universe_snapshot_utc": "2026-11-11T02:56:14.321347+00:00",
+  "generated_utc": "2026-11-18T04:39:22.983438+00:00",
+  "universe_snapshot_utc": "2026-11-18T04:39:07.812446+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6231,
+  "universe_count": 6227,
   "batch_offset": 4000,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-11-10",
+  "last_completed_session_estimate": "2026-11-17",
   "candidates": [],
   "failures": [
     {
-      "symbol": "NUS",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "NUV",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NUVB",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NUW",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NUWE",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "NVA",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NVAX",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "NVCR",
@@ -118,10 +94,6 @@
     },
     {
       "symbol": "NWCL",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NWE",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
@@ -230,10 +202,6 @@
     },
     {
       "symbol": "NXTT",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NXXT",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
@@ -405,15 +373,47 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "NUR",
+      "symbol": "OFIX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OFLX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OFRM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OFS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OFSSH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OFSSO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OGC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OGCP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NVAX",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "NUE",
+      "symbol": "NUWE",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "NUTX",
+      "symbol": "NUW",
       "error": "SOURCE_DENIED_BODY"
     }
   ],
@@ -424,4 +424,4 @@
     "US market holiday handling is approximate; stale bars are rejected",
     "Do not trade based solely on this screen"
   ]
-}}
+}
