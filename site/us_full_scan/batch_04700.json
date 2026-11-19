@@ -1,108 +1,24 @@
 {
-  "generated_utc": "2026-10-28T02:31:54.010900+00:00",
-  "universe_snapshot_utc": "2026-10-28T02:31:31.530808+00:00",
+  "generated_utc": "2026-11-19T04:24:36.461741+00:00",
+  "universe_snapshot_utc": "2026-11-19T04:24:23.049470+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6246,
+  "universe_count": 6226,
   "batch_offset": 4700,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-10-27",
+  "last_completed_session_estimate": "2026-11-18",
   "candidates": [],
   "failures": [
     {
-      "symbol": "RCAT",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "RCD",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "RCEL",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "RCG",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "RCI",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "RCKT",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "RCKY",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "RCL",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "RCMT",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "RCON",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "RCS",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "RCT",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "RCUS",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "RDAC",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "RDACU",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "RDAG",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "RDAGU",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "RDCM",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "RDDT",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "RDGT",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "RDI",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "RDIB",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "RDN",
@@ -305,55 +221,55 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "RGNT",
+      "symbol": "RGNB",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "RGNX",
+      "symbol": "REX",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "RGP",
+      "symbol": "REXR",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "RGR",
+      "symbol": "REYN",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "RGS",
+      "symbol": "REZI",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "RGT",
+      "symbol": "RF",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "RGTI",
+      "symbol": "RFAI",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "RH",
+      "symbol": "RFAIR",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "RHI",
+      "symbol": "RFAIU",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "RHLD",
+      "symbol": "RFAM",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "RHP",
+      "symbol": "RFAMU",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "RIBB",
+      "symbol": "RFI",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "RIBBU",
+      "symbol"U",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
@@ -405,15 +321,99 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "RBRK",
+      "symbol": "RIVN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RJET",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RJF",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RKDA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RKLB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RKT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RKTO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RLAY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RLGT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RLI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RLJ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RLJ$A",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RLMD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RLTY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RLYB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RMBI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RMBS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RMCF",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RMCO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RDDT",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "RCBC",
+      "symbol": "RDI",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "RC",
+      "symbol": "RDGT",
       "error": "SOURCE_DENIED_BODY"
     }
   ],
@@ -424,5 +424,5 @@
     "US market holiday handling is approximate; stale bars are rejected",
     "Do not trade based solely on this screen"
   ]
-}}
+}}}
 }

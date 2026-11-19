@@ -1,96 +1,24 @@
 {
-  "generated_utc": "2026-10-28T02:31:53.042097+00:00",
-  "universe_snapshot_utc": "2026-10-28T02:31:31.530808+00:00",
+  "generated_utc": "2026-11-19T04:24:35.767476+00:00",
+  "universe_snapshot_utc": "2026-11-19T04:24:23.049470+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6246,
+  "universe_count": 6226,
   "batch_offset": 3900,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-10-27",
+  "last_completed_session_estimate": "2026-11-18",
   "candidates": [],
   "failures": [
     {
-      "symbol": "NKX",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "NLY$F",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NMAD",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NMAI",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NMAX",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NMCO",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NMFC",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NMFCZ",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NMG",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NMI",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NMIH",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NML",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NMM",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NMP",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NMPAR",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NMPAU",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NMRA",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NMRK",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "NMS",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "NMT",
@@ -174,6 +102,10 @@
     },
     {
       "symbol": "NOMD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NORD",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
@@ -405,15 +337,83 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "NL",
+      "symbol": "NTRB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NTRP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NTRS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NTSK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NTST",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NTWK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NTWO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NTWOU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NUAI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NUCL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NUE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NUR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NUS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NUTX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NUV",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NUVB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NMRK",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "NLOP",
+      "symbol": "NMPAU",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "NLY",
+      "symbol": "NMRA",
       "error": "SOURCE_DENIED_BODY"
     }
   ],
@@ -424,5 +424,4 @@
     "US market holiday handling is approximate; stale bars are rejected",
     "Do not trade based solely on this screen"
   ]
-}]
 }

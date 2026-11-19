@@ -233,19 +233,7 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "PSEC",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "PSF",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "PSFE",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "PSHG",
+      "symbol": "PSG",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
@@ -333,10 +321,6 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "PTLE",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "PTLO",
       "error": "SOURCE_DENIED_SKIPPED"
     },
@@ -405,15 +389,31 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "PPG",
+      "symbol": "PWCM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PWP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PWR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PWRL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PPHC",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "PPC",
+      "symbol": "PPL",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "PPCB",
+      "symbol": "PPIH",
       "error": "SOURCE_DENIED_BODY"
     }
   ],
@@ -424,5 +424,5 @@
     "US market holiday handling is approximate; stale bars are rejected",
     "Do not trade based solely on this screen"
   ]
-}  ]
+}}  ]
 }}

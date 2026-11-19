@@ -1,120 +1,24 @@
 {
-  "generated_utc": "2026-10-28T02:31:54.941269+00:00",
-  "universe_snapshot_utc": "2026-10-28T02:31:31.530808+00:00",
+  "generated_utc": "2026-11-19T04:24:36.957781+00:00",
+  "universe_snapshot_utc": "2026-11-19T04:24:23.049470+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6246,
+  "universe_count": 6226,
   "batch_offset": 5500,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-10-27",
+  "last_completed_session_estimate": "2026-11-18",
   "candidates": [],
   "failures": [
     {
-      "symbol": "TGE",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "TGLS",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "TGS",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "TGT",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "TGTX",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "TH",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "THC",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "THCH",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "THEO",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "THEOU",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "THFF",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "THG",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "THH",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "THM",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "THO",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "THQ",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "THRM",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "THRY",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "THW",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "TIC",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "TIGO",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "TII",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "TIL",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "TILE",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "TIPT",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "TISI",
@@ -405,15 +309,111 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "TGHL",
+      "symbol": "TPTS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TPVG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TRAD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TRAD.U",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TRAK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TRAW",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TRAX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TRBG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TRC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TRDA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TREE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TREO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TREX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TRGP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TRGS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TRGSU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TRI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TRIN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TRIP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TRLV",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TRMB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TRMD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TRMK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TILE",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "TGEN",
+      "symbol": "TII",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "TGL",
+      "symbol": "TIL",
       "error": "SOURCE_DENIED_BODY"
     }
   ],
@@ -423,7 +423,5 @@
     "Heuristic scores are NOT calibrated probabilities",
     "US market holiday handling is approximate; stale bars are rejected",
     "Do not trade based solely on this screen"
-  ]
-}
   ]
 }

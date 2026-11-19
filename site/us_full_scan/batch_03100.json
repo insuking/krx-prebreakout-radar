@@ -1,76 +1,24 @@
 {
-  "generated_utc": "2026-10-28T02:31:52.171879+00:00",
-  "universe_snapshot_utc": "2026-10-28T02:31:31.530808+00:00",
+  "generated_utc": "2026-11-19T04:24:35.152960+00:00",
+  "universe_snapshot_utc": "2026-11-19T04:24:23.049470+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6246,
+  "universe_count": 6226,
   "batch_offset": 3100,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-10-27",
+  "last_completed_session_estimate": "2026-11-18",
   "candidates": [],
   "failures": [
     {
-      "symbol": "KEYY",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "KFII",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "KFIIU",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "KFRC",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "KFY",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "KG",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "KGC",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "KGEI",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "KGS",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "KHC",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "KIDS",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "KIDZ",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "KIM",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "KINS",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "KIO",
@@ -177,10 +125,6 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "KNRX",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "KNSA",
       "error": "SOURCE_DENIED_SKIPPED"
     },
@@ -242,10 +186,6 @@
     },
     {
       "symbol": "KPRX",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "KPTI",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
@@ -349,10 +289,6 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "KTF",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "KTN",
       "error": "SOURCE_DENIED_SKIPPED"
     },
@@ -389,10 +325,6 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "KVUE",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "KVYO",
       "error": "SOURCE_DENIED_SKIPPED"
     },
@@ -405,15 +337,83 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "KF",
+      "symbol": "KXIN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KYIV",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KYMR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KYN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KYNB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KYTX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "L",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LAB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LABT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LAC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LAD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LADR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LAES",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LAFA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LAFAU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LAKE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "LAMR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KINS",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "KEYYU",
+      "symbol": "KIDZ",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "KFFB",
+      "symbol": "KIDS",
       "error": "SOURCE_DENIED_BODY"
     }
   ],
@@ -424,4 +424,4 @@
     "US market holiday handling is approximate; stale bars are rejected",
     "Do not trade based solely on this screen"
   ]
-}}
+}
