@@ -1,10 +1,10 @@
 {
-  "snapshot_utc": "2026-11-19T04:24:23.049470+00:00",
+  "snapshot_utc": "2026-11-19T19:28:46.121907+00:00",
   "source_urls": {
     "NASDAQ": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt",
     "OTHER": "https://www.nasdaqtrader.com/dynamic/SymDir/otherlisted.txt"
   },
-  "count": 6226,
+  "count": 6225,
   "point_in_time_history": false,
   "coverage": "Current NASDAQ and other-exchange listed issues; preliminary stock filtering",
   "limitations": [
@@ -2475,6 +2475,13 @@
       "name": "Alto Neuroscience, Inc. Common Stock",
       "exchange_source": "OTHER",
       "listing_exchange": "N",
+      "security_classification": "PROVISIONAL"
+    },
+    {
+      "symbol": "ANT",
+      "name": "Anthropic, PBC - Class A Common Stock",
+      "exchange_source": "NASDAQ",
+      "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -14378,6 +14385,20 @@
       "security_classification": "PROVISIONAL"
     },
     {
+      "symbol": "FDGX",
+      "name": "First Digital Acquisition Corp Ltd. - Class A Ordinary Shares",
+      "exchange_source": "NASDAQ",
+      "listing_exchange": "NASDAQ",
+      "security_classification": "PROVISIONAL"
+    },
+    {
+      "symbol": "FDGXU",
+      "name": "First Digital Acquisition Corp Ltd. - Units",
+      "exchange_source": "NASDAQ",
+      "listing_exchange": "NASDAQ",
+      "security_classification": "PROVISIONAL"
+    },
+    {
       "symbol": "FDMM",
       "name": "Freedom Metals Acquisition Corp. - Class A Ordinary Shares",
       "exchange_source": "NASDAQ",
@@ -15047,6 +15068,13 @@
       "name": "First Mid Bancshares, Inc. - Common Stock",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
+      "security_classification": "PROVISIONAL"
+    },
+    {
+      "symbol": "FMBM",
+      "name": "F&M Bank Corp. Common Stock",
+      "exchange_source": "OTHER",
+      "listing_exchange": "A",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -22001,20 +22029,6 @@
       "security_classification": "PROVISIONAL"
     },
     {
-      "symbol": "KOYN",
-      "name": "CSLM Digital Asset Acquisition Corp III - Class A Ordinary Shares",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "KOYNU",
-      "name": "CSLM Digital Asset Acquisition Corp III - Units",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
       "symbol": "KPET",
       "name": "KPET Ultra Paceline Corporation Class A Ordinary Shares",
       "exchange_source": "OTHER",
@@ -23706,13 +23720,6 @@
       "name": "Lexeo Therapeutics, Inc. - Common Stock",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "LXFR",
-      "name": "Luxfer Holdings PLC Ordinary Shares",
-      "exchange_source": "OTHER",
-      "listing_exchange": "N",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -34888,13 +34895,6 @@
       "security_classification": "PROVISIONAL"
     },
     {
-      "symbol": "SCKT",
-      "name": "Socket Mobile, Inc. - Common Stock",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
       "symbol": "SCL",
       "name": "Stepan Company Common Stock",
       "exchange_source": "OTHER",
@@ -37006,13 +37006,6 @@
       "name": "System1, Inc. Class A Common Stock",
       "exchange_source": "OTHER",
       "listing_exchange": "N",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "SSTI",
-      "name": "SoundThinking, Inc. - Common Stock",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
     },
     {
