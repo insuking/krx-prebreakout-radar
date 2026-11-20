@@ -1,10 +1,10 @@
 {
-  "snapshot_utc": "2026-11-20T04:11:36.833568+00:00",
+  "snapshot_utc": "2026-11-20T19:05:55.938527+00:00",
   "source_urls": {
     "NASDAQ": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt",
     "OTHER": "https://www.nasdaqtrader.com/dynamic/SymDir/otherlisted.txt"
   },
-  "count": 6225,
+  "count": 6224,
   "point_in_time_history": false,
   "coverage": "Current NASDAQ and other-exchange listed issues; preliminary stock filtering",
   "limitations": [
@@ -2207,13 +2207,6 @@
     {
       "symbol": "AMPG",
       "name": "Amplitech Group, Inc. - Common Stock",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "AMPGZ",
-      "name": "Amplitech Group, Inc. - Series B Right",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
@@ -10740,6 +10733,13 @@
     {
       "symbol": "CZWI",
       "name": "Citizens Community Bancorp, Inc. - Common Stock",
+      "exchange_source": "NASDAQ",
+      "listing_exchange": "NASDAQ",
+      "security_classification": "PROVISIONAL"
+    },
+    {
+      "symbol": "CZZL",
+      "name": "Cizzle Brands Corporation - Common Stock",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
@@ -24500,13 +24500,6 @@
       "security_classification": "PROVISIONAL"
     },
     {
-      "symbol": "MERC",
-      "name": "Mercer International Inc. - Common Stock",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
       "symbol": "MESH",
       "name": "Meshflow Acquisition Corp. - Class A Ordinary Shares",
       "exchange_source": "NASDAQ",
@@ -36435,6 +36428,13 @@
       "security_classification": "PROVISIONAL"
     },
     {
+      "symbol": "SONN",
+      "name": "Southern Company (The) 2026 Series A Corporate Units",
+      "exchange_source": "OTHER",
+      "listing_exchange": "N",
+      "security_classification": "PROVISIONAL"
+    },
+    {
       "symbol": "SONO",
       "name": "Sonos, Inc. - Common Stock",
       "exchange_source": "NASDAQ",
@@ -40520,13 +40520,6 @@
       "name": "UTStarcom Holdings Corp - Ordinary Shares",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "UTZ",
-      "name": "Utz Brands Inc Class A Common Stock ",
-      "exchange_source": "OTHER",
-      "listing_exchange": "N",
       "security_classification": "PROVISIONAL"
     },
     {
