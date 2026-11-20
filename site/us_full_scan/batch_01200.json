@@ -424,4 +424,191 @@
     "US market holiday handling is approximate; stale bars are rejected",
     "Do not trade based solely on this screen"
   ]
+} "CLWT",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "CLW",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "CMC",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "CMBT",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "CM",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "CMCL",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "CMCO",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "CMDB",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "CMCT",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "CMCSA",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "CMND",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "CMG",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "CMI",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "CME",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "CMPR",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "CMPX",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "CMP",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "CMRE$C",
+      "error": "UNSUPPORTED_SYMBOL_FORMAT"
+    },
+    {
+      "symbol": "CMPS",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "CMRE",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "CMS",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "CMRC",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "CMSA",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "CMT",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "CMTG",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "CMSD",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "CMSC",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "CNA",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "CMTL",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "CMTV",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "CNC",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "CNEY",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "CNET",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "CNCK",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "CNDT",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "CNI",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "CNL",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "CNK",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "CNH",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "CNMD",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "CNO$A",
+      "error": "UNSUPPORTED_SYMBOL_FORMAT"
+    },
+    {
+      "symbol": "CNM",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "CNNE",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "CNO",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "CNOB",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    }
+  ],
+  "warnings": [
+    "Current listings only; not point-in-time delisted universe",
+    "Stooq data license, completeness and adjustment basis not independently validated",
+    "Heuristic scores are NOT calibrated probabilities",
+    "US market holiday handling is approximate; stale bars are rejected",
+    "Do not trade based solely on this screen"
+  ]
 }

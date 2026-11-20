@@ -424,4 +424,194 @@
     "US market holiday handling is approximate; stale bars are rejected",
     "Do not trade based solely on this screen"
   ]
+}ceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ASB",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ASBA",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ASBH",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ASBP",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ASC",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ASG",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ASGI",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ASH",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ASIC",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ASIX",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ASLE",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ASM",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ASMB",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ASML",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ASND",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ASO",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ASPC",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ASPCR",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ASPCU",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ASPE",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ASPI",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ASPN",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ASPS",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ASR",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ASRV",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ASST",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ASTE",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ASTC",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ASTH",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ASTI",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ASTL",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ASTS",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ASUR",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ASYS",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ATCX",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ATEC",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ATEN",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ATER",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ATHR",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ATEX",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ATGL",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ATHS",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ATI",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ATLC",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    },
+    {
+      "symbol": "ATLCL",
+      "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
+    }
+  ],
+  "warnings": [
+    "Current listings only; not point-in-time delisted universe",
+    "Stooq data license, completeness and adjustment basis not independently validated",
+    "Heuristic scores are NOT calibrated probabilities",
+    "US market holiday handling is approximate; stale bars are rejected",
+    "Do not trade based solely on this screen"
+  ]
 }

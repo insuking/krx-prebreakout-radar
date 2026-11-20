@@ -1,44 +1,24 @@
 {
-  "generated_utc": "2026-11-12T04:02:21.866003+00:00",
-  "universe_snapshot_utc": "2026-11-12T04:02:08.633209+00:00",
+  "generated_utc": "2026-11-20T04:11:52.312456+00:00",
+  "universe_snapshot_utc": "2026-11-20T04:11:36.833568+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6228,
+  "universe_count": 6225,
   "batch_offset": 4600,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-11-11",
+  "last_completed_session_estimate": "2026-11-19",
   "candidates": [],
   "failures": [
     {
-      "symbol": "PWCM",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "PWR",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "PWRL",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "PXED",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "PXLW",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "PXS",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "PYPD",
@@ -405,21 +385,41 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "PW",
+      "symbol": "RCUS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RDAC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RDACU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RDAG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RDAGU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PWRL",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "PVLA",
+      "symbol": "PXED",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "PWP",
+      "symbol": "PXS",
       "error": "SOURCE_DENIED_BODY"
     }
   ],
   "warnings": [
     "Current listings only; not point-in-time delisted universe",
-    "Stooq data license, completeness and adjustment basisis not independently validated",
+    "Stooq data license, completeness and adjustment basis not independently validated",
     "Heuristic scores are NOT calibrated probabilities",
     "US market holiday handling is approximate; stale bars are rejected",
     "Do not trade based solely on this screen"

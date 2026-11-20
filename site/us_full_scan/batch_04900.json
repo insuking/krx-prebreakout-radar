@@ -1,40 +1,24 @@
 {
-  "generated_utc": "2026-11-14T03:28:36.157846+00:00",
-  "universe_snapshot_utc": "2026-11-14T03:28:22.541017+00:00",
+  "generated_utc": "2026-11-20T04:12:04.611874+00:00",
+  "universe_snapshot_utc": "2026-11-20T04:11:36.833568+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6230,
+  "universe_count": 6225,
   "batch_offset": 4900,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-11-13",
+  "last_completed_session_estimate": "2026-11-19",
   "candidates": [],
   "failures": [
     {
-      "symbol": "RYAN",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "RYET",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "RYM",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "RYN",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "RYOJ",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "RYTM",
@@ -353,10 +337,6 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "SCKT",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "SCL",
       "error": "SOURCE_DENIED_SKIPPED"
     },
@@ -405,15 +385,35 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "RY",
+      "symbol": "SCYX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SCZM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SDA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SDEV",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RYM",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "RYAM",
+      "symbol": "RYOJ",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "RYDE",
+      "symbol": "RYET",
       "error": "SOURCE_DENIED_BODY"
     }
   ],

@@ -1,48 +1,24 @@
 {
-  "generated_utc": "2026-11-14T03:28:36.586849+00:00",
-  "universe_snapshot_utc": "2026-11-14T03:28:22.541017+00:00",
+  "generated_utc": "2026-11-20T04:12:05.232743+00:00",
+  "universe_snapshot_utc": "2026-11-20T04:11:36.833568+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6230,
+  "universe_count": 6225,
   "batch_offset": 5700,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-11-13",
+  "last_completed_session_estimate": "2026-11-19",
   "candidates": [],
   "failures": [
     {
-      "symbol": "U",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "UAC",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "UAL",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "UAMY",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "UAN",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "UAVS",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "UBCP",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "UBER",
@@ -405,15 +381,39 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "TZOO",
+      "symbol": "UYSCU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "UZD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "UZE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "UZF",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "UZX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "V",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "UAN",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "UAA",
+      "symbol": "UBCP",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "UA",
+      "symbol": "UAMY",
       "error": "SOURCE_DENIED_BODY"
     }
   ],
