@@ -1,10 +1,10 @@
 {
-  "snapshot_utc": "2026-11-24T07:02:04.122534+00:00",
+  "snapshot_utc": "2026-11-24T21:10:53.816217+00:00",
   "source_urls": {
     "NASDAQ": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt",
     "OTHER": "https://www.nasdaqtrader.com/dynamic/SymDir/otherlisted.txt"
   },
-  "count": 6222,
+  "count": 6221,
   "point_in_time_history": false,
   "coverage": "Current NASDAQ and other-exchange listed issues; preliminary stock filtering",
   "limitations": [
@@ -12264,13 +12264,6 @@
       "security_classification": "PROVISIONAL"
     },
     {
-      "symbol": "EBMT",
-      "name": "Eagle Bancorp Montana, Inc. - Common Stock",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
       "symbol": "EBON",
       "name": "Ebang International Holdings Inc. - Class A Ordinary Shares",
       "exchange_source": "NASDAQ",
@@ -20468,20 +20461,6 @@
       "security_classification": "PROVISIONAL"
     },
     {
-      "symbol": "IPFX",
-      "name": "Inflection Point Acquisition Corp. VI - Class A Ordinary Shares",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "IPFXU",
-      "name": "Inflection Point Acquisition Corp. VI - Units",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
       "symbol": "IPGP",
       "name": "IPG Photonics Corporation - Common Stock",
       "exchange_source": "NASDAQ",
@@ -28476,6 +28455,13 @@
       "security_classification": "PROVISIONAL"
     },
     {
+      "symbol": "OBMT",
+      "name": "Opportunity Bancorp, Inc. - Common Stock",
+      "exchange_source": "NASDAQ",
+      "listing_exchange": "NASDAQ",
+      "security_classification": "PROVISIONAL"
+    },
+    {
       "symbol": "OBT",
       "name": "Orange County Bancorp, Inc. - Common Stock",
       "exchange_source": "NASDAQ",
@@ -32456,6 +32442,13 @@
       "name": "Quantum-Si Incorporated - Class A Common Stock",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
+      "security_classification": "PROVISIONAL"
+    },
+    {
+      "symbol": "QSPC",
+      "name": "Quantum Space, Inc. Class A-1 Common Stock",
+      "exchange_source": "OTHER",
+      "listing_exchange": "N",
       "security_classification": "PROVISIONAL"
     },
     {
