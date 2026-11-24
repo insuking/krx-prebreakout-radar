@@ -1,80 +1,24 @@
 {
-  "generated_utc": "2026-11-06T03:35:16.183651+00:00",
-  "universe_snapshot_utc": "2026-11-06T03:35:01.725846+00:00",
+  "generated_utc": "2026-11-24T07:02:21.775942+00:00",
+  "universe_snapshot_utc": "2026-11-24T07:02:04.122534+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6235,
+  "universe_count": 6222,
   "batch_offset": 4200,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-11-05",
+  "last_completed_session_estimate": "2026-11-23",
   "candidates": [],
   "failures": [
     {
-      "symbol": "ORLY",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "ORN",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "ORRF",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "OSBC",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "OSCR",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "OSG",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "OSIS",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "OSK",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "OSPN",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "OSPR",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "OSPRU",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "OSS",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "OST",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "OSTX",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "OSUR",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "OSW",
@@ -405,15 +349,71 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "ORKT",
+      "symbol": "PBAM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PBF",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PBFS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PBH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PBHC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PBI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PBI$B",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PBK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PBLS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PBM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PBR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PBT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PBYI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "PC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "OSTX",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "ORKA",
+      "symbol": "OSUR",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "ORMP",
+      "symbol": "OST",
       "error": "SOURCE_DENIED_BODY"
     }
   ],

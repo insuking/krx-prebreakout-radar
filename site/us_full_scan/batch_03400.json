@@ -1,79 +1,27 @@
 {
-  "generated_utc": "2026-11-06T03:35:15.495411+00:00",
-  "universe_snapshot_utc": "2026-11-06T03:35:01.725846+00:00",
+  "generated_utc": "2026-11-24T07:02:21.205205+00:00",
+  "universe_snapshot_utc": "2026-11-24T07:02:04.122534+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6235,
+  "universe_count": 6222,
   "batch_offset": 3400,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-11-05",
+  "last_completed_session_estimate": "2026-11-23",
   "candidates": [],
   "failures": [
     {
-      "symbol": "LYEL",
+      "symbol": "MAA",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "LYNX",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "LYTS",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "LYV",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "LZ",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "LZB",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "LZM",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "LZMH",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "M",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "MA",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "MAA",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "MAAS",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "MAC",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "MACI",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "MACIU",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
@@ -325,10 +273,6 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "MCTA",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "MCY",
       "error": "SOURCE_DENIED_SKIPPED"
     },
@@ -373,6 +317,10 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
+      "symbol": "MDRN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
       "symbol": "MDRR",
       "error": "SOURCE_DENIED_SKIPPED"
     },
@@ -405,15 +353,67 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "LYB",
+      "symbol": "MEDP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MEDS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MEGI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MEGL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MEI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MELI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MENS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MEOH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MER$K",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MESH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MESHU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MET",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MET$A",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "M",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "LYFT",
+      "symbol": "MA",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "LYCA",
+      "symbol": "MAAS",
       "error": "SOURCE_DENIED_BODY"
     }
   ],
@@ -424,5 +424,4 @@
     "US market holiday handling is approximate; stale bars are rejected",
     "Do not trade based solely on this screen"
   ]
-}  ]
 }

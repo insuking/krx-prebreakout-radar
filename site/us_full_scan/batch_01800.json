@@ -1,56 +1,24 @@
 {
-  "generated_utc": "2026-11-06T03:35:14.363683+00:00",
-  "universe_snapshot_utc": "2026-11-06T03:35:01.725846+00:00",
+  "generated_utc": "2026-11-24T07:02:19.524021+00:00",
+  "universe_snapshot_utc": "2026-11-24T07:02:04.122534+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6235,
+  "universe_count": 6222,
   "batch_offset": 1800,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-11-05",
+  "last_completed_session_estimate": "2026-11-23",
   "candidates": [],
   "failures": [
     {
-      "symbol": "EGAN",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "EGBN",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "EGG",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "EGHA",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "EGHAU",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "EGHT",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "EGO",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "EGP",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "EGY",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "EH",
@@ -405,15 +373,47 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "EFX",
+      "symbol": "EPR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EPR$C",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EPR$E",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EPR$G",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EPRT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EPRX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EPSM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EPSN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EGP",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "EFXT",
+      "symbol": "EGO",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "EG",
+      "symbol": "EGHT",
       "error": "SOURCE_DENIED_BODY"
     }
   ],
@@ -424,5 +424,4 @@
     "US market holiday handling is approximate; stale bars are rejected",
     "Do not trade based solely on this screen"
   ]
-}  ]
 }

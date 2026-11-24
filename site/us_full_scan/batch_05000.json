@@ -1,96 +1,24 @@
 {
-  "generated_utc": "2026-11-06T03:35:16.811415+00:00",
-  "universe_snapshot_utc": "2026-11-06T03:35:01.725846+00:00",
+  "generated_utc": "2026-11-24T07:02:22.516429+00:00",
+  "universe_snapshot_utc": "2026-11-24T07:02:04.122534+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6235,
+  "universe_count": 6222,
   "batch_offset": 5000,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-11-05",
+  "last_completed_session_estimate": "2026-11-23",
   "candidates": [],
   "failures": [
     {
-      "symbol": "SCPQ",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "SCPQU",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SCQCU",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SCSC",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SCTX",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SCWO",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SCYX",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SCZM",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SD",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SDA",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SDEV",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SDGR",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SDHC",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SDHI",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SDHIR",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SDHIU",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SDHY",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "SDOT",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "SDRL",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "SEAL$A",
@@ -313,10 +241,6 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "SHFS",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "SHIM",
       "error": "SOURCE_DENIED_SKIPPED"
     },
@@ -405,15 +329,91 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "SCNX",
+      "symbol": "SII",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SILC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SILO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SIMA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SIMAU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SIND",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SINT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SION",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SIRI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SITC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SITE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SITM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SJ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SJM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SJT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SKE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SKIL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SKIN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SKM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "SDRL",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "SCM",
+      "symbol": "SDHIU",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "SCOR",
+      "symbol": "SDHY",
       "error": "SOURCE_DENIED_BODY"
     }
   ],

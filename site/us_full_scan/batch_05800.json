@@ -1,107 +1,27 @@
 {
-  "generated_utc": "2026-11-06T03:35:17.452640+00:00",
-  "universe_snapshot_utc": "2026-11-06T03:35:01.725846+00:00",
+  "generated_utc": "2026-11-24T07:02:23.349136+00:00",
+  "universe_snapshot_utc": "2026-11-24T07:02:04.122534+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6235,
+  "universe_count": 6222,
   "batch_offset": 5800,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-11-05",
+  "last_completed_session_estimate": "2026-11-23",
   "candidates": [],
   "failures": [
     {
-      "symbol": "UTZ",
+      "symbol": "VBF",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "UVE",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "UVSP",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "UVV",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "UWMC",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "UYSC",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "UYSCU",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "UZD",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "UZE",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "UZF",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "UZX",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "V",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "VABK",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "VAC",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "VAI",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "VAL",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "VALU",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "VANI",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "VATE",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "VBF",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "VBIO",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "VBNK",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
@@ -182,6 +102,10 @@
     },
     {
       "symbol": "VERX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VESI",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
@@ -405,15 +329,91 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "UTMD",
+      "symbol": "VNO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VNO$L",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VNO$M",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VNO$N",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VNO$O",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VNOM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VNRX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VNT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VNTG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VOC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VOGX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VOR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VOXR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VOYA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VOYG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VPG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VPV",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VRA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VRAX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "VATE",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "UUUU",
+      "symbol": "VALU",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "UTSI",
+      "symbol": "VANI",
       "error": "SOURCE_DENIED_BODY"
     }
   ],
@@ -423,7 +423,5 @@
     "Heuristic scores are NOT calibrated probabilities",
     "US market holiday handling is approximate; stale bars are rejected",
     "Do not trade based solely on this screen"
-  ]
-}"
   ]
 }

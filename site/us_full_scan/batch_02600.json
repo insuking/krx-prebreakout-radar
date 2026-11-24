@@ -1,40 +1,24 @@
 {
-  "generated_utc": "2026-11-06T03:35:14.847073+00:00",
-  "universe_snapshot_utc": "2026-11-06T03:35:01.725846+00:00",
+  "generated_utc": "2026-11-24T07:02:20.354128+00:00",
+  "universe_snapshot_utc": "2026-11-24T07:02:04.122534+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6235,
+  "universe_count": 6222,
   "batch_offset": 2600,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-11-05",
+  "last_completed_session_estimate": "2026-11-23",
   "candidates": [],
   "failures": [
     {
-      "symbol": "HCSG",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "HD",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "HDB",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "HDRN",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "HDSN",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "HE",
@@ -210,10 +194,6 @@
     },
     {
       "symbol": "HLP",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "HLSQ",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
@@ -405,15 +385,35 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "HCWB",
+      "symbol": "HRTG",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "HRTX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "HRZN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "HSBC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "HSCS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "HDRN",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "HCXY",
+      "symbol": "HDSN",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "HCTI",
+      "symbol": "HD",
       "error": "SOURCE_DENIED_BODY"
     }
   ],
@@ -424,5 +424,4 @@
     "US market holiday handling is approximate; stale bars are rejected",
     "Do not trade based solely on this screen"
   ]
-}]
 }

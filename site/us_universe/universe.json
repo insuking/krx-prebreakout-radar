@@ -1,10 +1,10 @@
 {
-  "snapshot_utc": "2026-11-21T17:57:33.146467+00:00",
+  "snapshot_utc": "2026-11-24T07:02:04.122534+00:00",
   "source_urls": {
     "NASDAQ": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt",
     "OTHER": "https://www.nasdaqtrader.com/dynamic/SymDir/otherlisted.txt"
   },
-  "count": 6224,
+  "count": 6222,
   "point_in_time_history": false,
   "coverage": "Current NASDAQ and other-exchange listed issues; preliminary stock filtering",
   "limitations": [
@@ -3934,6 +3934,13 @@
       "security_classification": "PROVISIONAL"
     },
     {
+      "symbol": "AVZO",
+      "name": "Avenzo Therapeutics, Inc. - Common Stock",
+      "exchange_source": "NASDAQ",
+      "listing_exchange": "NASDAQ",
+      "security_classification": "PROVISIONAL"
+    },
+    {
       "symbol": "AWF",
       "name": "Alliancebernstein Global High Income Fund",
       "exchange_source": "OTHER",
@@ -5321,28 +5328,21 @@
     },
     {
       "symbol": "BIP",
-      "name": "Brookfield Infrastructure Partners LP Limited Partnership Units",
+      "name": "Brookfield Infrastructure Partners Inc. Class A Subordinate Voting Shares",
       "exchange_source": "OTHER",
       "listing_exchange": "N",
       "security_classification": "PROVISIONAL"
     },
     {
-      "symbol": "BIP$A",
+      "symbol": "BIPF$A",
       "name": "Brookfield Infrastructure Partners LP 5.125% Class A Preferred Limited Partnership Units, Series 13",
       "exchange_source": "OTHER",
       "listing_exchange": "N",
       "security_classification": "PROVISIONAL"
     },
     {
-      "symbol": "BIP$B",
+      "symbol": "BIPF$B",
       "name": "Brookfield Infrastructure Partners LP 5.000% Class A Preferred Limited Partnership Units, Series 14",
-      "exchange_source": "OTHER",
-      "listing_exchange": "N",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "BIPC",
-      "name": "Brookfield Infrastructure Corporation Brookfield Infrastructure Corporation",
       "exchange_source": "OTHER",
       "listing_exchange": "N",
       "security_classification": "PROVISIONAL"
@@ -5450,20 +5450,6 @@
       "name": "Buckle, Inc. (The) Common Stock",
       "exchange_source": "OTHER",
       "listing_exchange": "N",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "BKHA",
-      "name": "Black Hawk Acquisition Corporation - Class A Ordinary Shares",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "BKHAU",
-      "name": "Black Hawk Acquisition Corporation - Units",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -8796,6 +8782,13 @@
       "name": "Clorox Company (The) Common Stock",
       "exchange_source": "OTHER",
       "listing_exchange": "N",
+      "security_classification": "PROVISIONAL"
+    },
+    {
+      "symbol": "CLYD",
+      "name": "Clywedog Therapeutics Holdings, Inc. - Common Stock",
+      "exchange_source": "NASDAQ",
+      "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -13867,6 +13860,13 @@
       "security_classification": "PROVISIONAL"
     },
     {
+      "symbol": "EVRL",
+      "name": "Everli Global Holdings - Class A Ordinary Shares",
+      "exchange_source": "NASDAQ",
+      "listing_exchange": "NASDAQ",
+      "security_classification": "PROVISIONAL"
+    },
+    {
       "symbol": "EVT",
       "name": "Eaton Vance Tax Advantaged Dividend Income Fund Common Shares of Beneficial Interest",
       "exchange_source": "OTHER",
@@ -16458,7 +16458,7 @@
     },
     {
       "symbol": "GFAI",
-      "name": "Guardforce AI Co., Limited - Ordinary Shares",
+      "name": "Guardforce AI Co., Limited - Class A Ordinary Shares",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
@@ -23846,20 +23846,6 @@
       "name": "Macerich Company (The) Common Stock",
       "exchange_source": "OTHER",
       "listing_exchange": "N",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "MACI",
-      "name": "Melar Acquisition Corp. I - Class A Ordinary Shares",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "MACIU",
-      "name": "Melar Acquisition Corp. I - Unit",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -33572,13 +33558,6 @@
       "security_classification": "PROVISIONAL"
     },
     {
-      "symbol": "RLYB",
-      "name": "Rallybio Corporation - Common Stock",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
       "symbol": "RM",
       "name": "Regional Management Corp. Common Stock",
       "exchange_source": "OTHER",
@@ -40805,6 +40784,13 @@
     {
       "symbol": "VERX",
       "name": "Vertex, Inc. - Class A Common Stock",
+      "exchange_source": "NASDAQ",
+      "listing_exchange": "NASDAQ",
+      "security_classification": "PROVISIONAL"
+    },
+    {
+      "symbol": "VESI",
+      "name": "Vesicor Therapeutics Holdings, Inc. - Class A Ordinary Shares",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
