@@ -1,32 +1,24 @@
 {
-  "generated_utc": "2026-11-17T05:11:49.792324+00:00",
-  "universe_snapshot_utc": "2026-11-17T05:11:35.049027+00:00",
+  "generated_utc": "2026-11-25T05:37:01.076755+00:00",
+  "universe_snapshot_utc": "2026-11-25T05:36:47.750528+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6228,
+  "universe_count": 6221,
   "batch_offset": 2000,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-11-16",
+  "last_completed_session_estimate": "2026-11-24",
   "candidates": [],
   "failures": [
     {
-      "symbol": "EXR",
+      "symbol": "EXTR",
       "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "EXYN",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "EYE",
-      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "EYPT",
@@ -221,6 +213,14 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
+      "symbol": "FDGX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "FDGXU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
       "symbol": "FDMM",
       "error": "SOURCE_DENIED_SKIPPED"
     },
@@ -405,15 +405,15 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "EXPO",
+      "symbol": "EYE",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "EXPE",
+      "symbol": "EXYN",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "EXTR",
+      "symbol": "EXR",
       "error": "SOURCE_DENIED_BODY"
     }
   ],

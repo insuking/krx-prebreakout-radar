@@ -1,44 +1,24 @@
 {
-  "generated_utc": "2026-11-10T04:44:23.616783+00:00",
-  "universe_snapshot_utc": "2026-11-10T04:44:09.346174+00:00",
+  "generated_utc": "2026-11-25T05:37:00.276048+00:00",
+  "universe_snapshot_utc": "2026-11-25T05:36:47.750528+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6231,
+  "universe_count": 6221,
   "batch_offset": 1200,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-11-09",
+  "last_completed_session_estimate": "2026-11-24",
   "candidates": [],
   "failures": [
     {
-      "symbol": "CIEN",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "CIGI",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "CIGL",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "CII",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "CIIT",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "CIK",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "CIM",
@@ -153,10 +133,6 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "CLGN",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "CLH",
       "error": "SOURCE_DENIED_SKIPPED"
     },
@@ -238,6 +214,10 @@
     },
     {
       "symbol": "CLX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CLYD",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
@@ -405,15 +385,35 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "CIG.C",
+      "symbol": "CNO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CNO$A",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CNOB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CNP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CNQ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CII",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "CIFR",
+      "symbol": "CIIT",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "CICC",
+      "symbol": "CIK",
       "error": "SOURCE_DENIED_BODY"
     }
   ],
@@ -424,6 +424,7 @@
     "US market holiday handling is approximate; stale bars are rejected",
     "Do not trade based solely on this screen"
   ]
+}]
 } "CLWT",
       "error": "HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s="
     },

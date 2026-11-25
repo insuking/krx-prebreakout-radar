@@ -1,32 +1,24 @@
 {
-  "generated_utc": "2026-11-10T04:44:22.857771+00:00",
-  "universe_snapshot_utc": "2026-11-10T04:44:09.346174+00:00",
+  "generated_utc": "2026-11-25T05:36:59.466966+00:00",
+  "universe_snapshot_utc": "2026-11-25T05:36:47.750528+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6231,
+  "universe_count": 6221,
   "batch_offset": 400,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-11-09",
+  "last_completed_session_estimate": "2026-11-24",
   "candidates": [],
   "failures": [
     {
-      "symbol": "AQN",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
       "symbol": "AQNB",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "AQST",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "AR",
@@ -365,10 +357,6 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "ATCH",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "ATCX",
       "error": "SOURCE_DENIED_SKIPPED"
     },
@@ -405,7 +393,19 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "AQB",
+      "symbol": "ATLC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ATLCL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "ATLCZ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "AQST",
       "error": "SOURCE_DENIED_BODY"
     },
     {
@@ -413,7 +413,7 @@
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "APYX",
+      "symbol": "AQN",
       "error": "SOURCE_DENIED_BODY"
     }
   ],
@@ -424,7 +424,7 @@
     "US market holiday handling is approximate; stale bars are rejected",
     "Do not trade based solely on this screen"
   ]
-}ceeded with url: /q/d/l/?s="
+}ded with url: /q/d/l/?s="
     },
     {
       "symbol": "ASB",

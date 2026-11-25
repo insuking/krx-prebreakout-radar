@@ -1,44 +1,24 @@
 {
-  "generated_utc": "2026-11-18T04:39:23.617819+00:00",
-  "universe_snapshot_utc": "2026-11-18T04:39:07.812446+00:00",
+  "generated_utc": "2026-11-25T05:37:07.367393+00:00",
+  "universe_snapshot_utc": "2026-11-25T05:36:47.750528+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6227,
+  "universe_count": 6221,
   "batch_offset": 4800,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-11-17",
+  "last_completed_session_estimate": "2026-11-24",
   "candidates": [],
   "failures": [
     {
-      "symbol": "RMIX",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "RMM",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "RMMZ",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "RMNI",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "RMR",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "RMSG",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "RMT",
@@ -405,15 +385,35 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "RMD",
+      "symbol": "RYET",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RYM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RYN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RYOJ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RYTM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RMNI",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "RMCO",
+      "symbol": "RMMZ",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "RMI",
+      "symbol": "RMSG",
       "error": "SOURCE_DENIED_BODY"
     }
   ],
