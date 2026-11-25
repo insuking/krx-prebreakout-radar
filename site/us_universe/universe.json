@@ -1,10 +1,10 @@
 {
-  "snapshot_utc": "2026-11-25T05:36:47.750528+00:00",
+  "snapshot_utc": "2026-11-25T20:28:10.341803+00:00",
   "source_urls": {
     "NASDAQ": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt",
     "OTHER": "https://www.nasdaqtrader.com/dynamic/SymDir/otherlisted.txt"
   },
-  "count": 6221,
+  "count": 6220,
   "point_in_time_history": false,
   "coverage": "Current NASDAQ and other-exchange listed issues; preliminary stock filtering",
   "limitations": [
@@ -4974,6 +4974,13 @@
       "name": "Bread Financial Holdings, Inc. Common Stock",
       "exchange_source": "OTHER",
       "listing_exchange": "N",
+      "security_classification": "PROVISIONAL"
+    },
+    {
+      "symbol": "BFLR",
+      "name": "BlueFlare, Inc. - Common Stock",
+      "exchange_source": "NASDAQ",
+      "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -15145,13 +15152,6 @@
       "name": "Fidelity National Financial, Inc. Common Stock",
       "exchange_source": "OTHER",
       "listing_exchange": "N",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "FNGR",
-      "name": "FingerMotion, Inc. - common stock",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -29876,13 +29876,6 @@
       "security_classification": "PROVISIONAL"
     },
     {
-      "symbol": "PASG",
-      "name": "Passage Bio, Inc. - Common Stock",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
       "symbol": "PASW",
       "name": "Ping An Biomedical Co., Ltd. - Class A Ordinary Shares",
       "exchange_source": "NASDAQ",
@@ -33656,6 +33649,13 @@
       "security_classification": "PROVISIONAL"
     },
     {
+      "symbol": "RMTX",
+      "name": "Remix Therapeutics, Inc. - Common Stock",
+      "exchange_source": "NASDAQ",
+      "listing_exchange": "NASDAQ",
+      "security_classification": "PROVISIONAL"
+    },
+    {
       "symbol": "RNA",
       "name": "Atrium Therapeutics, Inc. - Common Stock",
       "exchange_source": "NASDAQ",
@@ -34421,13 +34421,6 @@
     {
       "symbol": "SAFT",
       "name": "Safety Insurance Group, Inc. - Common Stock",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "SAFX",
-      "name": "XCF Global, Inc. - Class A Common Stock",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
