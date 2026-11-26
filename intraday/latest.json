@@ -1,26 +1,51 @@
 {
-  "run_at_kst": "2026-11-25T17:22:09.741965+09:00",
+  "run_at_kst": "2026-11-26T17:07:12.018137+09:00",
   "market_open_window": false,
   "mode": "public_quote_observation_only",
   "message": "Public quote observations are not verified real-time trades. BUY disabled.",
   "results": [
     {
+      "code": "257720",
+      "name": "실리콘투",
+      "group": "A",
+      "base_date": "2026-11-26",
+      "base_close": "30200",
+      "checked_at": "2026-11-26T17:07:12.018137+09:00",
+      "status": "WATCH",
+      "verified_gates": 0,
+      "required_gates": 5,
+      "errors": [
+        "실시간성/거래일 확인 불가: 매수 신호 불허"
+      ],
+      "public_display_price": 30200.0,
+      "quote_timestamp": "2026-11-26T17:06:17+09:00",
+      "quote_source": "Naver mobile public endpoint (may be delayed)",
+      "price_vs_previous_close_pct": 0.0,
+      "gates": {
+        "quote_freshness": "UNVERIFIED",
+        "opening_support": "UNVERIFIED",
+        "vwap": "UNVERIFIED",
+        "intraday_rvol": "UNVERIFIED",
+        "investor_flow_and_relative_strength": "UNVERIFIED"
+      }
+    },
+    {
       "code": "204620",
       "name": "글로벌텍스프리",
       "group": "A",
-      "base_date": "2026-11-25",
-      "base_close": "6020",
-      "checked_at": "2026-11-25T17:22:09.741965+09:00",
+      "base_date": "2026-11-26",
+      "base_close": "6420",
+      "checked_at": "2026-11-26T17:07:12.018137+09:00",
       "status": "WATCH",
       "verified_gates": 0,
       "required_gates": 5,
       "errors": [
         "실시간성/거래일 확인 불가: 매수 신호 불허"
       ],
-      "public_display_price": 6010.0,
-      "quote_timestamp": "2026-11-25T17:21:42+09:00",
+      "public_display_price": 6480.0,
+      "quote_timestamp": "2026-11-26T17:06:58+09:00",
       "quote_source": "Naver mobile public endpoint (may be delayed)",
-      "price_vs_previous_close_pct": -0.17,
+      "price_vs_previous_close_pct": 0.93,
       "gates": {
         "quote_freshness": "UNVERIFIED",
         "opening_support": "UNVERIFIED",
@@ -30,47 +55,22 @@
       }
     },
     {
-      "code": "034230",
-      "name": "파라다이스",
+      "code": "466100",
+      "name": "클로봇",
       "group": "A",
-      "base_date": "2026-11-25",
-      "base_close": "11470",
-      "checked_at": "2026-11-25T17:22:09.741965+09:00",
+      "base_date": "2026-11-26",
+      "base_close": "18590",
+      "checked_at": "2026-11-26T17:07:12.018137+09:00",
       "status": "WATCH",
       "verified_gates": 0,
       "required_gates": 5,
       "errors": [
         "실시간성/거래일 확인 불가: 매수 신호 불허"
       ],
-      "public_display_price": 11500.0,
-      "quote_timestamp": "2026-11-25T17:21:22+09:00",
+      "public_display_price": 18720.0,
+      "quote_timestamp": "2026-11-26T17:06:42+09:00",
       "quote_source": "Naver mobile public endpoint (may be delayed)",
-      "price_vs_previous_close_pct": 0.26,
-      "gates": {
-        "quote_freshness": "UNVERIFIED",
-        "opening_support": "UNVERIFIED",
-        "vwap": "UNVERIFIED",
-        "intraday_rvol": "UNVERIFIED",
-        "investor_flow_and_relative_strength": "UNVERIFIED"
-      }
-    },
-    {
-      "code": "008770",
-      "name": "호텔신라",
-      "group": "A",
-      "base_date": "2026-11-25",
-      "base_close": "38550",
-      "checked_at": "2026-11-25T17:22:09.741965+09:00",
-      "status": "WATCH",
-      "verified_gates": 0,
-      "required_gates": 5,
-      "errors": [
-        "실시간성/거래일 확인 불가: 매수 신호 불허"
-      ],
-      "public_display_price": 38400.0,
-      "quote_timestamp": "2026-11-25T17:21:25+09:00",
-      "quote_source": "Naver mobile public endpoint (may be delayed)",
-      "price_vs_previous_close_pct": -0.39,
+      "price_vs_previous_close_pct": 0.7,
       "gates": {
         "quote_freshness": "UNVERIFIED",
         "opening_support": "UNVERIFIED",
@@ -83,19 +83,19 @@
       "code": "244920",
       "name": "에이플러스에셋",
       "group": "B",
-      "base_date": "2026-11-25",
-      "base_close": "12820",
-      "checked_at": "2026-11-25T17:22:09.741965+09:00",
+      "base_date": "2026-11-26",
+      "base_close": "13130",
+      "checked_at": "2026-11-26T17:07:12.018137+09:00",
       "status": "WATCH",
       "verified_gates": 0,
       "required_gates": 5,
       "errors": [
         "실시간성/거래일 확인 불가: 매수 신호 불허"
       ],
-      "public_display_price": 12830.0,
-      "quote_timestamp": "2026-11-25T17:21:24+09:00",
+      "public_display_price": 12840.0,
+      "quote_timestamp": "2026-11-26T15:30:30+09:00",
       "quote_source": "Naver mobile public endpoint (may be delayed)",
-      "price_vs_previous_close_pct": 0.08,
+      "price_vs_previous_close_pct": -2.21,
       "gates": {
         "quote_freshness": "UNVERIFIED",
         "opening_support": "UNVERIFIED",
@@ -105,22 +105,22 @@
       }
     },
     {
-      "code": "069510",
-      "name": "에스텍",
+      "code": "058610",
+      "name": "에스피지",
       "group": "B",
-      "base_date": "2026-11-25",
-      "base_close": "24050",
-      "checked_at": "2026-11-25T17:22:09.741965+09:00",
+      "base_date": "2026-11-26",
+      "base_close": "91600",
+      "checked_at": "2026-11-26T17:07:12.018137+09:00",
       "status": "WATCH",
       "verified_gates": 0,
       "required_gates": 5,
       "errors": [
         "실시간성/거래일 확인 불가: 매수 신호 불허"
       ],
-      "public_display_price": 23950.0,
-      "quote_timestamp": "2026-11-25T17:15:50+09:00",
+      "public_display_price": 91600.0,
+      "quote_timestamp": "2026-11-26T17:06:23+09:00",
       "quote_source": "Naver mobile public endpoint (may be delayed)",
-      "price_vs_previous_close_pct": -0.42,
+      "price_vs_previous_close_pct": 0.0,
       "gates": {
         "quote_freshness": "UNVERIFIED",
         "opening_support": "UNVERIFIED",
@@ -133,19 +133,19 @@
       "code": "000400",
       "name": "롯데손해보험",
       "group": "B",
-      "base_date": "2026-11-25",
-      "base_close": "2550",
-      "checked_at": "2026-11-25T17:22:09.741965+09:00",
+      "base_date": "2026-11-26",
+      "base_close": "2535",
+      "checked_at": "2026-11-26T17:07:12.018137+09:00",
       "status": "WATCH",
       "verified_gates": 0,
       "required_gates": 5,
       "errors": [
         "실시간성/거래일 확인 불가: 매수 신호 불허"
       ],
-      "public_display_price": 2535.0,
-      "quote_timestamp": "2026-11-25T17:21:21+09:00",
+      "public_display_price": 2545.0,
+      "quote_timestamp": "2026-11-26T17:07:16+09:00",
       "quote_source": "Naver mobile public endpoint (may be delayed)",
-      "price_vs_previous_close_pct": -0.59,
+      "price_vs_previous_close_pct": 0.39,
       "gates": {
         "quote_freshness": "UNVERIFIED",
         "opening_support": "UNVERIFIED",
