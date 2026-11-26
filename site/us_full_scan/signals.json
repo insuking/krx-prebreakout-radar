@@ -1,14 +1,14 @@
 {
-  "generated_utc": "2026-11-25T06:10:56.313508+00:00",
+  "generated_utc": "2026-11-26T05:53:12.395262+00:00",
   "market": "US",
   "status": "DAILY_RESEARCH_SIGNALS",
   "coverage": {
     "status": "SOURCE_UNAVAILABLE",
-    "universe_count": 6221,
+    "universe_count": 6220,
     "symbols_attempted": 400,
     "symbols_with_usable_prices": 0,
     "symbols_failed": 400,
-    "symbols_unattempted": 5821
+    "symbols_unattempted": 5820
   },
   "signals": [],
   "major_leaders_in_top_watchlist": [],

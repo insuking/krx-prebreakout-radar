@@ -1,56 +1,24 @@
 {
-  "generated_utc": "2026-11-05T03:39:13.427181+00:00",
-  "universe_snapshot_utc": "2026-11-05T03:39:00.754321+00:00",
+  "generated_utc": "2026-11-26T05:19:39.405073+00:00",
+  "universe_snapshot_utc": "2026-11-26T05:19:26.380764+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6235,
+  "universe_count": 6220,
   "batch_offset": 1300,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-11-04",
+  "last_completed_session_estimate": "2026-11-25",
   "candidates": [],
   "failures": [
     {
-      "symbol": "CNM",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "CNO",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "CNO$A",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "CNOB",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "CNP",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "CNQ",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "CNR",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "CNS",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "CNSP",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "CNSY",
@@ -405,15 +373,47 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "CNL",
+      "symbol": "CRDL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CRDO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CRE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CREX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CRF",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CRGO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CRGY",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CRH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "CNS",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "CNMD",
+      "symbol": "CNSP",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "CNNE",
+      "symbol": "CNQ",
       "error": "SOURCE_DENIED_BODY"
     }
   ],
@@ -423,7 +423,5 @@
     "Heuristic scores are NOT calibrated probabilities",
     "US market holiday handling is approximate; stale bars are rejected",
     "Do not trade based solely on this screen"
-  ]
-}
   ]
 }

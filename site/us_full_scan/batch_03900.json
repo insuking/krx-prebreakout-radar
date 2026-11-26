@@ -1,44 +1,24 @@
 {
-  "generated_utc": "2026-11-19T04:24:35.767476+00:00",
-  "universe_snapshot_utc": "2026-11-19T04:24:23.049470+00:00",
+  "generated_utc": "2026-11-26T05:19:42.266384+00:00",
+  "universe_snapshot_utc": "2026-11-26T05:19:26.380764+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6226,
+  "universe_count": 6220,
   "batch_offset": 3900,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-11-18",
+  "last_completed_session_estimate": "2026-11-25",
   "candidates": [],
   "failures": [
     {
-      "symbol": "NMS",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "NMT",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NMTC",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "NMZ",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NN",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "NNBR",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "NNE",
@@ -405,15 +385,35 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "NMRK",
+      "symbol": "NUW",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NUWE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NVA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NVAX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NVCR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "NMTC",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "NMPAU",
+      "symbol": "NNBR",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "NMRA",
+      "symbol": "NN",
       "error": "SOURCE_DENIED_BODY"
     }
   ],
@@ -424,4 +424,4 @@
     "US market holiday handling is approximate; stale bars are rejected",
     "Do not trade based solely on this screen"
   ]
-}
+}}

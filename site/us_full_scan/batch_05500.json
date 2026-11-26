@@ -1,48 +1,24 @@
 {
-  "generated_utc": "2026-11-19T04:24:36.957781+00:00",
-  "universe_snapshot_utc": "2026-11-19T04:24:23.049470+00:00",
+  "generated_utc": "2026-11-26T05:19:43.547755+00:00",
+  "universe_snapshot_utc": "2026-11-26T05:19:26.380764+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6226,
+  "universe_count": 6220,
   "batch_offset": 5500,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-11-18",
+  "last_completed_session_estimate": "2026-11-25",
   "candidates": [],
   "failures": [
     {
-      "symbol": "TIPT",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "TISI",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "TITN",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "TJGC",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "TJX",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "TK",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "TKC",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "TKNO",
@@ -405,15 +381,39 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "TILE",
+      "symbol": "TRN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TRNI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TRNO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TRNR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TRNS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TRNZ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "TJX",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "TII",
+      "symbol": "TKC",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "TIL",
+      "symbol": "TK",
       "error": "SOURCE_DENIED_BODY"
     }
   ],

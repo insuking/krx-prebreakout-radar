@@ -1,24 +1,28 @@
 {
-  "generated_utc": "2026-11-19T04:24:35.152960+00:00",
-  "universe_snapshot_utc": "2026-11-19T04:24:23.049470+00:00",
+  "generated_utc": "2026-11-26T05:19:41.449925+00:00",
+  "universe_snapshot_utc": "2026-11-26T05:19:26.380764+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6226,
+  "universe_count": 6220,
   "batch_offset": 3100,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-11-18",
+  "last_completed_session_estimate": "2026-11-25",
   "candidates": [],
   "failures": [
     {
-      "symbol": "KIM",
+      "symbol": "KIDS",
       "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "KINS",
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "KIO",
@@ -166,14 +170,6 @@
     },
     {
       "symbol": "KOSS",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "KOYN",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "KOYNU",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
@@ -405,24 +401,28 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "KINS",
+      "symbol": "LAND",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "KHC",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "KIM",
       "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "KIDZ",
       "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "KIDS",
-      "error": "SOURCE_DENIED_BODY"
     }
   ],
   "warnings": [
     "Current listings only; not point-in-time delisted universe",
-    "Stooq data nse, completeness and adjustment basis not independently validated",
+    "Stooq data license, completeness and adjustment basis not independently validated",
     "Heuristic scores are NOT calibrated probabilities",
     "US market holiday handling is approximate; stale bars are rejected",
     "Do not trade based solely on this screen"
   ]
-} ]
+}
 }

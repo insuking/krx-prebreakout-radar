@@ -1,40 +1,24 @@
 {
-  "generated_utc": "2026-11-19T04:24:36.461741+00:00",
-  "universe_snapshot_utc": "2026-11-19T04:24:23.049470+00:00",
+  "generated_utc": "2026-11-26T05:19:42.931851+00:00",
+  "universe_snapshot_utc": "2026-11-26T05:19:26.380764+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6226,
+  "universe_count": 6220,
   "batch_offset": 4700,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-11-18",
+  "last_completed_session_estimate": "2026-11-25",
   "candidates": [],
   "failures": [
     {
-      "symbol": "RDIB",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "RDN",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "RDNT",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "RDNW",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "RDVT",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "RDW",
@@ -221,55 +205,55 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "RGNB",
+      "symbol": "RGNT",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "REX",
+      "symbol": "RGNX",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "REXR",
+      "symbol": "RGP",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "REYN",
+      "symbol": "RGR",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "REZI",
+      "symbol": "RGS",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "RF",
+      "symbol": "RGT",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "RFAI",
+      "symbol": "RGTI",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "RFAIR",
+      "symbol": "RH",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "RFAIU",
+      "symbol": "RHI",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "RFAM",
+      "symbol": "RHLD",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "RFAMU",
+      "symbol": "RHP",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "RFI",
+      "symbol": "RIBB",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol"U",
+      "symbol": "RIBBU",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
@@ -381,10 +365,6 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "RLYB",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "RM",
       "error": "SOURCE_DENIED_SKIPPED"
     },
@@ -405,15 +385,35 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "RDDT",
+      "symbol": "RMD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RMI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RMIX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RMM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RMMZ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "RDNW",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "RDI",
+      "symbol": "RDNT",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "RDGT",
+      "symbol": "RDN",
       "error": "SOURCE_DENIED_BODY"
     }
   ],
@@ -424,5 +424,6 @@
     "US market holiday handling is approximate; stale bars are rejected",
     "Do not trade based solely on this screen"
   ]
+}
 }}}
 }
