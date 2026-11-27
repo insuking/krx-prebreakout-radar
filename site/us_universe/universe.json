@@ -1,10 +1,10 @@
 {
-  "snapshot_utc": "2026-11-27T05:16:05.297912+00:00",
+  "snapshot_utc": "2026-11-27T19:56:36.848464+00:00",
   "source_urls": {
     "NASDAQ": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt",
     "OTHER": "https://www.nasdaqtrader.com/dynamic/SymDir/otherlisted.txt"
   },
-  "count": 6220,
+  "count": 6219,
   "point_in_time_history": false,
   "coverage": "Current NASDAQ and other-exchange listed issues; preliminary stock filtering",
   "limitations": [
@@ -17417,7 +17417,7 @@
     },
     {
       "symbol": "GRDX",
-      "name": "GridAI Technologies Corp.  - Common Stock",
+      "name": "GridAI Power Corp. - Common Stock",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
@@ -18181,13 +18181,6 @@
     {
       "symbol": "HCSG",
       "name": "Healthcare Services Group, Inc. - Common Stock",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "HCTI",
-      "name": "Healthcare Triangle, Inc. - Common Stock",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
@@ -19028,6 +19021,13 @@
     {
       "symbol": "HTO",
       "name": "H2O America  - Common Stock",
+      "exchange_source": "NASDAQ",
+      "listing_exchange": "NASDAQ",
+      "security_classification": "PROVISIONAL"
+    },
+    {
+      "symbol": "HTOEU",
+      "name": "H2O America  - Equity Units",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
@@ -35330,7 +35330,7 @@
     },
     {
       "symbol": "SGLY",
-      "name": "Singularity Future Technology Ltd. - Common Stock",
+      "name": "Compower Ltd. - Common Stock",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
@@ -41533,13 +41533,6 @@
     {
       "symbol": "VUZI",
       "name": "Vuzix Corporation  - Common Stock",
-      "exchange_source": "NASDAQ",
-      "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "VVOS",
-      "name": "Vivos Therapeutics, Inc. - Common Stock",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
       "security_classification": "PROVISIONAL"
