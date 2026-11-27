@@ -1,7 +1,7 @@
 {
   "market": "US",
   "source": "KIS overseas dailyprice HHDFS76240000",
-  "asof_ny": "2026-11-26",
+  "asof_ny": "2026-11-27",
   "mode": "research_only_no_orders",
   "symbols_target": 25,
   "symbols_valid": 23,
