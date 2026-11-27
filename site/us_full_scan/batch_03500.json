@@ -1,112 +1,24 @@
 {
-  "generated_utc": "2026-10-31T02:39:30.930101+00:00",
-  "universe_snapshot_utc": "2026-10-31T02:39:09.247016+00:00",
+  "generated_utc": "2026-11-27T05:16:19.622264+00:00",
+  "universe_snapshot_utc": "2026-11-27T05:16:05.297912+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6243,
+  "universe_count": 6220,
   "batch_offset": 3500,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-10-30",
+  "last_completed_session_estimate": "2026-11-26",
   "candidates": [],
   "failures": [
     {
-      "symbol": "MDXG",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "MED",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "MEDP",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "MEDS",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "MEGI",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "MEGL",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "MEI",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "MELI",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "MENS",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "MEOH",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "MER$K",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "MERC",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "MESH",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "MESHU",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "MET",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "MET$A",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "META",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "METC",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "METCB",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "METCI",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "METCZ",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "MEVO",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "MEVOU",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "MF",
@@ -198,10 +110,6 @@
     },
     {
       "symbol": "MGNX",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "MGPI",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
@@ -405,15 +313,107 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "MEC",
+      "symbol": "MLAB",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MLCI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MLCIL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MLGO",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MLI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MLKN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MLM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MLP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MLR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MLSS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MLTX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MLYS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MMA",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MMD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MMED",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MMI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MMLP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MMM",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MMS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MMSI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MMT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MMTX",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "MMTXU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "METCI",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "MDWD",
+      "symbol": "MEVOU",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "MDXH",
+      "symbol": "METCZ",
       "error": "SOURCE_DENIED_BODY"
     }
   ],
@@ -424,5 +424,4 @@
     "US market holiday handling is approximate; stale bars are rejected",
     "Do not trade based solely on this screen"
   ]
-} ]
 }

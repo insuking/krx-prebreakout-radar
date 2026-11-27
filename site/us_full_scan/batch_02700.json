@@ -1,56 +1,24 @@
 {
-  "generated_utc": "2026-10-31T02:39:30.232961+00:00",
-  "universe_snapshot_utc": "2026-10-31T02:39:09.247016+00:00",
+  "generated_utc": "2026-11-27T05:16:19.051804+00:00",
+  "universe_snapshot_utc": "2026-11-27T05:16:05.297912+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6243,
+  "universe_count": 6220,
   "batch_offset": 2700,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-10-30",
+  "last_completed_session_estimate": "2026-11-26",
   "candidates": [],
   "failures": [
     {
-      "symbol": "HRMY",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "HRZN",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "HSBC",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "HSCS",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "HSDT",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "HSHP",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "HSIC",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "HSLV",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "HST",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "HSTM",
@@ -217,6 +185,10 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
+      "symbol": "HYAC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
       "symbol": "HYFM",
       "error": "SOURCE_DENIED_SKIPPED"
     },
@@ -250,6 +222,10 @@
     },
     {
       "symbol": "HYT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "HZN",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
@@ -333,10 +309,6 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "IBO",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "IBOC",
       "error": "SOURCE_DENIED_SKIPPED"
     },
@@ -405,15 +377,43 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "HROW",
+      "symbol": "IDACU",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "IDAI",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "IDCC",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "IDE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "IDN",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "IDR",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "IDT",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "HSLV",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "HRTX",
+      "symbol": "HSHP",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "HRTG",
+      "symbol": "HST",
       "error": "SOURCE_DENIED_BODY"
     }
   ],

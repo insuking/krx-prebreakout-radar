@@ -1,56 +1,24 @@
 {
-  "generated_utc": "2026-10-31T02:39:29.586678+00:00",
-  "universe_snapshot_utc": "2026-10-31T02:39:09.247016+00:00",
+  "generated_utc": "2026-11-27T05:16:18.486965+00:00",
+  "universe_snapshot_utc": "2026-11-27T05:16:05.297912+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6243,
+  "universe_count": 6220,
   "batch_offset": 1900,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-10-30",
+  "last_completed_session_estimate": "2026-11-26",
   "candidates": [],
   "failures": [
     {
-      "symbol": "EPR$G",
-      "error": "UNSUPPORTED_SYMBOL_FORMAT"
-    },
-    {
-      "symbol": "EPR$C",
-      "error": "UNSUPPORTED_SYMBOL_FORMAT"
-    },
-    {
-      "symbol": "EPR$E",
-      "error": "UNSUPPORTED_SYMBOL_FORMAT"
-    },
-    {
-      "symbol": "EPRX",
-      "error": "SOURCE_DENIED_BODY"
-    },
-    {
-      "symbol": "EPSN",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "EQ",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "EQBK",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "EQH",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
       "symbol": "EQIX",
-      "error": "SOURCE_DENIED_SKIPPED"
+      "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "EQNR",
@@ -349,6 +317,10 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
+      "symbol": "EVRL",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
       "symbol": "EVT",
       "error": "SOURCE_DENIED_SKIPPED"
     },
@@ -405,15 +377,43 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "EPRT",
+      "symbol": "EXK",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EXLS",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EXOD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EXOZ",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EXP",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EXPD",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EXPE",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "EQH",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "EPSM",
+      "symbol": "EQ",
       "error": "SOURCE_DENIED_BODY"
     },
     {
-      "symbol": "EPR",
+      "symbol": "EQBK",
       "error": "SOURCE_DENIED_BODY"
     }
   ],
