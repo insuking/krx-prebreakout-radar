@@ -1,10 +1,10 @@
 {
-  "snapshot_utc": "2026-11-27T19:56:36.848464+00:00",
+  "snapshot_utc": "2026-11-28T04:53:48.732218+00:00",
   "source_urls": {
     "NASDAQ": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt",
     "OTHER": "https://www.nasdaqtrader.com/dynamic/SymDir/otherlisted.txt"
   },
-  "count": 6219,
+  "count": 6217,
   "point_in_time_history": false,
   "coverage": "Current NASDAQ and other-exchange listed issues; preliminary stock filtering",
   "limitations": [
@@ -6027,13 +6027,6 @@
       "security_classification": "PROVISIONAL"
     },
     {
-      "symbol": "BOW",
-      "name": "Bowhead Specialty Holdings Inc. Common Stock",
-      "exchange_source": "OTHER",
-      "listing_exchange": "N",
-      "security_classification": "PROVISIONAL"
-    },
-    {
       "symbol": "BOX",
       "name": "Box, Inc. Class A Common Stock",
       "exchange_source": "OTHER",
@@ -10592,7 +10585,7 @@
     },
     {
       "symbol": "CWT",
-      "name": "California Water Service Group Common Stock",
+      "name": "Watermark Utilities Common Stock",
       "exchange_source": "OTHER",
       "listing_exchange": "N",
       "security_classification": "PROVISIONAL"
@@ -12079,13 +12072,6 @@
       "name": "Duos Technologies Group, Inc. - Common Stock",
       "exchange_source": "NASDAQ",
       "listing_exchange": "NASDAQ",
-      "security_classification": "PROVISIONAL"
-    },
-    {
-      "symbol": "DV",
-      "name": "DoubleVerify Holdings, Inc. Common Stock",
-      "exchange_source": "OTHER",
-      "listing_exchange": "N",
       "security_classification": "PROVISIONAL"
     },
     {
@@ -26510,7 +26496,7 @@
     },
     {
       "symbol": "NCA",
-      "name": "Nuveen California Municipal Value Fund",
+      "name": "Nuveen California Municipal Income Fund Common Stock",
       "exchange_source": "OTHER",
       "listing_exchange": "N",
       "security_classification": "PROVISIONAL"
@@ -27385,7 +27371,7 @@
     },
     {
       "symbol": "NNY",
-      "name": "Nuveen New York Municipal Value Fund Common Stock",
+      "name": "Nuveen New York Municipal Income Fund Common Stock",
       "exchange_source": "OTHER",
       "listing_exchange": "N",
       "security_classification": "PROVISIONAL"

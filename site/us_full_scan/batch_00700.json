@@ -1,24 +1,28 @@
 {
-  "generated_utc": "2026-11-19T04:24:33.135022+00:00",
-  "universe_snapshot_utc": "2026-11-19T04:24:23.049470+00:00",
+  "generated_utc": "2026-11-28T04:54:02.256512+00:00",
+  "universe_snapshot_utc": "2026-11-28T04:53:48.732218+00:00",
   "market": "US",
   "mode": "FREE_ONLY_RESEARCH",
   "source": "Stooq daily public CSV",
   "source_denied": true,
   "source_coverage_unverified": true,
   "historical_delistings_included": false,
-  "universe_count": 6226,
+  "universe_count": 6217,
   "batch_offset": 700,
   "batch_requested": 100,
   "batch_success": 0,
   "batch_failed": 100,
   "workers": 4,
-  "last_completed_session_estimate": "2026-11-18",
+  "last_completed_session_estimate": "2026-11-27",
   "candidates": [],
   "failures": [
     {
-      "symbol": "BETR",
+      "symbol": "BETA",
       "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "BF.A",
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
       "symbol": "BF.B",
@@ -34,6 +38,10 @@
     },
     {
       "symbol": "BFH",
+      "error": "SOURCE_DENIED_SKIPPED"
+    },
+    {
+      "symbol": "BFLR",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
@@ -241,15 +249,11 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "BIP$A",
+      "symbol": "BIPF$A",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "BIP$B",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "BIPC",
+      "symbol": "BIPF$B",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
@@ -310,14 +314,6 @@
     },
     {
       "symbol": "BKE",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "BKHA",
-      "error": "SOURCE_DENIED_SKIPPED"
-    },
-    {
-      "symbol": "BKHAU",
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
@@ -405,15 +401,19 @@
       "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "BETA",
-      "error": "SOURCE_DENIED_BODY"
+      "symbol": "BLNE",
+      "error": "SOURCE_DENIED_SKIPPED"
     },
     {
-      "symbol": "BF.A",
+      "symbol": "BETR",
       "error": "SOURCE_DENIED_BODY"
     },
     {
       "symbol": "BESS",
+      "error": "SOURCE_DENIED_BODY"
+    },
+    {
+      "symbol": "BEPJ",
       "error": "SOURCE_DENIED_BODY"
     }
   ],
